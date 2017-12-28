@@ -102,19 +102,24 @@ fclose(ecrire);
 }
 
 /*Lis descripteur d'entiers */
-void read_desc() {
+int read_desc(char * fichier) {
+
+  int check = 0 ;
   FILE* read ;
-  read = fopen(desc, "r");
-  char* val = malloc(sizeof(char)) ;
+  read = fopen("Liste_Base_Son.txt", "r");
+  char* val = malloc(sizeof(char));
 
 if(read != NULL){
     while (fscanf(read,"%s",val) == 1) {
-      printf("%s\n",val );
+      if(strcmp(val, fichier) == 0){
+        check = 1 ;
+      }
     }
 }
 
-
-fclose(read);
+//si fclose plante
+//fclose(read);
+return check ;
 }
 
 
@@ -190,6 +195,11 @@ void createGap(float* tabGap) {
 /* ajoute un fichier à liste base son  */
 void addListeBaseSon(char* fichier) {
 
+FILE* check = popen("wc -l Liste_Base_Son.txt", "r");
+fscanf(check, "%d", &ID);
+printf("L'id : %d\n",ID );
+fclose(check);
+
 FILE * son = fopen("Liste_Base_Son.txt", "a");
 fprintf(son, "%s", "<id> ");
 fprintf(son, "%d", ID);
@@ -197,7 +207,7 @@ fprintf(son, "%s", " </id>");
 fprintf(son, "%s", "<fichier> " );
 fprintf(son, "%s", fichier );
 fprintf(son, "%s\n", " </fichier>" );
-
+fclose(son);
 }
 
 
@@ -210,9 +220,15 @@ p = popen("ls TEST_SON/ | grep .bin", "r");
 
 while (fscanf(p,"%s",res) == 1) {
 
-  printf("%s\n",res );
-  addListeBaseSon(res);
-  setDescriptor(tabGap, res);
+  if(!read_desc(res)){
+    printf("Le fichier %s à été indexé !\n",res );
+    addListeBaseSon(res);
+    setDescriptor(tabGap, res);
+  }else{
+    printf("Le fichier %s à dejà été indexé !\n",res );
+  }
+
+
 }
 
 }
@@ -226,6 +242,7 @@ int main(int argc, char const *argv[]) {
   float * tab = malloc(40*sizeof(float)) ;
   createGap(tab);
   IndexFiles(tab);
+//  read_desc();
 
 
 
