@@ -42,10 +42,11 @@ fclose(fic);
 
 
 /* Malloc sur matrice et intialisation des valeurs a 0  */
-int** init_matrice(int** matrice, int size) {
+int** init_matrice( int size) {
 
   int i ;
-  matrice  = (int **)malloc((size)*sizeof(int));
+  int ** matrice = (int **)malloc(size*sizeof(int));
+
 
   for(i = 0 ; i < size ; i++){
     matrice[i]= (int *)malloc(41 * sizeof(int));
@@ -60,8 +61,15 @@ int** init_matrice(int** matrice, int size) {
 
   return matrice ;
 
-
 }
+
+void free_matrice(int ** matrice, int size){
+  for(int i = 0 ; i < size ; i++){
+    free(matrice[i]);
+  }
+  free(matrice);
+}
+
 
 /* Affiche contenu d'une matrice */
 void affiche_matrice(int ** matrice, int size) {
@@ -96,81 +104,69 @@ void write_in_desc(int** matrice, int size) {
           fprintf(ecrire,"%s" ,"\n" );
   }
 
-
+free(tab);
 fclose(ecrire);
 }
 
-/*Lis descripteur d'entiers */
+/*Lis liste base son et regarde si un fichier a déja été indexé 1 si déja 0 si pas déja */
 int read_desc(char * fichier) {
 
   int check = 0 ;
-  FILE* read ;
-  read = fopen("Liste_Base_Son.txt", "r");
+  FILE* read = fopen("Liste_Base_Son.txt", "r");
   char* val = malloc(sizeof(char));
 
 if(read != NULL){
     while (fscanf(read,"%s",val) == 1) {
       if(strcmp(val, fichier) == 0){
-        check = 1 ;
+        return 1 ;
       }
     }
 }
-
+free(val);
 //si fclose plante
 //fclose(read);
-return check ;
+return 0 ;
 }
 
+int ** getMatriceFromFile(float * tabGap, char* fichier){
+
+
+double ch ;
+int ech = 0 ;
+int nbfenlive = 0 ;
+int interval ;
+int nbfen = getNbFen(fichier, "rb");
+int ** matrice = init_matrice( nbfen+1);
+FILE* lire = fopen(fichier,"rb") ;
+
+if(lire != NULL){
+    while(fread(&ch ,sizeof(double),1,lire) == 1){
+        ech ++ ;
+        if(ech%fenetre == 0){
+          nbfenlive++ ;
+        }
+        interval = checkInterval(ch, tabGap);
+        matrice[nbfenlive][interval] += 1 ;
+    }
+}
+
+fclose(lire) ;
+return matrice ;
+}
 
 
 //Lit le fichier bin et créé l'histogramme'
 void setDescriptor(float * tabGap, char* fichier ){
 
-  char separateur[] = "\n<fenetre>\n";
   char fileToRead[100] = "TEST_SON/" ;
   strcat(fileToRead,fichier);
-  FILE* lire;
 
-  double ch ;
-  int i ;
-  int ech = 0 ;
-  int nbfenlive = 0 ;
   int nbfentotal = getNbFen(fileToRead, "rb");
-  int interval ;
-  int ** matriceDesc ;
-  char *tab = malloc(sizeof(char)) ;
-
-  lire = fopen(fileToRead,"rb");  // r for read, b for binary
-
-
-  //nblignes
- matriceDesc = init_matrice(matriceDesc, nbfentotal+1);
-
-
-if (lire != NULL) {
-
-    while(fread(&ch ,sizeof(double),1,lire) == 1){
-      //increment compteur plage
-      ech++ ;
-
-      //fenetre tout les 1024
-      if(ech%fenetre == 0){
-        nbfenlive++ ;
-      }
-
-      interval = checkInterval(ch, tabGap);
-      matriceDesc[nbfenlive][interval] += 1 ;
-    //  printf("FENETRE :%d  INTERVAL : %d  VALEUR : %d \n",nbfenlive,interval,matriceDesc[nbfenlive][interval] );
-
-   }
-
-}
-
-fclose(lire);
+  int ** matrice = getMatriceFromFile(tabGap,fileToRead);
 
 //affiche_matrice(matriceDesc, nbfentotal+1);
 
-write_in_desc(matriceDesc, nbfentotal+1);
+write_in_desc(matrice, nbfentotal+1);
 
 //read_desc();
 
@@ -228,7 +224,7 @@ while (fscanf(p,"%s",res) == 1) {
 
 
 }
-
+free(res);
 }
 
 /* Récupère le nombre de fenetre pour chaque descripteur à partir du fichier contenant les descripteurs */
@@ -262,30 +258,60 @@ while (fscanf(base,"%s",current) == 1) {
     }
 
 }
+free(current);
 fclose(base);
 return tabret ;
 
 }
 
-void compare(){
+
+int compare_matrices(int ** matrice1, int taille1, int ** matrice2, int taille2, int id ){
+int k = 0 ;
+  for (int i = 0; i < taille1; i++) {
+    for (int j = 0; j < 41; j++) {
+      if(matrice1[i][j] == matrice2[k][j] && matrice1[i][j] != 0){
+        printf("ID : %d  [%d][%d] = %d \n",id, k,j, matrice1[k][j] );
+      }
+    }
+    k++ ;
+  }
+return 0 ;
+}
+
+/* prend fichier à comparer en parametre et revoie le nom des fichiers qui correspondent */
+void compare(float * tabGap, char* fichier ){
+
+
   FILE * base = fopen(desc, "r");
   char * current = malloc(sizeof(char));
   int idlive = -1 ;
   int fenetrelive = 0 ;
   int echantillonlive = 0 ;
-  int ** matriceLue ;
+  int ** matriceLue  ;
   int indicetabIdFen = -1 ;
   int * tabIdFen = getNbFenFromDesc(tabIdFen) ;
 
-  while (fscanf(base,"%s",current) == 1) {
+  /* Matrice à comparer */
+  int ** matriceToCompare = getMatriceFromFile(tabGap, fichier);
+  int nbFenToCompare = getNbFen(fichier, "rb");
 
+
+  while (fscanf(base,"%s",current) == 1) {
     /* Permet de savoir à quel id on est et reset la valeur de fenetre live*/
     if(strcmp(current,"<id>") == 0){
       /*initialise la matrice à la taille correspondante (nieme valeur de tabIdFen) */
+      if (indicetabIdFen>=0) {
+        compare_matrices(matriceToCompare,nbFenToCompare,matriceLue,tabIdFen[indicetabIdFen], idlive);
+        free_matrice(matriceLue, tabIdFen[indicetabIdFen]);
+      }
         indicetabIdFen++ ;
-        matriceLue = init_matrice(matriceLue, tabIdFen[indicetabIdFen]) ;
+        matriceLue = init_matrice(tabIdFen[indicetabIdFen]) ;
         idlive ++ ;
         fenetrelive = 0 ;
+    }
+    /* Pour éviter les problèmes quand on lit l'id et qu'il le prend pour une valeur*/
+    if (strcmp(current,"</id>") == 0 ) {
+      echantillonlive = 0 ;
     }
     /* Permet de savoir le nb de la fenetre et reset la valeur de l'échantillon */
     if(strcmp(current,"</fenetre>") == 0){
@@ -294,17 +320,18 @@ void compare(){
     }
     /* ajoute valeur dans la matrice et update à quel échantillon on est (41 max) */
     if(strcmp(current,"<id>") != 0 && strcmp(current,"</id>") != 0 && strcmp(current,"<fenetre>") != 0 && strcmp(current,"</fenetre>") != 0 ){
-      echantillonlive ++ ;
-
       matriceLue[fenetrelive][echantillonlive] = atol(current) ;
+      echantillonlive ++ ;
     }
 
-    printf("id :  %d\n",idlive );
+   /*printf("id :  %d\n",idlive );
     printf("echantillon : %d\n", echantillonlive );
     printf("fenetre : %d\n", fenetrelive );
     printf("mot :  %s\n",current);
+    printf("------------------------\n" );*/
   }
-
+//free_matrice(matriceLue, tabIdFen[indicetabIdFen]);
+free(current);
 fclose(base);
 
 }
@@ -318,7 +345,7 @@ int main(int argc, char const *argv[]) {
   float * tab = malloc(40*sizeof(float)) ;
   createGap(tab);
   IndexFiles(tab);
-  compare();
+  compare(tab, "TEST_SON/jingle_fi.bin");
 //  read_desc();
 
 
