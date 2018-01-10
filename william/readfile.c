@@ -1,16 +1,46 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define fenetre 1024
-#define histo 30
 #define desc "fic.txt"
 int ID = 0 ;
+int echantillons  = 1024 ;
+int nbintervalles = 40 ;
+
+
+void init_values(){
+
+FILE * config = fopen("configuration.config", "r");
+char * val = malloc(sizeof(char));
+
+if(config != NULL){
+  while (fscanf(config,"%s",val) == 1) {
+
+    if(strcmp(val, "echantillons:") == 0){
+      fscanf(config,"%s",val);
+      echantillons = atol(val);
+    }
+
+    if(strcmp(val, "nbintervalles:") == 0){
+      fscanf(config,"%s",val);
+      nbintervalles = atol(val);
+    }
+
+  }
+//  fclose(config);
+}else{
+  printf("Problème avec le fichier de configuration, valeurs par défaut utilisées. \n" );
+}
+
+//free(val);
+
+}
+
 
 /* Retourne intervalle pour chaque valeur du fichier son lue  */
 int checkInterval(double val, float* tabGap){
  int i ;
 
- for (i = 0; i < 41; i++) {
+ for (i = 0; i < nbintervalles+1; i++) {
    if (val>=tabGap[i] && val < tabGap[i+1]) {
      return i  ;
    }
@@ -30,13 +60,14 @@ fic = fopen(fichier,mode);
   if (fic != NULL) {
       while(fread(&val,sizeof(double),1,fic)==1){
        cpt ++ ;
-         if(cpt%fenetre == 0){
+         if(cpt%echantillons == 0){
            ret ++ ;
          }
 
       }
+    fclose(fic);
   }
-fclose(fic);
+
   return ret ;
 }
 
@@ -44,17 +75,16 @@ fclose(fic);
 /* Malloc sur matrice et intialisation des valeurs a 0  */
 int** init_matrice( int size) {
 
-  int i ;
   int ** matrice = (int **)malloc(size*sizeof(int));
 
 
-  for(i = 0 ; i < size ; i++){
-    matrice[i]= (int *)malloc(41 * sizeof(int));
+  for(int i = 0 ; i < size ; i++){
+    matrice[i]= (int *)malloc((nbintervalles+1) * sizeof(int));
   }
 
   //init de la matrice
   for (int a = 0; a < size ; a++) {
-    for (int b = 0; b <41 ; b++) {
+    for (int b = 0; b <nbintervalles+1 ; b++) {
       matrice[a][b] = 0 ;
     }
   }
@@ -65,16 +95,16 @@ int** init_matrice( int size) {
 
 void free_matrice(int ** matrice, int size){
   for(int i = 0 ; i < size ; i++){
-    free(matrice[i]);
+  //  free(matrice[i]);
   }
-  free(matrice);
+//  free(matrice);
 }
 
 
 /* Affiche contenu d'une matrice */
 void affiche_matrice(int ** matrice, int size) {
   for (int y = 0; y < size ; y++) {
-    for (int z = 0; z <41 ; z++) {
+    for (int z = 0; z <nbintervalles+1 ; z++) {
       printf("%d  ",matrice[y][z]  );
     }
     printf("\n" );
@@ -94,7 +124,7 @@ void write_in_desc(int** matrice, int size) {
 
   for (int i = 0; i <size ; i++) {
     fprintf(ecrire, "%s","<fenetre> " );
-    for (int j = 0; j < 41; j++) {
+    for (int j = 0; j < nbintervalles+1; j++) {
       fprintf(ecrire,"%d" ,matrice[i][j] );
       fprintf(ecrire,"%c" ,' ' );
 
@@ -104,7 +134,7 @@ void write_in_desc(int** matrice, int size) {
           fprintf(ecrire,"%s" ,"\n" );
   }
 
-free(tab);
+//free(tab);
 fclose(ecrire);
 }
 
@@ -121,10 +151,11 @@ if(read != NULL){
         return 1 ;
       }
     }
+  //  free(val);
+    //si fclose plante
+    //fclose(read);
 }
-free(val);
-//si fclose plante
-//fclose(read);
+
 return 0 ;
 }
 
@@ -136,21 +167,21 @@ int ech = 0 ;
 int nbfenlive = 0 ;
 int interval ;
 int nbfen = getNbFen(fichier, "rb");
-int ** matrice = init_matrice( nbfen+1);
+int ** matrice = init_matrice(nbfen+1);
 FILE* lire = fopen(fichier,"rb") ;
 
 if(lire != NULL){
     while(fread(&ch ,sizeof(double),1,lire) == 1){
         ech ++ ;
-        if(ech%fenetre == 0){
+        if(ech%echantillons == 0){
           nbfenlive++ ;
         }
         interval = checkInterval(ch, tabGap);
         matrice[nbfenlive][interval] += 1 ;
     }
+    fclose(lire) ;
 }
 
-fclose(lire) ;
 return matrice ;
 }
 
@@ -176,10 +207,10 @@ write_in_desc(matrice, nbfentotal+1);
 //créé les intervalles pour l'histogramme
 void createGap(float* tabGap) {
   int i ;
-  float step = 0.05 ;
-  float start = -1.05;
+  float step = (2.0 / nbintervalles) ;
+  float start = -1 - step;
 
-  for ( i = 0 ;i <41; i++) {
+  for ( i = 0 ;i <nbintervalles+1; i++) {
     tabGap[i] = start + step ;
     start = start + step ;
 
@@ -212,20 +243,28 @@ FILE * p ;
 char * res = malloc(sizeof(char));
 p = popen("ls TEST_SON/ | grep .bin", "r");
 
-while (fscanf(p,"%s",res) == 1) {
+if(p != NULL){
+  while (fscanf(p,"%s",res) == 1) {
 
-  if(!read_desc(res)){
-    addListeBaseSon(res);
-    setDescriptor(tabGap, res);
-    printf("Le fichier %s à été indexé !\n",res );
-  }else{
-    printf("Le fichier %s à dejà été indexé !\n",res );
+    if(!read_desc(res)){
+      addListeBaseSon(res);
+      setDescriptor(tabGap, res);
+      printf("Le fichier %s à été indexé !\n",res );
+    }else{
+      printf("Le fichier %s à dejà été indexé !\n",res );
+    }
   }
-
-
 }
+
 free(res);
 }
+
+void resetAndIndex(float * tabGap) {
+  system("echo > fic.txt ");
+  system("echo > Liste_Base_Son.txt ");
+//  IndexFiles(tabGap);
+}
+
 
 /* Récupère le nombre de fenetre pour chaque descripteur à partir du fichier contenant les descripteurs */
 int* getNbFenFromDesc(int * tabret){
@@ -258,7 +297,7 @@ while (fscanf(base,"%s",current) == 1) {
     }
 
 }
-free(current);
+//free(current);
 fclose(base);
 return tabret ;
 
@@ -268,7 +307,7 @@ return tabret ;
 int compare_matrices(int ** matrice1, int taille1, int ** matrice2, int taille2, int id ){
 int k = 0 ;
   for (int i = 0; i < taille1; i++) {
-    for (int j = 0; j < 41; j++) {
+    for (int j = 0; j < nbintervalles+1; j++) {
       if(matrice1[i][j] == matrice2[k][j] && matrice1[i][j] != 0){
         printf("ID : %d  [%d][%d] = %d \n",id, k,j, matrice1[k][j] );
       }
@@ -302,7 +341,7 @@ void compare(float * tabGap, char* fichier ){
       /*initialise la matrice à la taille correspondante (nieme valeur de tabIdFen) */
       if (indicetabIdFen>=0) {
         compare_matrices(matriceToCompare,nbFenToCompare,matriceLue,tabIdFen[indicetabIdFen], idlive);
-        free_matrice(matriceLue, tabIdFen[indicetabIdFen]);
+      //  free_matrice(matriceLue, tabIdFen[indicetabIdFen]);
       }
         indicetabIdFen++ ;
         matriceLue = init_matrice(tabIdFen[indicetabIdFen]) ;
@@ -331,7 +370,7 @@ void compare(float * tabGap, char* fichier ){
     printf("------------------------\n" );*/
   }
 //free_matrice(matriceLue, tabIdFen[indicetabIdFen]);
-free(current);
+//free(current);
 fclose(base);
 
 }
@@ -341,12 +380,13 @@ fclose(base);
 
 int main(int argc, char const *argv[]) {
 
-
-  float * tab = malloc(40*sizeof(float)) ;
+init_values();
+ float *tab = malloc((nbintervalles+1)*sizeof(float)) ;
   createGap(tab);
   IndexFiles(tab);
-  compare(tab, "TEST_SON/jingle_fi.bin");
-//  read_desc();
+  //compare(tab, "TEST_SON/jingle_fi.bin");
+//  resetAndIndex(tab);
+
 
 
 
