@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 #define desc "fic.txt"
+#define new_min(x,y) ((x) <= (y)) ? (x) : (y)
+#define new_max(x, y) (((x) >= (y)) ? (x) : (y))
 int ID = 0 ;
 int echantillons  = 1024 ;
 int nbintervalles = 40 ;
-
 
 void init_values(){
 
@@ -60,7 +61,7 @@ fic = fopen(fichier,mode);
   if (fic != NULL) {
       while(fread(&val,sizeof(double),1,fic)==1){
        cpt ++ ;
-         if(cpt%echantillons == 0){
+         if((cpt%echantillons) == 0){
            ret ++ ;
          }
 
@@ -260,9 +261,9 @@ free(res);
 }
 
 void resetAndIndex(float * tabGap) {
-  system("echo > fic.txt ");
-  system("echo > Liste_Base_Son.txt ");
-//  IndexFiles(tabGap);
+  fclose(fopen("fic.txt", "w"));
+  fclose(fopen("Liste_Base_Son.txt", "w"));
+  IndexFiles(tabGap);
 }
 
 
@@ -305,15 +306,43 @@ return tabret ;
 
 
 int compare_matrices(int ** matrice1, int taille1, int ** matrice2, int taille2, int id ){
-int k = 0 ;
-  for (int i = 0; i < taille1; i++) {
-    for (int j = 0; j < nbintervalles+1; j++) {
-      if(matrice1[i][j] == matrice2[k][j] && matrice1[i][j] != 0){
-        printf("ID : %d  [%d][%d] = %d \n",id, k,j, matrice1[k][j] );
-      }
+// 70s corpusfi 3s
+
+int distancemax = 0 ;
+float distancemaxpos = 0 ;
+
+float echelle = echantillons / 16000.0 ;
+
+int distance = 0 ;
+
+/* indice deuxieme matrice */
+int k =0 ;
+
+int borneinf = 0 ;
+
+while (borneinf <= (taille2 - taille1)) {
+
+/* parcours du du fichier a comparer */
+  for (int i = 0; i < taille1 ; i++) {
+    for (int j = 0; j < nbintervalles+1 ; j++) {
+      distance += new_min(matrice1[i][j], matrice2[i+borneinf][j]);
     }
-    k++ ;
   }
+
+  distancemax = new_max(distance, distancemax);
+  if(distancemax == distance){
+    distancemaxpos = borneinf ;
+  }
+
+  //printf("endroit : %f %f Distance : %d\n", (borneinf*echelle), (borneinf+taille1)*echelle,distance );
+
+  borneinf++;
+  distance = 0 ;
+
+}
+
+printf("Postiton : %fs  %fs Distance max : %d\n", (distancemaxpos*echelle),((distancemaxpos+taille1)*echelle)  , distancemax );
+
 return 0 ;
 }
 
@@ -340,7 +369,7 @@ void compare(float * tabGap, char* fichier ){
     if(strcmp(current,"<id>") == 0){
       /*initialise la matrice à la taille correspondante (nieme valeur de tabIdFen) */
       if (indicetabIdFen>=0) {
-        compare_matrices(matriceToCompare,nbFenToCompare,matriceLue,tabIdFen[indicetabIdFen], idlive);
+        compare_matrices(matriceToCompare,nbFenToCompare+1,matriceLue,tabIdFen[indicetabIdFen], idlive);
       //  free_matrice(matriceLue, tabIdFen[indicetabIdFen]);
       }
         indicetabIdFen++ ;
@@ -384,8 +413,8 @@ init_values();
  float *tab = malloc((nbintervalles+1)*sizeof(float)) ;
   createGap(tab);
   IndexFiles(tab);
-  //compare(tab, "TEST_SON/jingle_fi.bin");
-//  resetAndIndex(tab);
+  compare(tab, "TEST_SON/jingle_fi.bin");
+  //resetAndIndex(tab);
 
 
 
