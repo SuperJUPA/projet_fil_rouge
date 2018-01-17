@@ -1,0 +1,567 @@
+<id> 0 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 1 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 2 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 3 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 4 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 5 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 6 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 7 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 8 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 9 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 10 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 11 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 12 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 13 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 14 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 15 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 16 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 17 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 18 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 19 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 20 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 21 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 22 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 23 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 24 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 25 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 26 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 27 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 28 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 29 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 30 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 31 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 32 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 33 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 34 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 35 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 36 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 37 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 38 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 39 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 40 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 41 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 42 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 43 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 44 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 45 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 46 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 47 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 48 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 49 </id>
+<type> RGB </type>
+<nbcolonne> 200 </nbcolonne>
+<nbligne> 200 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x0000: 40000;
+</valeurs>
+
+<id> 50 </id>
+<type> NB </type>
+<nbcolonne> 148 </nbcolonne>
+<nbligne> 140 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x00: 20720;
+</valeurs>
+
+<id> 51 </id>
+<type> NB </type>
+<nbcolonne> 148 </nbcolonne>
+<nbligne> 140 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x00: 20720;
+</valeurs>
+
+<id> 52 </id>
+<type> NB </type>
+<nbcolonne> 148 </nbcolonne>
+<nbligne> 140 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x00: 20720;
+</valeurs>
+
+<id> 53 </id>
+<type> NB </type>
+<nbcolonne> 211 </nbcolonne>
+<nbligne> 88 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x00: 18568;
+</valeurs>
+
+<id> 54 </id>
+<type> NB </type>
+<nbcolonne> 211 </nbcolonne>
+<nbligne> 92 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x00: 19412;
+</valeurs>
+
+<id> 55 </id>
+<type> NB </type>
+<nbcolonne> 211 </nbcolonne>
+<nbligne> 99 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x00: 20889;
+</valeurs>
+
+<id> 56 </id>
+<type> NB </type>
+<nbcolonne> 128 </nbcolonne>
+<nbligne> 128 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x00: 16384;
+</valeurs>
+
+<id> 57 </id>
+<type> NB </type>
+<nbcolonne> 128 </nbcolonne>
+<nbligne> 128 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x00: 16384;
+</valeurs>
+
+<id> 58 </id>
+<type> NB </type>
+<nbcolonne> 128 </nbcolonne>
+<nbligne> 120 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x00: 15360;
+</valeurs>
+
+<id> 59 </id>
+<type> NB </type>
+<nbcolonne> 128 </nbcolonne>
+<nbligne> 120 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x00: 15360;
+</valeurs>
+
+<id> 60 </id>
+<type> NB </type>
+<nbcolonne> 128 </nbcolonne>
+<nbligne> 120 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x00: 15360;
+</valeurs>
+
+<id> 61 </id>
+<type> NB </type>
+<nbcolonne> 128 </nbcolonne>
+<nbligne> 128 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x00: 16384;
+</valeurs>
+
+<id> 62 </id>
+<type> NB </type>
+<nbcolonne> 150 </nbcolonne>
+<nbligne> 136 </nbligne>
+<nbvaleur> 1 </nbvaleur>
+<valeurs>
+0x00: 20400;
+</valeurs>
+

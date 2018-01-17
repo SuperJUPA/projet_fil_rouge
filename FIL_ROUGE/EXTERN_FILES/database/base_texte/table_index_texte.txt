@@ -1,0 +1,94 @@
+<mot> cellules </mot> <key_nb> 1 19 ; 54 29  </key_nb> 
+<mot> souches </mot> <key_nb> 1 8 ; 54 13  </key_nb> 
+<mot> circoncision </mot> <key_nb> 6 9  </key_nb> 
+<mot> hommes </mot> <key_nb> 6 7  </key_nb> 
+<mot> plus </mot> <key_nb> 7 5 ; 8 5 ; 9 9 ; 13 6 ; 17 5 ; 31 7 ; 36 5 ; 37 7 ; 38 5 ; 50 10 ; 54 7 ; 66 6 ; 78 14 ; 83 7  </key_nb> 
+<mot> Juan </mot> <key_nb> 8 5  </key_nb> 
+<mot> Pablo </mot> <key_nb> 8 5  </key_nb> 
+<mot> monde </mot> <key_nb> 8 5  </key_nb> 
+<mot> Kimi </mot> <key_nb> 8 6  </key_nb> 
+<mot> points </mot> <key_nb> 8 6  </key_nb> 
+<mot> théâtre </mot> <key_nb> 9 25  </key_nb> 
+<mot> Festival </mot> <key_nb> 9 6  </key_nb> 
+<mot> cette </mot> <key_nb> 9 7 ; 78 6  </key_nb> 
+<mot> c'est </mot> <key_nb> 9 8 ; 48 5 ; 51 6  </key_nb> 
+<mot> public </mot> <key_nb> 9 10  </key_nb> 
+<mot> cela </mot> <key_nb> 9 5  </key_nb> 
+<mot> SACD </mot> <key_nb> 10 5  </key_nb> 
+<mot> Visa </mot> <key_nb> 11 5  </key_nb> 
+<mot> d'un </mot> <key_nb> 14 5 ; 65 5 ; 82 7  </key_nb> 
+<mot> maïs </mot> <key_nb> 15 6  </key_nb> 
+<mot> l'équipe </mot> <key_nb> 16 5 ; 48 6  </key_nb> 
+<mot> France </mot> <key_nb> 16 14 ; 55 5 ; 68 7 ; 76 12  </key_nb> 
+<mot> Coupe </mot> <key_nb> 16 7  </key_nb> 
+<mot> deux </mot> <key_nb> 16 5 ; 55 5  </key_nb> 
+<mot> millions </mot> <key_nb> 16 5  </key_nb> 
+<mot> vaccination </mot> <key_nb> 17 8  </key_nb> 
+<mot> personnes </mot> <key_nb> 17 9  </key_nb> 
+<mot> aviaire </mot> <key_nb> 17 6  </key_nb> 
+<mot> contre </mot> <key_nb> 17 5 ; 65 8  </key_nb> 
+<mot> virus </mot> <key_nb> 17 10 ; 65 11  </key_nb> 
+<mot> d'une </mot> <key_nb> 17 6 ; 38 7 ; 76 5  </key_nb> 
+<mot> grippe </mot> <key_nb> 17 5  </key_nb> 
+<mot> couverture </mot> <key_nb> 17 5  </key_nb> 
+<mot> vaccinale </mot> <key_nb> 17 5  </key_nb> 
+<mot> Francis </mot> <key_nb> 19 6  </key_nb> 
+<mot> fado </mot> <key_nb> 20 21  </key_nb> 
+<mot> comète </mot> <key_nb> 21 8  </key_nb> 
+<mot> Tempel </mot> <key_nb> 21 7  </key_nb> 
+<mot> sols </mot> <key_nb> 24 8  </key_nb> 
+<mot> carbone </mot> <key_nb> 24 12  </key_nb> 
+<mot> réalité </mot> <key_nb> 28 5  </key_nb> 
+<mot> virtuelle </mot> <key_nb> 28 5  </key_nb> 
+<mot> Roger </mot> <key_nb> 31 8  </key_nb> 
+<mot> Andre </mot> <key_nb> 31 7  </key_nb> 
+<mot> tournoi </mot> <key_nb> 31 7  </key_nb> 
+<mot> Grand </mot> <key_nb> 31 7  </key_nb> 
+<mot> Jean-Marie </mot> <key_nb> 33 7  </key_nb> 
+<mot> rentrée </mot> <key_nb> 33 5  </key_nb> 
+<mot> librairie </mot> <key_nb> 33 7  </key_nb> 
+<mot> Sevestre </mot> <key_nb> 33 7  </key_nb> 
+<mot> Susheela </mot> <key_nb> 35 7  </key_nb> 
+<mot> Raman </mot> <key_nb> 35 5  </key_nb> 
+<mot> milliards </mot> <key_nb> 37 5  </key_nb> 
+<mot> moins </mot> <key_nb> 38 6  </key_nb> 
+<mot> troubles </mot> <key_nb> 38 7  </key_nb> 
+<mot> club </mot> <key_nb> 39 5 ; 76 7  </key_nb> 
+<mot> pays </mot> <key_nb> 41 7  </key_nb> 
+<mot> Robert </mot> <key_nb> 45 12  </key_nb> 
+<mot> film </mot> <key_nb> 45 10  </key_nb> 
+<mot> Wise </mot> <key_nb> 45 9  </key_nb> 
+<mot> succès </mot> <key_nb> 45 5  </key_nb> 
+<mot> fait </mot> <key_nb> 48 5  </key_nb> 
+<mot> quasar </mot> <key_nb> 49 5  </key_nb> 
+<mot> comme </mot> <key_nb> 49 8  </key_nb> 
+<mot> sans </mot> <key_nb> 49 5  </key_nb> 
+<mot> sonde </mot> <key_nb> 50 8  </key_nb> 
+<mot> prévision </mot> <key_nb> 52 8  </key_nb> 
+<mot> Girija </mot> <key_nb> 53 7  </key_nb> 
+<mot> cardiaque </mot> <key_nb> 54 7  </key_nb> 
+<mot> greffe </mot> <key_nb> 54 5  </key_nb> 
+<mot> chez </mot> <key_nb> 54 11  </key_nb> 
+<mot> embryonnaires </mot> <key_nb> 54 8  </key_nb> 
+<mot> deuxième </mot> <key_nb> 55 5  </key_nb> 
+<mot> champions </mot> <key_nb> 59 5  </key_nb> 
+<mot> architectes </mot> <key_nb> 63 13  </key_nb> 
+<mot> Girodet </mot> <key_nb> 64 10  </key_nb> 
+<mot> vaccin </mot> <key_nb> 65 6  </key_nb> 
+<mot> football </mot> <key_nb> 66 7  </key_nb> 
+<mot> prix </mot> <key_nb> 66 5  </key_nb> 
+<mot> saison </mot> <key_nb> 66 9  </key_nb> 
+<mot> s'est </mot> <key_nb> 73 6  </key_nb> 
+<mot> Louvre </mot> <key_nb> 75 6  </key_nb> 
+<mot> région </mot> <key_nb> 75 6  </key_nb> 
+<mot> Stade </mot> <key_nb> 76 19  </key_nb> 
+<mot> trois </mot> <key_nb> 76 5  </key_nb> 
+<mot> Lille </mot> <key_nb> 76 7  </key_nb> 
+<mot> Ligue </mot> <key_nb> 76 6  </key_nb> 
+<mot> Voyager </mot> <key_nb> 78 10  </key_nb> 
+<mot> système </mot> <key_nb> 78 6  </key_nb> 
+<mot> aura </mot> <key_nb> 78 5  </key_nb> 
+<mot> choc </mot> <key_nb> 78 8  </key_nb> 
+<mot> notre </mot> <key_nb> 78 5  </key_nb> 
+<mot> Robyn </mot> <key_nb> 80 5  </key_nb> 
+<mot> superficie </mot> <key_nb> 83 6  </key_nb> 

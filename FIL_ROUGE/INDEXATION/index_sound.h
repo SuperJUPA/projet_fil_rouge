@@ -1,1 +1,1 @@
-#include "index_gen.h"
+void resetAndIndex();

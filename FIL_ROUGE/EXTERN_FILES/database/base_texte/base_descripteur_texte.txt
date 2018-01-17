@@ -1,0 +1,84 @@
+<debut> <id> 1 </id> <mots> cellules 19 ; souches 8 ;   </mots> </fin>
+<debut> <id> 2 </id> <mots>   </mots> </fin>
+<debut> <id> 3 </id> <mots>   </mots> </fin>
+<debut> <id> 4 </id> <mots>   </mots> </fin>
+<debut> <id> 5 </id> <mots>   </mots> </fin>
+<debut> <id> 6 </id> <mots> circoncision 9 ; hommes 7 ;   </mots> </fin>
+<debut> <id> 7 </id> <mots> plus 5 ;   </mots> </fin>
+<debut> <id> 8 </id> <mots> Juan 5 ; Pablo 5 ; monde 5 ; Kimi 6 ; points 6 ; plus 5 ;   </mots> </fin>
+<debut> <id> 9 </id> <mots> théâtre 25 ; Festival 6 ; cette 7 ; c'est 8 ; public 10 ; cela 5 ; plus 9 ;   </mots> </fin>
+<debut> <id> 10 </id> <mots> SACD 5 ;   </mots> </fin>
+<debut> <id> 11 </id> <mots> Visa 5 ;   </mots> </fin>
+<debut> <id> 12 </id> <mots>   </mots> </fin>
+<debut> <id> 13 </id> <mots> plus 6 ;   </mots> </fin>
+<debut> <id> 14 </id> <mots> d'un 5 ;   </mots> </fin>
+<debut> <id> 15 </id> <mots> maïs 6 ;   </mots> </fin>
+<debut> <id> 16 </id> <mots> l'équipe 5 ; France 14 ; Coupe 7 ; deux 5 ; millions 5 ;   </mots> </fin>
+<debut> <id> 17 </id> <mots> vaccination 8 ; personnes 9 ; aviaire 6 ; contre 5 ; virus 10 ; plus 5 ; d'une 6 ; grippe 5 ; couverture 5 ; vaccinale 5 ;   </mots> </fin>
+<debut> <id> 18 </id> <mots>   </mots> </fin>
+<debut> <id> 19 </id> <mots> Francis 6 ;   </mots> </fin>
+<debut> <id> 20 </id> <mots> fado 21 ;   </mots> </fin>
+<debut> <id> 21 </id> <mots> comète 8 ; Tempel 7 ;   </mots> </fin>
+<debut> <id> 22 </id> <mots>   </mots> </fin>
+<debut> <id> 23 </id> <mots>   </mots> </fin>
+<debut> <id> 24 </id> <mots> sols 8 ; carbone 12 ;   </mots> </fin>
+<debut> <id> 25 </id> <mots>   </mots> </fin>
+<debut> <id> 26 </id> <mots>   </mots> </fin>
+<debut> <id> 27 </id> <mots>   </mots> </fin>
+<debut> <id> 28 </id> <mots> réalité 5 ; virtuelle 5 ;   </mots> </fin>
+<debut> <id> 29 </id> <mots>   </mots> </fin>
+<debut> <id> 30 </id> <mots>   </mots> </fin>
+<debut> <id> 31 </id> <mots> plus 7 ; Roger 8 ; Andre 7 ; tournoi 7 ; Grand 7 ;   </mots> </fin>
+<debut> <id> 32 </id> <mots>   </mots> </fin>
+<debut> <id> 33 </id> <mots> Jean-Marie 7 ; rentrée 5 ; librairie 7 ; Sevestre 7 ;   </mots> </fin>
+<debut> <id> 34 </id> <mots>   </mots> </fin>
+<debut> <id> 35 </id> <mots> Susheela 7 ; Raman 5 ;   </mots> </fin>
+<debut> <id> 36 </id> <mots> plus 5 ;   </mots> </fin>
+<debut> <id> 37 </id> <mots> plus 7 ; milliards 5 ;   </mots> </fin>
+<debut> <id> 38 </id> <mots> plus 5 ; moins 6 ; d'une 7 ; troubles 7 ;   </mots> </fin>
+<debut> <id> 39 </id> <mots> club 5 ;   </mots> </fin>
+<debut> <id> 40 </id> <mots>   </mots> </fin>
+<debut> <id> 41 </id> <mots> pays 7 ;   </mots> </fin>
+<debut> <id> 42 </id> <mots>   </mots> </fin>
+<debut> <id> 43 </id> <mots>   </mots> </fin>
+<debut> <id> 44 </id> <mots>   </mots> </fin>
+<debut> <id> 45 </id> <mots> Robert 12 ; film 10 ; Wise 9 ; succès 5 ;   </mots> </fin>
+<debut> <id> 46 </id> <mots>   </mots> </fin>
+<debut> <id> 47 </id> <mots>   </mots> </fin>
+<debut> <id> 48 </id> <mots> l'équipe 6 ; c'est 5 ; fait 5 ;   </mots> </fin>
+<debut> <id> 49 </id> <mots> quasar 5 ; comme 8 ; sans 5 ;   </mots> </fin>
+<debut> <id> 50 </id> <mots> sonde 8 ; plus 10 ;   </mots> </fin>
+<debut> <id> 51 </id> <mots> c'est 6 ;   </mots> </fin>
+<debut> <id> 52 </id> <mots> prévision 8 ;   </mots> </fin>
+<debut> <id> 53 </id> <mots> Girija 7 ;   </mots> </fin>
+<debut> <id> 54 </id> <mots> cardiaque 7 ; greffe 5 ; cellules 29 ; souches 13 ; chez 11 ; embryonnaires 8 ; plus 7 ;   </mots> </fin>
+<debut> <id> 55 </id> <mots> France 5 ; deux 5 ; deuxième 5 ;   </mots> </fin>
+<debut> <id> 56 </id> <mots>   </mots> </fin>
+<debut> <id> 57 </id> <mots>   </mots> </fin>
+<debut> <id> 58 </id> <mots>   </mots> </fin>
+<debut> <id> 59 </id> <mots> champions 5 ;   </mots> </fin>
+<debut> <id> 60 </id> <mots>   </mots> </fin>
+<debut> <id> 61 </id> <mots>   </mots> </fin>
+<debut> <id> 62 </id> <mots>   </mots> </fin>
+<debut> <id> 63 </id> <mots> architectes 13 ;   </mots> </fin>
+<debut> <id> 64 </id> <mots> Girodet 10 ;   </mots> </fin>
+<debut> <id> 65 </id> <mots> vaccin 6 ; contre 8 ; virus 11 ; d'un 5 ;   </mots> </fin>
+<debut> <id> 66 </id> <mots> football 7 ; plus 6 ; prix 5 ; saison 9 ;   </mots> </fin>
+<debut> <id> 67 </id> <mots>   </mots> </fin>
+<debut> <id> 68 </id> <mots> France 7 ;   </mots> </fin>
+<debut> <id> 69 </id> <mots>   </mots> </fin>
+<debut> <id> 70 </id> <mots>   </mots> </fin>
+<debut> <id> 71 </id> <mots>   </mots> </fin>
+<debut> <id> 72 </id> <mots>   </mots> </fin>
+<debut> <id> 73 </id> <mots> s'est 6 ;   </mots> </fin>
+<debut> <id> 74 </id> <mots>   </mots> </fin>
+<debut> <id> 75 </id> <mots> Louvre 6 ; région 6 ;   </mots> </fin>
+<debut> <id> 76 </id> <mots> Stade 19 ; France 12 ; trois 5 ; Lille 7 ; Ligue 6 ; d'une 5 ; club 7 ;   </mots> </fin>
+<debut> <id> 77 </id> <mots>   </mots> </fin>
+<debut> <id> 78 </id> <mots> Voyager 10 ; système 6 ; aura 5 ; plus 14 ; cette 6 ; choc 8 ; notre 5 ;   </mots> </fin>
+<debut> <id> 79 </id> <mots>   </mots> </fin>
+<debut> <id> 80 </id> <mots> Robyn 5 ;   </mots> </fin>
+<debut> <id> 81 </id> <mots>   </mots> </fin>
+<debut> <id> 82 </id> <mots> d'un 7 ;   </mots> </fin>
+<debut> <id> 83 </id> <mots> superficie 6 ; plus 7 ;   </mots> </fin>
+<debut> <id> 84 </id> <mots>   </mots> </fin>

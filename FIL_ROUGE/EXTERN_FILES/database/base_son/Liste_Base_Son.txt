@@ -1,0 +1,2 @@
+<id> 0 </id><fichier> corpus_fi.bin </fichier>
+<id> 1 </id><fichier> jingle_fi.bin </fichier>
