@@ -1,0 +1,6 @@
+gcc  main.o menu.o action_user.o action_admin.o index_txt.o  index_sound.o by_keyword.o pile.o image_main.o index_img.o -o api.out
+
+
+
+gcc -c main.c menu.c action_user.c action_admin.c ../INDEXATION/index_txt.c ../INDEXATION/index_sound.c  ../SEARCH/by_keyword.c ../INDEXATION/index_img.c ../INDEXATION/image_main.c ../LIBS/IMAGE/pile.c
+

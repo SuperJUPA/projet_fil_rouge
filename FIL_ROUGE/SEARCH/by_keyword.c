@@ -54,17 +54,23 @@ fclose(baseId);
 printf("\n");
 printf("%s\n",lecture);
 
-printf("si vous voulez ouvrir le fichier taper 1 \n");
-choixLecture = getchar();
-while(getchar() != '\n');
+
+do {
+printf("pour ouvrir le fichier taper: 1 || pour passer au suivant: 0 \n");
+  scanf(" %c",&choixLecture);
+} while(choixLecture!='1' && choixLecture!='0');
 
 if (choixLecture=='1')
 {
-  strcpy(commande, "cat ../EXTERN_FILES/base_files/DATA_FIL_ROUGE_DEV/Textes/");
+  strcpy(commande, "gedit ../EXTERN_FILES/base_files/DATA_FIL_ROUGE_DEV/Textes/");
   strcat(commande,lecture);
+  strcat(commande," &");
+
   system(commande);
+
 }
-else if (choixLecture =='0'){}
+
+
 
 }
 else
@@ -111,11 +117,11 @@ void tricroissant( int *tab,int *tab1, int tab_size)
 void byword(char motClef[])
 
 {
-    char lecture_mot[15];
+    char lecture_mot[2000];
     char mot_rechercher[100];
-    int les_Id[20][2];
-    int temp[20];
-    int temp1[20];
+    int les_Id[2000][2];
+    int temp[2000];
+    int temp1[2000];
     int parcourId;
     int parcourRecu;
      int j=0;
@@ -202,16 +208,6 @@ void byword(char motClef[])
  }
 
 
-printf("============= si vous voulez retourner au menu taper 1 \n ");
-int choix;
-scanf("%d",&choix);
-if (choix ==1 )
-{
-  menu();
-}
-else {
-printf("Au revoir \n");
-}
 
 
 

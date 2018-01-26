@@ -7,7 +7,7 @@
 Pour une meilleure compréhension du code se référer a index_txt.h qui explique le rôle de chaque fonction.
 
 j'ai décidé de créer des fichiers temporaires a chaque fois que j'en ressentais le besoin, pour séparer
-mon traitement des documents originaux.(./temp_txt).
+mon traitement des documents originaux.(../INDEXATION/temp_txt).
 
 */
 /*
@@ -49,17 +49,17 @@ void rmThenStartIndexation()
   system(cmd);
 
   //supression du répertoire temporaire
-  strcpy(cmd,"rm -r temp_txt");
+  strcpy(cmd,"rm -r ../INDEXATION/temp_txt");
   system(cmd);
 
   // création des répertoires cibles sur lesquels on va travailler
-  strcpy(cmd,"mkdir temp_txt");
+  strcpy(cmd,"mkdir ../INDEXATION/temp_txt");
   system(cmd);
 
-  strcpy(cmd,"mkdir ./temp_txt/cpy");
+  strcpy(cmd,"mkdir ../INDEXATION/temp_txt/cpy");
   system(cmd);
 
-  strcpy(cmd,"mkdir ./temp_txt/pure_txts");
+  strcpy(cmd,"mkdir ../INDEXATION/temp_txt/pure_txts");
   system(cmd);
 
 
@@ -76,6 +76,10 @@ void rmThenStartIndexation()
   strcat(cmd,TABLE);
   system(cmd);
 
+  strcpy(cmd,"touch ");
+  strcat(cmd,"../INDEXATION/table_index_texte_temp");
+  system(cmd);
+
   startIndexation();
 }
 
@@ -87,11 +91,11 @@ void startIndexation()
 
   strcpy(cmd, "ls ");
   strcat(cmd, PATHFILES);
-  strcat(cmd, " > ./temp_txt/fic_tempLIST.xml");
+  strcat(cmd, " > ../INDEXATION/temp_txt/fic_tempLIST.xml");
   fflush(stdout);
   system(cmd);
 
-  ptr_fic = fopen("./temp_txt/fic_tempLIST.xml", "r");
+  ptr_fic = fopen("../INDEXATION/temp_txt/fic_tempLIST.xml", "r");
 
   if( ptr_fic != NULL)
   {
@@ -99,7 +103,11 @@ void startIndexation()
       {
           checkForUpdates(nom_fic);
       }
-      fclose(ptr_fic);
+      if(ptr_fic!=NULL)
+      {
+        fclose(ptr_fic);
+      }
+
   }
   else
   {
@@ -114,18 +122,52 @@ void indexFile(char* name,int id) {
   char cmd[1000];
   int c;
   char car;
+  char* pch;
   FILE * ptr_fic;
   char ligne[100];
+  char *realName;
 
-  strcpy(cmd, "cat ");
-  strcat(cmd, PATHFILES);
-  strcat(cmd, name);
-  strcat(cmd," > ./temp_txt/cpy/" );
-  strcat(cmd,name);
+  if(id!=-1)
+  {
+    strcpy(cmd, "cat ");
+    strcat(cmd, PATHFILES);
+    strcat(cmd, name);
+    strcat(cmd," > ../INDEXATION/temp_txt/cpy/" );
+    strcat(cmd,name);
+  }
+
+  else
+  {
+    strcpy(cmd, "cat ");
+    strcat(cmd, name);
+    const char s[2] = "/";
+    char *nameabs=malloc(sizeof(char)*strlen(name));
+    strcpy(nameabs,name);
+    char *token;
+    /* get the first token */
+    token = strtok(nameabs, s);
+
+    /* walk through other tokens */
+    while( token != NULL )
+    {
+       realName=token;
+       token = strtok(NULL, s);
+    }
+    strcat(cmd," > ../INDEXATION/temp_txt/cpy/" );
+    strcat(cmd,realName);
+  }
   system(cmd);
 
-  sortMeBalises(name);
-  searchOccurencesAndInsertBD(name,id);
+  if(id!=-1)
+  {
+    sortMeBalises(name);
+    searchOccurencesAndInsertBD(name,id);
+  }
+  else if(id=-1)
+  {
+    sortMeBalises(realName);
+    searchOccurencesAndInsertBD(realName,id);
+  }
 }
 
 void checkForUpdates(char * name)
@@ -138,10 +180,10 @@ void checkForUpdates(char * name)
   strcat(cmd, name);
   strcat(cmd, " ");
   strcat(cmd, LISTE);
-  strcat(cmd, " > ./temp_txt/trouveOuPas.xml");
+  strcat(cmd, " > ../INDEXATION/temp_txt/trouveOuPas.xml");
   system(cmd);
 
-  ptr_fic = fopen("./temp_txt/trouveOuPas.xml", "r");
+  ptr_fic = fopen("../INDEXATION/temp_txt/trouveOuPas.xml", "r");
 
   if( ptr_fic != NULL)
   {
@@ -164,7 +206,10 @@ void checkForUpdates(char * name)
         system(cmd);
         indexFile(name,id);
       }
-      fclose(ptr_fic);
+      if(ptr_fic!=NULL)
+      {
+        fclose(ptr_fic);
+      }
   }
   else
   {
@@ -182,11 +227,12 @@ void sortMeBalises(char * name)
   FILE * ptr_fic2;
   int debut=0;
   int fin=0;
+  char ponctuation[100]={',',';',',','?','!','%','.','(',')'};
 
-  strcpy(filename,"./temp_txt/pure_txts/");
+  strcpy(filename,"../INDEXATION/temp_txt/pure_txts/");
   strcat(filename,name);
 
-  strcpy(sourceName,"./temp_txt/cpy/");
+  strcpy(sourceName,"../INDEXATION/temp_txt/cpy/");
   strcat(sourceName,name);
   ptr_fic = fopen(sourceName, "r");
   ptr_fic2=fopen(filename, "w");
@@ -207,8 +253,12 @@ void sortMeBalises(char * name)
          }
          if(debut==0 && fin==1)
          {
-           if(car!='>')
+           if(car!='>' && testPonctuation_TEXTE(car))
            {
+             if(car=='\'')
+             {
+               car=' ';
+             }
              fputc(car,ptr_fic2);
            }
          }
@@ -220,6 +270,15 @@ void sortMeBalises(char * name)
   {
      fprintf(stderr, "ERREUR :  PB avec fonction sortMeBalises\n");
   }
+}
+
+int testPonctuation_TEXTE(char car)
+{
+  if(car=='.' || car==',' || car==';' || car=='?' || car=='!'||  car==')' || car=='(' || car==':' || car=='%')
+  {
+    return 0;
+  }
+  return 1;
 }
 
 void searchOccurencesAndInsertBD(char * name,int id)
@@ -237,7 +296,7 @@ void searchOccurencesAndInsertBD(char * name,int id)
 
   param=recupParamConfigTexte();
 
-  strcpy(filename,"./temp_txt/pure_txts/");
+  strcpy(filename,"../INDEXATION/temp_txt/pure_txts/");
   strcat(filename,name);
   fichier_a_traiter=fopen(filename,"r");
   if(fichier_a_traiter!=NULL)
@@ -258,7 +317,7 @@ void searchOccurencesAndInsertBD(char * name,int id)
   }
 
   char * tabchaines[cpt];
-  strcpy(filename,"./temp_txt/pure_txts/");
+  strcpy(filename,"../INDEXATION/temp_txt/pure_txts/");
   strcat(filename,name);
   fichier_a_traiter=fopen(filename,"r");
   if(fichier_a_traiter!=NULL)
@@ -362,8 +421,6 @@ void searchOccurencesAndInsertBD(char * name,int id)
 
   }
 
-
-
   index=0;
   while (index<cpt) {
     free(tabchaines[index]);
@@ -453,7 +510,7 @@ void createTableIndexTexte()
 
 
   ptr_ficToRead = fopen(DATABASE, "r");
-  ptr_ficToWrite = fopen("temp_txt/table_index_texte_temp","w");
+  ptr_ficToWrite = fopen("../INDEXATION/temp_txt/table_index_texte_temp","w");
   if( ptr_ficToRead != NULL && ptr_ficToWrite != NULL)
   {
       fscanf(ptr_ficToRead, "%s", motLu);
@@ -499,7 +556,6 @@ void createTableIndexTexte()
           nextIsMots=1;
         }
 
-
         fscanf( ptr_ficToRead, "%s", motLu);
       }
         fclose(ptr_ficToRead);
@@ -512,18 +568,17 @@ void createTableIndexTexte()
   int verif;
   int cpt=0;
   FILE* check;
-  check = popen("wc -l ./temp_txt/table_index_texte_temp", "r");
+  check = popen("wc -l ../INDEXATION/temp_txt/table_index_texte_temp", "r");
   fscanf(check, "%d", &verif);
   fclose(check);
   while (verif>0) {
 
     generateTableIndexTexte();
-    check = popen("wc -l ./temp_txt/table_index_texte_temp", "r");
+    check = popen("wc -l ../INDEXATION/temp_txt/table_index_texte_temp", "r");
     fscanf(check, "%d", &verif);
     fclose(check);
     cpt++;
   }
-
 }
 
 void generateTableIndexTexte()
@@ -544,7 +599,7 @@ void generateTableIndexTexte()
   char chaineConstruite[100000];
   char chaineConstruiteFinale[100000];
 
-  ptr_ficToRead = fopen("temp_txt/table_index_texte_temp", "r");
+  ptr_ficToRead = fopen("../INDEXATION/temp_txt/table_index_texte_temp", "r");
   ptr_ficToWrite = fopen(TABLE,"a+");
 
   if( ptr_ficToRead != NULL && ptr_ficToWrite != NULL)
@@ -593,7 +648,7 @@ void generateTableIndexTexte()
       strcat(chaineConstruite," </key_nb> ");
 
       fprintf(ptr_ficToWrite,"%s\n",chaineConstruite);
-      system("sed 1d ./temp_txt/table_index_texte_temp -i");
+      system("sed 1d ../INDEXATION/temp_txt/table_index_texte_temp -i");
 
       int cpt2=0;
       int cpt3=1;
@@ -603,7 +658,7 @@ void generateTableIndexTexte()
         char conversion[50];
         snprintf(conversion,sizeof(conversion),"%d",tab[cpt2]-cpt3);
         strcat(cmd,conversion);
-        strcat(cmd,"d ./temp_txt/table_index_texte_temp -i");
+        strcat(cmd,"d ../INDEXATION/temp_txt/table_index_texte_temp -i");
         system(cmd);
         cpt2++;
         cpt3++;
@@ -635,10 +690,16 @@ void compareFiles()
   while (!PILE_JULIEN_EST_VIDE(&pSize))
   {
     char* str=DEPILE_JULIEN(&pSize);
-    free(str);
+    if(str!=NULL)
+    {
+      if(str!=NULL)
+      {
+        free(str);
+      }
+
+    }
     nbElem++;
   }
-
 
   char* pch;
   int* tabID=(int*)malloc(sizeof(int)*nbElem);
@@ -666,15 +727,18 @@ void compareFiles()
               fscanf(ptr_fic,"%s",motfic);
               fscanf(ptr_fic,"%s",motfic);
               fscanf(ptr_fic,"%s",motfic);
-
             }
           }
         }
         pch = strtok (str," ");
         tabID[cptNbelem]=atoi(pch);
         tabOccurences[cptNbelem]=cptOcc;
+
         cptOcc=0;
-        fclose(ptr_fic);
+        if(ptr_fic!=NULL)
+        {
+          fclose(ptr_fic);
+        }
     }
     else
     {
@@ -686,13 +750,40 @@ void compareFiles()
     }
     cptNbelem++;
   }
-  int cpt3=0;
-  /*
-  while (cpt3<cptNbelem) {
-    printf("id: %d nombre d occurences: %d\n",tabID[cpt3],tabOccurences[cpt3]);
-    cpt3++;
-  }*/
 
+  int cpt3=0;
+  int cpt4=0;
+  int cpt5=0;
+  int k=0;
+
+
+  int* tabID2=(int*)malloc(sizeof(int)*nbElem);
+  int* tabOccurences2=(int*)malloc(sizeof(int)*nbElem);
+
+  while (cpt3<cptNbelem) {
+    if(tabOccurences[cpt3]!=0 && tabOccurences[cpt3]!=1)
+    {
+      tabID2[cpt4]=tabID[cpt3];
+      tabOccurences2[cpt4]=tabOccurences[cpt3];
+      cpt4++;
+    }
+    cpt3++;
+  }
+
+  while (k<cpt4) {
+    printf("document d'id %d a %d mots en commun sur avec votre fichier\n",tabID2[k],tabOccurences2[k]);
+    k++;
+  }
+
+  if(cpt4>0)
+  {
+    printf("\naffichage des documents dans l'ordre décroissant:\n");
+  }
+
+
+  sort(tabOccurences2,tabID2,cpt4);
+
+  /*
   if(tabID!=NULL)
   {
     free(tabID);
@@ -701,8 +792,62 @@ void compareFiles()
   {
     free(tabOccurences);
   }
+  if(tabID2!=NULL)
+  {
+    free(tabID2);
+  }
+  if(tabOccurences2!=NULL)
+  {
+    free(tabOccurences2);
+  }*/
 
-  //samir(tabindices,tabOccurences,cptNbelem);
+  strcpy(cmd,"rm ");
+  strcat(cmd,TEMPO);
+  system(cmd);
+
+}
+
+void sort( int *tab,int *tab1, int tab_size)
+{
+  int i=0;
+  int tmp=0;
+  int tmp1=0;
+  int j=0;
+
+  for(i = 0; i < tab_size; i++)
+    {
+      for(j = 1; j < tab_size; j++)
+        {
+          if(tab[i] < tab[j])
+            {
+              tmp = tab[i];
+              tab[i] = tab[j];
+              tab[j] = tmp;
+
+              tmp1= tab1[i];
+              tab1[i] = tab1[j];
+              tab1[j] = tmp1;
+              j--;
+            }
+        }
+    }
+  tmp = tab[0];
+    tmp1 = tab1[0];
+  for(i = 0; i < tab_size; i++)
+  {
+    tab1[i] = tab1[i+1];
+      tab[i] = tab[i+1];
+
+  }
+
+  tab[tab_size-1] = tmp;
+  tab1[tab_size-1] = tmp1;
+  i=0;
+
+  for(i=tab_size-1;i>=0;i--)
+  {
+    appelerDesId(tab1[i]);
+  }
 }
 
 
@@ -1022,7 +1167,11 @@ char* DEPILE_JULIEN(PILE_JULIEN* pilefournie)
     cellule *actuelle = (cellule*) *pilefournie;
     chaine=actuelle->chaine;
     *pilefournie=actuelle->suivant;
-    free(actuelle);
+    if(actuelle!=NULL)
+    {
+      free(actuelle);
+    }
+
     return chaine;
   }
 }

@@ -51,6 +51,7 @@ typedef struct IMAGE_RGB_E{
 #define FICHIER_CONFIG "../EXTERN_FILES/configuration.config"
 
 #define CHECK_FICHIER_BASE "wc -l ../EXTERN_FILES/database/base_image/liste_base_image.txt"
+void searchImage(char * path);
 
 void init_values();
 
@@ -80,3 +81,7 @@ int rechercheImage(char * fichierReference, int ** retourTableauId, int ** retou
 //==================================================================================
 //=										Main 									   =
 //==================================================================================
+
+
+
+

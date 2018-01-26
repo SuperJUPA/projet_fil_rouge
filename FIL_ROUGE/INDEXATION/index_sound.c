@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "index_sound.h"
 #define desc "../EXTERN_FILES/database/base_son/base_descripteur_son.txt"
 #define new_min(x,y) ((x) <= (y)) ? (x) : (y)
 #define new_max(x, y) (((x) >= (y)) ? (x) : (y))
@@ -12,7 +11,7 @@ int nbintervalles = 40 ;
 void init_valuesw(){
 
 FILE * config = fopen("../EXTERN_FILES/configuration.config", "r");
-char val[20] ;
+char val[200] ;
 
 if(config != NULL){
   while (fscanf(config,"%s",val) == 1) {
@@ -140,7 +139,7 @@ int read_desc(char * fichier) {
 
   int check = 0 ;
   FILE* read = fopen("../EXTERN_FILES/database/base_son/Liste_Base_Son.txt", "r");
-  char val[50] ;
+  char val[200] ;
 
 if(read != NULL){
     while (fscanf(read,"%s",val) == 1) {
@@ -186,7 +185,7 @@ return matrice ;
 //Lit le fichier bin et créé l'histogramme'
 void setDescriptor(float * tabGap, char* fichier ){
 
-  char fileToRead[250] = "../EXTERN_FILES/base_files/DATA_FIL_ROUGE_DEV/TEST_SON/" ;
+  char fileToRead[500] = "../EXTERN_FILES/base_files/DATA_FIL_ROUGE_DEV/TEST_SON/" ;
   strcat(fileToRead,fichier);
 
   int nbfentotal = getNbFen(fileToRead, "rb");
@@ -241,8 +240,13 @@ void indexFiles(){
   float * tabGap = malloc((nbintervalles+1)*sizeof(float)) ;
   createGap(tabGap);
 
+  FILE * conf = fopen(desc,"a");
+  fprintf(conf, "%d ", echantillons );
+  fprintf(conf, "%d\n", nbintervalles );
+  fclose(conf);
+
 FILE * p ;
-char res[100] ;
+char res[1000] ;
 p = popen("ls ../EXTERN_FILES/base_files/DATA_FIL_ROUGE_DEV/TEST_SON/ | grep .bin", "r");
 
 if(p != NULL){
@@ -251,7 +255,7 @@ if(p != NULL){
     if(!read_desc(res)){
       addListeBaseSon(res);
       setDescriptor(tabGap, res);
-      printf("Le fichier %s à été indexé !\n",res );
+      printf("Le fichier %s à été indexé !\n\n",res );
     }else{
       printf("Le fichier %s à dejà été indexé !\n",res );
     }
@@ -273,7 +277,7 @@ void resetAndIndex() {
 /* Récupère le nombre de fenetre pour chaque descripteur à partir du fichier contenant les descripteurs */
 int* getNbFenFromDesc(int * tabret){
 FILE * base = fopen(desc, "r");
-char current[50];
+char current[500];
 int nbid=0 ;
 int nbfen =0;
 
@@ -314,7 +318,7 @@ int compare_matrices(int ** matrice1, int taille1, int ** matrice2, int taille2,
 
 /* Récupère le nom depuis l'id */
 FILE* read = fopen("../EXTERN_FILES/database/base_son/Liste_Base_Son.txt", "r");
-char nomFichier[50] ;
+char nomFichier[500] ;
 if(read != NULL){
     while (fscanf(read,"%s",nomFichier) == 1) {
       if(strcmp(nomFichier,"<id>") == 0){
@@ -329,6 +333,20 @@ if(read != NULL){
     fclose(read);
 }
 
+/* tableau des distances */
+int tabDistance[taille2-taille1];
+
+/* index pour tabDistance */
+int cptDistance = 0 ;
+
+/* booleen pour savoir si fichier existe */
+int fichierExiste = 0 ;
+
+/* tableau contenant distance et suivante */
+int tabExiste[2];
+
+/* index pour tabExiste */
+int cptExiste = 0 ;
 
 /* Variable gardant la ditance max */
 int distancemax = 0 ;
@@ -353,8 +371,11 @@ while (borneinf <= (taille2 - taille1)) {
   for (int i = 0; i < taille1 ; i++) {
     for (int j = 0; j < nbintervalles+1 ; j++) {
       distance += new_min(matrice1[i][j], matrice2[i+borneinf][j]);
+
     }
   }
+
+
 
   /* récupère la distance max  */
   distancemax = new_max(distance, distancemax);
@@ -364,21 +385,55 @@ while (borneinf <= (taille2 - taille1)) {
     distancemaxpos = borneinf ;
   }
 
-  //printf("endroit : %f %f Distance : %d\n", (borneinf*echelle), (borneinf+taille1)*echelle,distance );
+//  printf("endroit : %f %f Distance : %d\n", (borneinf*echelle), (borneinf+taille1)*echelle,distance );
 
+/* si on trouve que le fichier n'existe pas */
+  if(!fichierExiste){
+    tabExiste[cptExiste] = distance ;
+    cptExiste++ ;
+    /* si le tableau tabExiste a les deux cases pleines */
+    if(cptExiste == 2){
+      if( (tabExiste[0] - tabExiste[1]) >1000 ||  (tabExiste[0] - tabExiste[1]) < -1000 ){
+          fichierExiste = 1 ;
+      }
+      cptExiste = 0 ;
+    }else if(taille1 == taille2){
+        fichierExiste = 1 ;
+    }
+  }
+  tabDistance[cptDistance] = distance ;
+  cptDistance++;
+  //printf("%d\n", fichierExiste );
   borneinf++;
   distance = 0 ;
 
 }
 
-char affichage[200] = "Trouvé dans ";
-strcat(affichage, nomFichier);
-strcat(affichage, " postiton : ");
 
-printf("%s %fs  %fs\n" , affichage, (distancemaxpos*echelle),((distancemaxpos+taille1)*echelle));
 
-/* concaténer pour que ça utilise nomFichier */
-//system("play ../EXTERN_FILES/base_files/DATA_FIL_ROUGE_DEV/TEST_SON/corpus_fi.wav");
+
+if(fichierExiste){
+  char aff_prev[2000] = "Une ressemblance à été trouvée dans ";
+  strcat(aff_prev,nomFichier);
+  strcat(aff_prev," à l'instant : %fs  \n\n");
+  for(int ind = 0 ; ind <= taille2-taille1 ; ind++){
+
+    if(tabDistance[ind] > (distancemax-1000) ){
+    printf(aff_prev, (ind*echelle) );
+
+    }
+  }
+
+  char affichage[2000] = "Trouvé dans ";
+  strcat(affichage, nomFichier);
+  strcat(affichage, " postiton : ");
+
+  printf("%s %fs  %fs\n\n" , affichage, (distancemaxpos*echelle),((distancemaxpos+taille1)*echelle));
+
+  /* concaténer pour que ça utilise nomFichier */
+  //system("play ../EXTERN_FILES/base_files/DATA_FIL_ROUGE_DEV/TEST_SON/corpus_fi.wav");
+}
+
 
 return 0 ;
 }
@@ -386,15 +441,23 @@ return 0 ;
 /* prend fichier à comparer en parametre et revoie le nom des fichiers qui correspondent */
 void compare( char* fichier ){
 
-  float *tabGap = malloc((nbintervalles+1)*sizeof(float)) ;
-  createGap(tabGap);
 
-char req[100] = "Requête : " ;
+char req[1000] = "Requête : " ;
 strcat(req,fichier);
 printf("%s\n", req );
 
   FILE * base = fopen(desc, "r");
-  char current[50];
+
+    char valconf[50];
+    fscanf(base,"%s",valconf);
+    echantillons = atol(valconf);
+    fscanf(base,"%s",valconf);
+    nbintervalles = atol(valconf);
+
+    float *tabGap = malloc((nbintervalles+1)*sizeof(float)) ;
+    createGap(tabGap);
+
+  char current[500];
   int idlive = -1 ;
   int fenetrelive = 0 ;
   int echantillonlive = 0 ;
@@ -408,6 +471,7 @@ printf("%s\n", req );
 
 
   while (fscanf(base,"%s",current) == 1) {
+
     /* Permet de savoir à quel id on est et reset la valeur de fenetre live*/
     if(strcmp(current,"<id>") == 0){
       /*initialise la matrice à la taille correspondante (nieme valeur de tabIdFen) */
@@ -449,18 +513,14 @@ fclose(base);
 
 }
 
+
+
 /*
-
-
 int main(int argc, char const *argv[]) {
 
   //indexFiles();
-  resetAndIndex();
+  //resetAndIndex();
   compare("../EXTERN_FILES/base_files/DATA_FIL_ROUGE_DEV/TEST_SON/jingle_fi.bin");
 
-
-
-
   return 0;
-}
-*/
+}*/

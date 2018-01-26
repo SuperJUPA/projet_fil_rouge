@@ -4,6 +4,7 @@
 #define TEMPO "../EXTERN_FILES/database/base_texte/descripteur_temporaire.txt"
 #define LISTE "../EXTERN_FILES/database/base_texte/liste_base_texte.txt"
 #define TABLE "../EXTERN_FILES/database/base_texte/table_index_texte.txt"
+#include "../SEARCH/by_keyword.h"
 
 /*
 ====================================================================
@@ -60,6 +61,11 @@ void checkForUpdates(char * name);
 trie le fichier temporaire fic_copied.xml et crée un fichier épuré de balises fic_treated.xml
 */
 void sortMeBalises(char * name);
+
+/*
+teste si un caractère donné est un signe de ponctuation ou non
+*/
+int testPonctuation_TEXTE(char car);
 
 /*
 cherche les occurences d'un document de nom name en fonction du fichier de configuration
@@ -125,6 +131,11 @@ récupère dans une chaine le fichier descripteur temporaire
 char* recupTempFile();
 
 /*
+trie les tableaux
+*/
+void sort(int *tab,int *tab1, int tab_size);
+
+/*
 ===============================================================================
 Résultats compilation avec valgrind INDEXATION sans la PILE
 ===============================================================================
@@ -169,15 +180,6 @@ tous les documents xml ont bien été indexés !
 ==24429==
 ==24429== For counts of detected and suppressed errors, rerun with: -v
 ==24429== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
-
-
-
-
-
-
-
-
-
 
 
 */

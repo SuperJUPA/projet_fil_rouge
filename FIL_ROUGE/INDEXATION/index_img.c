@@ -42,12 +42,20 @@ if(config != NULL){
 
     if(strcmp(val, "NbBit_NB:") == 0){
       fscanf(config,"%s",val);
-      PARAM_BITS_NB = atol(val);
+	if((atol(val) < 8) && (atol(val) > 0))
+      		PARAM_BITS_NB = atol(val);
+	else
+		printf("\nParametre de bits Nb incorrecte pour l'indexation image NB ! \n");
     }
 
     if(strcmp(val, "NbBit_RGB:") == 0){
-      fscanf(config,"%s",val);
-      PARAM_BITS_RGB = atol(val);
+    fscanf(config,"%s",val);
+	if((atol(val) < 6) && (atol(val) > 0))
+	{
+      		PARAM_BITS_RGB = atol(val);
+	}
+	else
+		printf("\nParametre de bits Nb incorrecte pour l'indexation image RGB ! \n");
     }
 
 
@@ -144,7 +152,7 @@ IMAGE_NB * initImageNB(char * nom_e, int nbligne_e, int nbcolonne_e){
 	retour->nbligne = nbligne_e;
 	retour->nbcolonne = nbcolonne_e;
 	retour->nom = nom_e;
-	
+
 	//Creation de la matrice image et affectation du pointeur dans la matrice
 	int i;
 
@@ -181,7 +189,7 @@ void afficherImageNB(IMAGE_NB image){
 		}
 		printf("\n");
 	}
-	printf("\nFin Affichage matrice");	
+	printf("\nFin Affichage matrice");
 }
 
 int lectureImgageNB(IMAGE_NB image, FILE *f){
@@ -193,7 +201,7 @@ int lectureImgageNB(IMAGE_NB image, FILE *f){
 			{
 					printf("\nErreur fatale : Pas assez de valeurs dans l'image");
 					return 0;
-				
+
 			}
 			if((tempo > 255) || (tempo < 0))
 			{
@@ -230,12 +238,7 @@ int creationDescripteurNB(IMAGE_NB image, int temp){
 	else
 		descripteur =  fopen(FICHIER_DESCRIPTEUR,"a+");
 	if(descripteur == NULL)
-	{
-		printf("Test test \n\n\n");
-		printf("%s\n", image.nom);
-		fflush(stdout);
 		return 0;
-	}
 
 	//Cretion id
 
@@ -252,13 +255,13 @@ int creationDescripteurNB(IMAGE_NB image, int temp){
 
 
 	/*
-	  Creation de l'histogramme de valeurs: 
+	  Creation de l'histogramme de valeurs:
 
 	  1. On alloue un espace mémoire d'une matrice 2dim x (nbcol * nbligne)
 		=> On considére qu'il peut y avoir maximum de (nbcol * nbligne) valeurs différentes
-		dans la matrice image 
+		dans la matrice image
 		(en vérité, on pourrait diminuer l'espace mémoire en vérifiant le nb de bits de quantification,
-		et en disant que si (nbcol * nbligne) > 2^nbit de quantification, on a alloue 2^nbit de quantification, 
+		et en disant que si (nbcol * nbligne) > 2^nbit de quantification, on a alloue 2^nbit de quantification,
 		mais c'est "inutile" car on traite ici toujours le pire cas).
 	  2. On parcours la matrice.
 		=> La premiere colonne de "histogramme" corresponds aux valeurs
@@ -288,7 +291,7 @@ int creationDescripteurNB(IMAGE_NB image, int temp){
 
 
 	//Parcourir matrice
-	
+
 	for(i=0;i<image.nbligne;i++)
 	{
 		for(j=0;j<image.nbcolonne;j++)
@@ -328,7 +331,7 @@ int creationDescripteurNB(IMAGE_NB image, int temp){
 		valmin = 0x7FFFFFFF;
 		for(j=0;j<nbvaleur;j++)
 		{
-			// On check si 
+			// On check si
 			//  1. Val min (censé être la val min de la plage) est bien minimum
 			//  2. On est bien supérieur à la val précédente
 			if((valmin>histogramme[0][j]) && (valprec < histogramme[0][j]))
@@ -341,7 +344,7 @@ int creationDescripteurNB(IMAGE_NB image, int temp){
 		if(histogramme[0][indicemin]<16)
 			fprintf(descripteur, "0x0%1x: %i;\n", histogramme[0][indicemin], histogramme[1][indicemin]);
 		else
-			fprintf(descripteur, "0x%2x: %i;\n", histogramme[0][indicemin], histogramme[1][indicemin]);	
+			fprintf(descripteur, "0x%2x: %i;\n", histogramme[0][indicemin], histogramme[1][indicemin]);
 	}
 
 	fputs("</valeurs>\n\n", descripteur);
@@ -350,7 +353,7 @@ int creationDescripteurNB(IMAGE_NB image, int temp){
 	free(histogramme);
 	fclose(descripteur);
 	return 1;
-} 
+}
 
 
 //==================================================================================
@@ -367,10 +370,10 @@ IMAGE_RGB * initImageRGB(char * nom_e, int nbligne_e, int nbcolonne_e){
 	retour->nbligne = nbligne_e;
 	retour->nbcolonne = nbcolonne_e;
 	retour->nom = nom_e;
-	
+
 	//Creation des matrices image et affectation du pointeur dans la matrice
 	int i;
-	
+
 	unsigned char ** matriceR = malloc(sizeof(unsigned char*) * nbligne_e);
 	for(i=0;i<retour->nbligne;i++){
 		matriceR[i] = malloc(sizeof(unsigned char) * nbcolonne_e);
@@ -401,7 +404,7 @@ IMAGE_RGB * initImageRGB(char * nom_e, int nbligne_e, int nbcolonne_e){
 
 void freeImageRGB(IMAGE_RGB * image){
 	int i;
-	
+
 	for(i=0;i<image->nbligne;i++){
 		free(image->matrice_R[i]);
 	}
@@ -427,7 +430,7 @@ void freeImageRGB(IMAGE_RGB * image){
 void afficherImageRGBEnc(IMAGE_RGB image){
 	int i, j;
 	printf("nbColonne:%d, nbLigne:%d\n", image.nbcolonne, image.nbligne);
-	
+
 	printf("\n\nAffichage de la matrice R :\n");
 	for(i=0;i<image.nbligne;i++)
 	{
@@ -443,28 +446,28 @@ void afficherImageRGBEnc(IMAGE_RGB image){
 void afficherImageRGBBit(IMAGE_RGB image){
 	int i, j;
 	printf("nbColonne:%d, nbLigne:%d\n", image.nbcolonne, image.nbligne);
-	
+
 	printf("\n\nAffichage de la matrice R, V, B :\n");
 
 			printf("%i ", image.matrice_R[1][1]);
-		
-	
+
+
 
 			printf("%i ", image.matrice_G[1][1]);
 
-	
+
 
 			printf("%i ", image.matrice_B[1][1]);
 
 
-	printf("\nFin Affichage matrice");	
+	printf("\nFin Affichage matrice");
 }
 
 
 void afficherImageRGB(IMAGE_RGB image){
 	int i, j;
 	printf("nbColonne:%d, nbLigne:%d\n", image.nbcolonne, image.nbligne);
-	
+
 	printf("\n\nAffichage de la matrice R :\n");
 	for(i=0;i<image.nbligne;i++)
 	{
@@ -474,7 +477,7 @@ void afficherImageRGB(IMAGE_RGB image){
 		}
 		printf("\n");
 	}
-	
+
 	printf("\n\nAffichage de la matrice G :\n");
 	for(i=0;i<image.nbligne;i++)
 	{
@@ -484,7 +487,7 @@ void afficherImageRGB(IMAGE_RGB image){
 		}
 		printf("\n");
 	}
-	
+
 	printf("\n\nAffichage de la matrice B :\n");
 	for(i=0;i<image.nbligne;i++)
 	{
@@ -494,14 +497,14 @@ void afficherImageRGB(IMAGE_RGB image){
 		}
 		printf("\n");
 	}
-	
 
-	printf("\nFin Affichage matrice");	
+
+	printf("\nFin Affichage matrice");
 }
 
 int lectureImgageRGB(IMAGE_RGB image, FILE *f){
 	int tempo, i, j, retour;
-	// Lecture image rouge, 
+	// Lecture image rouge,
 	for(i=0;i<image.nbligne;i++){
 		for(j=0;j<image.nbcolonne;j++){
 			retour = fscanf(f,"%i ",&tempo);
@@ -509,7 +512,7 @@ int lectureImgageRGB(IMAGE_RGB image, FILE *f){
 			{
 					printf("\nErreur fatale : Pas assez de valeurs dans l'image");
 					return 0;
-				
+
 			}
 			if((tempo > 255) || (tempo < 0))
 			{
@@ -529,7 +532,7 @@ int lectureImgageRGB(IMAGE_RGB image, FILE *f){
 			{
 					printf("\nErreur fatale : Pas assez de valeurs dans l'image");
 					return 0;
-				
+
 			}
 			if((tempo > 255) || (tempo < 0))
 			{
@@ -550,7 +553,7 @@ int lectureImgageRGB(IMAGE_RGB image, FILE *f){
 			{
 					printf("\nErreur fatale : Pas assez de valeurs dans l'image");
 					return 0;
-				
+
 			}
 			if((tempo > 255) || (tempo < 0))
 			{
@@ -620,7 +623,7 @@ int quantificationImageRGB(IMAGE_RGB image){
 		for(j=0;j<image.nbcolonne;j++){
 
 			//printf("R: %u, G: %u, B: %u\n", image.matrice_R[i][j], image.matrice_G[i][j], image.matrice_B[i][j]);
-		
+
 			R = image.matrice_R[i][j];
 			G = image.matrice_G[i][j];
 			B = image.matrice_B[i][j];
@@ -657,12 +660,8 @@ int creationDescripteurRGB(IMAGE_RGB image, char temp){
 	fclose(check);
 
 	if(descripteur == NULL)
-	{
-		printf("Test test \n\n\n");
-		printf("%s\n", image.nom);
-		fflush(stdout);
 		return 0;
-	}
+
 
 	fputs("<id> ", descripteur);
 	fprintf(descripteur, "%d", ID);
@@ -674,13 +673,13 @@ int creationDescripteurRGB(IMAGE_RGB image, char temp){
 	fprintf(descripteur, "<type> RGB </type>\n<nbcolonne> %d </nbcolonne>\n<nbligne> %d </nbligne>\n", image.nbcolonne,image.nbligne);
 
 	/*
-	  Creation de l'histogramme de valeurs: 
+	  Creation de l'histogramme de valeurs:
 
 	  1. On alloue un espace mémoire d'une matrice 2dim x (nbcol * nbligne)
 		=> On considére qu'il peut y avoir maximum de (nbcol * nbligne) valeurs différentes
-		dans la matrice image 
+		dans la matrice image
 		(en vérité, on pourrait diminuer l'espace mémoire en vérifiant le nb de bits de quantification,
-		et en disant que si (nbcol * nbligne) > 2^nbit de quantification, on a alloue 2^nbit de quantification, 
+		et en disant que si (nbcol * nbligne) > 2^nbit de quantification, on a alloue 2^nbit de quantification,
 		mais c'est "inutile" car on traite ici toujours le pire cas).
 	  2. On parcours la matrice.
 		=> La premiere colonne de "histogramme" corresponds aux valeurs
@@ -712,7 +711,7 @@ int creationDescripteurRGB(IMAGE_RGB image, char temp){
 
 
 	//Parcourir matrice
-	
+
 	for(i=0;i<image.nbligne;i++)
 	{
 		for(j=0;j<image.nbcolonne;j++)
@@ -754,7 +753,7 @@ int creationDescripteurRGB(IMAGE_RGB image, char temp){
 		valmin = 0x7FFFFFFF;
 		for(j=0;j<nbvaleur;j++)
 		{
-			// On check si 
+			// On check si
 			//  1. Val min (censé être la val min de la plage) est bien minimum
 			//  2. On est bien supérieur à la val précédente
 			if((valmin>histogramme[0][j]) && (valprec < histogramme[0][j]))
@@ -769,14 +768,14 @@ int creationDescripteurRGB(IMAGE_RGB image, char temp){
 		else
 		{
 			if(histogramme[0][indicemin]<0X100)
-				fprintf(descripteur, "0x00%2x: %i;\n", histogramme[0][indicemin], histogramme[1][indicemin]);	
+				fprintf(descripteur, "0x00%2x: %i;\n", histogramme[0][indicemin], histogramme[1][indicemin]);
 			else
 			{
 				if(histogramme[0][indicemin]<0X1000)
-					fprintf(descripteur, "0x0%3x: %i;\n", histogramme[0][indicemin], histogramme[1][indicemin]);	
+					fprintf(descripteur, "0x0%3x: %i;\n", histogramme[0][indicemin], histogramme[1][indicemin]);
 				else
-					fprintf(descripteur, "0x%4x: %i;\n", histogramme[0][indicemin], histogramme[1][indicemin]);	
-		
+					fprintf(descripteur, "0x%4x: %i;\n", histogramme[0][indicemin], histogramme[1][indicemin]);
+
 			}
 		}
 	}
@@ -787,7 +786,7 @@ int creationDescripteurRGB(IMAGE_RGB image, char temp){
 	free(histogramme);
 	fclose(descripteur);
 	return 1;
-} 
+}
 
 //==================================================================================
 //=									index Image  								   =
@@ -796,8 +795,8 @@ int creationDescripteurRGB(IMAGE_RGB image, char temp){
 
 int indexImageNB(FILE * f, char * adresse, int nbligne, int nbcolonne, int temp){
 
-	IMAGE_NB * image; 
-	
+	IMAGE_NB * image;
+
 	image = initImageNB(adresse,nbligne,nbcolonne);
 	if(!(lectureImgageNB(*image,f)))
 		return 0;
@@ -810,8 +809,8 @@ int indexImageNB(FILE * f, char * adresse, int nbligne, int nbcolonne, int temp)
 
 int indexImageRGB(FILE * f, char * adresse, int nbligne, int nbcolonne, int temp){
 
-	IMAGE_RGB * image; 
-	
+	IMAGE_RGB * image;
+
 	image = initImageRGB(adresse,nbligne,nbcolonne);
 	if(!lectureImgageRGB(*image,f))
 		return 0;
@@ -863,11 +862,15 @@ int indexImage()
 	tempo3 = fopen(FICHIER_BASE,"w");
 	fclose(tempo3);
 
+	init_values();
+	FILE * descripteur;
+	descripteur = fopen(FICHIER_DESCRIPTEUR,"w");
+	fprintf(descripteur, "NB_BIT_RGB: %d\nNB_BIT_NB: %d\n", PARAM_BITS_RGB, PARAM_BITS_NB);
+	fclose(descripteur);
+
 	FILE * p1;
 	FILE * p2;
 	char res[50];
-	init_values();
-		
 
 	//Test RGB
 	//p1 = popen("ls TEST_RGB/ | grep .txt ", "r");
@@ -889,7 +892,7 @@ int indexImage()
 	}
 	pclose(p1);
 	pclose(p2);
-	printf("\nIndexation Image effectuee avec succees !\n\n");
+  printf("\nIndexation image effectuee avec succès !\n\n");
 	return 1;
 }
 
@@ -902,7 +905,7 @@ int indexImage()
 HISTOGRAMME * lireDescripteur(FILE * read, int * valid){
 
 	HISTOGRAMME * retour = malloc(sizeof(HISTOGRAMME));
-	
+
 
 	int etat = 0;
 	int id, type, nbligne, nbcolonne, nbvaleur;
@@ -969,10 +972,10 @@ HISTOGRAMME * lireDescripteur(FILE * read, int * valid){
     		etat = 62;
     		canswitch = 0;
     	}
- 		
+
 
     	if(etat == 62  && canswitch){
-    		
+
     		histogramme[1][cpt] = atoi(val);
     		etat = 61;
     		canswitch = 0;
@@ -1002,8 +1005,8 @@ HISTOGRAMME * lireDescripteur(FILE * read, int * valid){
     	if(strcmp(val, "<valeurs>") == 0 && (etat == 0))
     		etat = 6;
 
-    	
-    	//if(strcmp(val, "</valeurs>") == 0 && ((etat==51) || (etat == 52))) 
+
+    	//if(strcmp(val, "</valeurs>") == 0 && ((etat==51) || (etat == 52)))
     	if(strcmp(val, "</valeurs>") == 0)
     		{
     			//affichage debug
@@ -1078,7 +1081,7 @@ void comparaisonNB(HISTOGRAMME * histoReference, HISTOGRAMME * histoComparaison,
 
 void libereHisto(HISTOGRAMME * h)
 {
-	
+
 	free(h->valeurs[1]);
 	free(h->valeurs[0]);
 	free(h->valeurs);
@@ -1089,9 +1092,19 @@ void libereHisto(HISTOGRAMME * h)
 
 int rechercheImage(char * fichierReference, int ** retourTableauId, int ** retourTableauPourc, int * nbElement)
 {
+	//init_values();
 	FILE * read;
 	read = fopen(FICHIER_DESCRIPTEUR,"r");
+
 	char tempo1[200];
+	char tempo2[200];
+
+	fscanf(read,"%s",tempo2);
+	fscanf(read,"%s",tempo2);
+	PARAM_BITS_RGB = atoi(tempo2);
+	fscanf(read,"%s",tempo2);
+	fscanf(read,"%s",tempo2);
+	PARAM_BITS_NB =atoi(tempo2);
 
 
 	PILE pile;
@@ -1160,4 +1173,3 @@ int rechercheImage(char * fichierReference, int ** retourTableauId, int ** retou
 }
 
 //Fichier config
-

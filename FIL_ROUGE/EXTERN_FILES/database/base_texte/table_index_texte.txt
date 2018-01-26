@@ -1,94 +1,2303 @@
-<mot> cellules </mot> <key_nb> 1 19 ; 54 29  </key_nb> 
-<mot> souches </mot> <key_nb> 1 8 ; 54 13  </key_nb> 
-<mot> circoncision </mot> <key_nb> 6 9  </key_nb> 
-<mot> hommes </mot> <key_nb> 6 7  </key_nb> 
-<mot> plus </mot> <key_nb> 7 5 ; 8 5 ; 9 9 ; 13 6 ; 17 5 ; 31 7 ; 36 5 ; 37 7 ; 38 5 ; 50 10 ; 54 7 ; 66 6 ; 78 14 ; 83 7  </key_nb> 
+<mot> chercheurs </mot> <key_nb> 1 5 ; 6 1 ; 15 2 ; 24 4 ; 28 2 ; 54 1 ; 70 1  </key_nb> 
+<mot> muscles </mot> <key_nb> 1 1  </key_nb> 
+<mot> souris </mot> <key_nb> 1 4 ; 54 2  </key_nb> 
+<mot> nouvelle </mot> <key_nb> 1 1 ; 9 1 ; 19 1 ; 27 1 ; 55 1 ; 78 1 ; 80 1  </key_nb> 
+<mot> utilisation </mot> <key_nb> 1 1 ; 54 1  </key_nb> 
+<mot> cellules </mot> <key_nb> 1 20 ; 54 29  </key_nb> 
+<mot> souches </mot> <key_nb> 1 9 ; 54 15 ; 65 1  </key_nb> 
+<mot> équipe </mot> <key_nb> 1 1 ; 3 2 ; 7 2 ; 8 1 ; 14 3 ; 15 2 ; 16 6 ; 19 3 ; 22 3 ; 27 2 ; 32 2 ; 33 1 ; 36 5 ; 39 2 ; 47 3 ; 48 8 ; 49 1 ; 54 4 ; 55 1 ; 59 4 ; 66 2 ; 74 1  </key_nb> 
+<mot> Institut </mot> <key_nb> 1 3 ; 15 1 ; 28 3  </key_nb> 
+<mot> Pasteur </mot> <key_nb> 1 1  </key_nb> 
+<mot> isoler </mot> <key_nb> 1 2  </key_nb> 
+<mot> chez </mot> <key_nb> 1 3 ; 2 1 ; 6 3 ; 9 1 ; 17 4 ; 20 1 ; 33 2 ; 38 1 ; 54 11 ; 62 2 ; 65 4 ; 68 1  </key_nb> 
+<mot> musculaires </mot> <key_nb> 1 4  </key_nb> 
+<mot> adultes </mot> <key_nb> 1 4  </key_nb> 
+<mot> capacité </mot> <key_nb> 1 1  </key_nb> 
+<mot> mille </mot> <key_nb> 1 1  </key_nb> 
+<mot> greffées </mot> <key_nb> 1 1 ; 54 1  </key_nb> 
+<mot> forme </mot> <key_nb> 1 1  </key_nb> 
+<mot> myopathie </mot> <key_nb> 1 1  </key_nb> 
+<mot> régénération </mot> <key_nb> 1 2  </key_nb> 
+<mot> fibres </mot> <key_nb> 1 1  </key_nb> 
+<mot> groupe </mot> <key_nb> 1 1 ; 10 4 ; 16 5 ; 47 3 ; 54 2 ; 55 2 ; 65 1 ; 66 1  </key_nb> 
+<mot> biologistes </mot> <key_nb> 1 1  </key_nb> 
+<mot> Montarras </mot> <key_nb> 1 1  </key_nb> 
+<mot> développement </mot> <key_nb> 1 1 ; 65 1  </key_nb> 
+<mot> travaux </mot> <key_nb> 1 2 ; 24 2 ; 30 1 ; 46 3 ; 54 1 ; 60 1 ; 65 1  </key_nb> 
+<mot> expérimentaux </mot> <key_nb> 1 1  </key_nb> 
+<mot> aussi </mot> <key_nb> 1 1 ; 6 1 ; 9 4 ; 17 2 ; 25 2 ; 28 1 ; 29 1 ; 30 2 ; 31 1 ; 33 1 ; 35 1 ; 37 1 ; 38 2 ; 39 2 ; 44 2 ; 49 2 ; 52 1 ; 54 1 ; 62 1 ; 65 1 ; 68 1 ; 70 1 ; 74 1 ; 75 2 ; 76 3 ; 78 1 ; 80 3 ; 81 1  </key_nb> 
+<mot> leur </mot> <key_nb> 1 4 ; 2 1 ; 5 1 ; 6 1 ; 13 2 ; 20 1 ; 22 2 ; 29 1 ; 34 2 ; 47 1 ; 49 4 ; 51 1 ; 54 3 ; 55 2 ; 59 2 ; 62 4 ; 66 1 ; 67 3 ; 69 3  </key_nb> 
+<mot> nombre </mot> <key_nb> 1 1 ; 14 1  </key_nb> 
+<mot> leurs </mot> <key_nb> 1 1 ; 12 1 ; 13 1 ; 14 3 ; 15 1 ; 16 1 ; 24 1 ; 25 1 ; 33 2 ; 50 1 ; 70 2 ; 80 1  </key_nb> 
+<mot> embryonnaires </mot> <key_nb> 1 1 ; 54 9  </key_nb> 
+<mot> effet </mot> <key_nb> 1 1 ; 6 1 ; 24 8 ; 38 1 ; 42 3 ; 43 3 ; 70 7  </key_nb> 
+<mot> docteur </mot> <key_nb> 1 1 ; 41 4 ; 65 2  </key_nb> 
+<mot> avaient </mot> <key_nb> 1 1 ; 6 2 ; 15 2 ; 21 1 ; 50 1 ; 63 1 ; 78 1  </key_nb> 
+<mot> être </mot> <key_nb> 1 2 ; 6 1 ; 7 1 ; 8 3 ; 9 3 ; 14 3 ; 15 2 ; 16 2 ; 17 4 ; 19 1 ; 21 1 ; 24 3 ; 25 1 ; 28 4 ; 33 1 ; 36 1 ; 37 3 ; 38 2 ; 42 2 ; 43 2 ; 46 4 ; 47 1 ; 48 1 ; 49 1 ; 50 1 ; 54 5 ; 64 1 ; 66 2 ; 71 1 ; 75 3  </key_nb> 
+<mot> notamment </mot> <key_nb> 1 1 ; 9 2 ; 16 1 ; 17 3 ; 60 1 ; 75 1  </key_nb> 
+<mot> sommes </mot> <key_nb> 1 1 ; 14 1  </key_nb> 
+<mot> ainsi </mot> <key_nb> 1 1 ; 17 2 ; 21 1 ; 33 1 ; 42 1 ; 43 1  </key_nb> 
+<mot> animaux </mot> <key_nb> 1 1 ; 54 1  </key_nb> 
+<mot> nouvelles </mot> <key_nb> 1 1 ; 28 1 ; 29 1  </key_nb> 
+<mot> greffe </mot> <key_nb> 1 1 ; 54 5  </key_nb> 
+<mot> supérieure </mot> <key_nb> 1 1  </key_nb> 
+<mot> approche </mot> <key_nb> 1 1  </key_nb> 
+<mot> nerveux </mot> <key_nb> 2 1  </key_nb> 
+<mot> pousser </mot> <key_nb> 2 2  </key_nb> 
+<mot> suicide </mot> <key_nb> 2 2  </key_nb> 
+<mot> comportement </mot> <key_nb> 2 3  </key_nb> 
+<mot> moléculaire </mot> <key_nb> 2 1  </key_nb> 
+<mot> parasite </mot> <key_nb> 2 1  </key_nb> 
+<mot> hôte </mot> <key_nb> 2 2 ; 54 2  </key_nb> 
+<mot> faire </mot> <key_nb> 2 1 ; 6 1 ; 8 1 ; 9 1 ; 16 2 ; 17 2 ; 25 1 ; 29 1 ; 38 1 ; 39 1 ; 47 1 ; 52 1 ; 54 1 ; 62 1 ; 76 1  </key_nb> 
+<mot> dévoré </mot> <key_nb> 2 1  </key_nb> 
+<mot> sauterelle </mot> <key_nb> 2 1  </key_nb> 
+<mot> nématomorphes </mot> <key_nb> 2 2  </key_nb> 
+<mot> Frédéric </mot> <key_nb> 2 2  </key_nb> 
+<mot> stade </mot> <key_nb> 2 1 ; 14 1 ; 39 2 ; 47 2 ; 76 19 ; 76 4  </key_nb> 
+<mot> protéines </mot> <key_nb> 2 2  </key_nb> 
+<mot> activité </mot> <key_nb> 2 1 ; 38 1 ; 63 3  </key_nb> 
+<mot> biologique </mot> <key_nb> 2 1  </key_nb> 
+<mot> synthétisées </mot> <key_nb> 2 1  </key_nb> 
+<mot> chercheur </mot> <key_nb> 2 1  </key_nb> 
+<mot> parasites </mot> <key_nb> 2 1  </key_nb> 
+<mot> Abidjan </mot> <key_nb> 3 4  </key_nb> 
+<mot> Eléphants </mot> <key_nb> 3 1  </key_nb> 
+<mot> rêve </mot> <key_nb> 3 3 ; 51 1  </key_nb> 
+<mot> ivoirien </mot> <key_nb> 3 1  </key_nb> 
+<mot> quelques </mot> <key_nb> 3 1 ; 4 1 ; 12 1 ; 15 1 ; 30 1 ; 65 1 ; 78 1  </key_nb> 
+<mot> jours </mot> <key_nb> 3 1 ; 30 1 ; 59 1 ; 78 1  </key_nb> 
+<mot> Côte </mot> <key_nb> 3 2  </key_nb> 
+<mot> Ivoire </mot> <key_nb> 3 2  </key_nb> 
+<mot> tout </mot> <key_nb> 3 1 ; 7 2 ; 8 1 ; 9 3 ; 16 1 ; 31 2 ; 33 1 ; 38 1 ; 39 2 ; 44 1 ; 50 3 ; 61 1 ; 66 1 ; 68 4 ; 79 1 ; 81 1  </key_nb> 
+<mot> guerre </mot> <key_nb> 3 1  </key_nb> 
+<mot> entre </mot> <key_nb> 3 1 ; 6 2 ; 24 2 ; 32 1 ; 50 2 ; 52 1 ; 66 4 ; 70 1 ; 75 2 ; 76 1 ; 78 1 ; 83 1  </key_nb> 
+<mot> rumeurs </mot> <key_nb> 3 1  </key_nb> 
+<mot> sport </mot> <key_nb> 3 1 ; 7 1 ; 48 2  </key_nb> 
+<mot> nationale </mot> <key_nb> 3 1 ; 19 1  </key_nb> 
+<mot> Lions </mot> <key_nb> 3 1  </key_nb> 
+<mot> indomptables </mot> <key_nb> 3 1  </key_nb> 
+<mot> victoire </mot> <key_nb> 3 4 ; 8 2 ; 16 1 ; 31 3 ; 59 1 ; 66 1 ; 73 2 ; 79 1  </key_nb> 
+<mot> envolée </mot> <key_nb> 3 1  </key_nb> 
+<mot> pays </mot> <key_nb> 3 3 ; 7 1 ; 12 3 ; 20 1 ; 24 2 ; 24 1 ; 41 7 ; 65 2 ; 68 3 ; 80 1  </key_nb> 
+<mot> comme </mot> <key_nb> 3 1 ; 5 2 ; 6 3 ; 7 1 ; 9 3 ; 10 2 ; 11 2 ; 13 1 ; 14 1 ; 17 1 ; 20 2 ; 21 1 ; 25 4 ; 29 1 ; 38 2 ; 40 2 ; 42 2 ; 43 2 ; 44 2 ; 45 2 ; 49 8 ; 51 1 ; 54 2 ; 59 1 ; 60 1 ; 61 1 ; 62 1 ; 64 3 ; 65 1 ; 66 2 ; 68 1 ; 70 2 ; 75 2 ; 79 1  </key_nb> 
+<mot> football </mot> <key_nb> 3 1 ; 16 2 ; 22 1 ; 39 4 ; 66 9 ; 66 1 ; 76 4  </key_nb> 
+<mot> gagne </mot> <key_nb> 3 1  </key_nb> 
+<mot> avait </mot> <key_nb> 3 1 ; 5 2 ; 7 2 ; 10 2 ; 15 1 ; 22 1 ; 31 2 ; 32 1 ; 34 2 ; 36 1 ; 45 1 ; 46 1 ; 50 1 ; 62 1 ; 65 1 ; 74 4 ; 75 1 ; 78 4 ; 79 6  </key_nb> 
+<mot> rencontre </mot> <key_nb> 3 1 ; 16 1 ; 21 1 ; 22 1  </key_nb> 
+<mot> peuple </mot> <key_nb> 3 1  </key_nb> 
+<mot> marqué </mot> <key_nb> 3 1 ; 73 1  </key_nb> 
+<mot> Yopougon </mot> <key_nb> 3 1  </key_nb> 
+<mot> président </mot> <key_nb> 3 1 ; 14 1 ; 22 3 ; 39 1 ; 42 1 ; 43 1 ; 57 1 ; 75 3 ; 76 1 ; 77 1  </key_nb> 
+<mot> 2005 </mot> <key_nb> 4 1 ; 5 1 ; 11 1 ; 12 1 ; 17 1 ; 31 1 ; 46 2 ; 48 1 ; 61 1 ; 63 1 ; 74 1 ; 83 1  </key_nb> 
+<mot> mots </mot> <key_nb> 4 2  </key_nb> 
+<mot> tics </mot> <key_nb> 4 1  </key_nb> 
+<mot> langage </mot> <key_nb> 4 1 ; 38 1  </key_nb> 
+<mot> TNS-Sofres </mot> <key_nb> 4 1  </key_nb> 
+<mot> étude </mot> <key_nb> 4 4 ; 6 6 ; 24 2 ; 50 1 ; 70 2  </key_nb> 
+<mot> commandée </mot> <key_nb> 4 1  </key_nb> 
+<mot> Petit </mot> <key_nb> 4 1 ; 7 1 ; 50 1  </key_nb> 
+<mot> Larousse </mot> <key_nb> 4 1  </key_nb> 
+<mot> question </mot> <key_nb> 4 2 ; 42 1 ; 43 1 ; 60 1 ; 66 2 ; 75 1  </key_nb> 
+<mot> expressions </mot> <key_nb> 4 2  </key_nb> 
+<mot> dernières </mot> <key_nb> 4 1 ; 8 2 ; 83 4  </key_nb> 
+<mot> années </mot> <key_nb> 4 1 ; 9 4 ; 17 2 ; 20 2 ; 50 1 ; 62 1 ; 63 1 ; 68 1 ; 75 1 ; 78 2 ; 83 2  </key_nb> 
+<mot> pessimisme </mot> <key_nb> 4 1  </key_nb> 
+<mot> utilisés </mot> <key_nb> 4 1  </key_nb> 
+<mot> cette </mot> <key_nb> 4 3 ; 5 2 ; 6 1 ; 9 7 ; 12 1 ; 15 4 ; 17 2 ; 20 2 ; 21 4 ; 24 1 ; 27 1 ; 29 2 ; 31 2 ; 33 1 ; 33 1 ; 34 1 ; 35 1 ; 37 1 ; 38 1 ; 39 3 ; 45 1 ; 48 4 ; 49 1 ; 50 2 ; 51 3 ; 54 1 ; 57 1 ; 63 2 ; 64 3 ; 69 1 ; 70 1 ; 75 3 ; 76 3 ; 78 6 ; 78 1 ; 83 1  </key_nb> 
+<mot> réponses </mot> <key_nb> 4 1  </key_nb> 
+<mot> thèmes </mot> <key_nb> 4 1  </key_nb> 
+<mot> très </mot> <key_nb> 4 1 ; 7 2 ; 8 1 ; 9 1 ; 17 1 ; 20 2 ; 21 4 ; 24 1 ; 32 1 ; 33 1 ; 39 2 ; 44 1 ; 45 1 ; 48 2 ; 49 1 ; 51 1 ; 52 2 ; 55 4 ; 62 4 ; 64 1 ; 69 2 ; 73 1 ; 80 1  </key_nb> 
+<mot> difficultés </mot> <key_nb> 4 1  </key_nb> 
+<mot> changement </mot> <key_nb> 4 1 ; 42 1 ; 43 1 ; 78 1  </key_nb> 
+<mot> positif </mot> <key_nb> 4 1  </key_nb> 
+<mot> optimisme </mot> <key_nb> 4 1  </key_nb> 
+<mot> femmes </mot> <key_nb> 4 1 ; 20 2  </key_nb> 
+<mot> interrogées </mot> <key_nb> 4 1  </key_nb> 
+<mot> plus </mot> <key_nb> 4 6 ; 5 2 ; 7 6 ; 8 5 ; 9 9 ; 12 2 ; 13 6 ; 14 2 ; 15 4 ; 16 2 ; 17 5 ; 19 2 ; 21 4 ; 24 2 ; 27 3 ; 28 2 ; 29 2 ; 30 4 ; 31 7 ; 32 4 ; 35 1 ; 36 6 ; 37 7 ; 38 5 ; 39 2 ; 40 2 ; 41 3 ; 42 5 ; 43 5 ; 44 1 ; 45 4 ; 49 3 ; 50 10 ; 51 6 ; 53 3 ; 54 7 ; 55 2 ; 57 1 ; 60 4 ; 63 4 ; 64 4 ; 66 7 ; 68 2 ; 69 1 ; 70 4 ; 71 2 ; 74 2 ; 75 2 ; 76 2 ; 78 14 ; 79 1 ; 80 3 ; 81 2 ; 82 3 ; 83 7  </key_nb> 
+<mot> contre </mot> <key_nb> 4 1 ; 6 2 ; 8 1 ; 17 5 ; 31 1 ; 41 1 ; 59 1 ; 62 1 ; 65 8 ; 68 1 ; 82 1  </key_nb> 
+<mot> hommes </mot> <key_nb> 4 2 ; 6 8 ; 20 1 ; 25 1  </key_nb> 
+<mot> vingt </mot> <key_nb> 4 1 ; 63 1  </key_nb> 
+<mot> bonheur </mot> <key_nb> 4 1 ; 45 2  </key_nb> 
+<mot> fait </mot> <key_nb> 4 2 ; 6 2 ; 8 1 ; 14 1 ; 15 1 ; 17 3 ; 21 1 ; 25 2 ; 31 1 ; 32 3 ; 33 2 ; 37 1 ; 38 3 ; 39 1 ; 47 2 ; 48 5 ; 51 2 ; 62 4 ; 63 1 ; 68 2 ; 73 1 ; 75 1 ; 78 1 ; 80 1 ; 81 1  </key_nb> 
+<mot> également </mot> <key_nb> 4 1 ; 24 4 ; 46 1 ; 60 1 ; 66 1 ; 68 1 ; 75 2 ; 79 1  </key_nb> 
+<mot> trouve </mot> <key_nb> 4 1 ; 24 1 ; 35 1 ; 49 1  </key_nb> 
+<mot> beau </mot> <key_nb> 4 1 ; 22 1  </key_nb> 
+<mot> langue </mot> <key_nb> 4 1  </key_nb> 
+<mot> française </mot> <key_nb> 4 1 ; 54 2 ; 77 1  </key_nb> 
+<mot> Lucette </mot> <key_nb> 4 1  </key_nb> 
+<mot> esperanto </mot> <key_nb> 4 1  </key_nb> 
+<mot> Jean-Christophe </mot> <key_nb> 5 5  </key_nb> 
+<mot> Bette </mot> <key_nb> 5 4  </key_nb> 
+<mot> quatre </mot> <key_nb> 5 3 ; 10 3 ; 31 1 ; 81 2 ; 83 1  </key_nb> 
+<mot> retrouver </mot> <key_nb> 5 1  </key_nb> 
+<mot> équipiers </mot> <key_nb> 5 1  </key_nb> 
+<mot> succès </mot> <key_nb> 5 1 ; 45 6 ; 59 1  </key_nb> 
+<mot> deux </mot> <key_nb> 5 2 ; 6 2 ; 25 2 ; 30 3 ; 34 1 ; 45 3 ; 48 1 ; 50 2 ; 51 4 ; 55 5 ; 59 1 ; 62 2 ; 67 1 ; 68 1 ; 70 1 ; 74 1 ; 75 2 ; 76 1 ; 81 3 ; 82 2  </key_nb> 
+<mot> sans </mot> <key_nb> 5 2 ; 6 1 ; 8 1 ; 13 1 ; 14 1 ; 20 4 ; 21 1 ; 25 3 ; 31 1 ; 38 1 ; 48 1 ; 49 5 ; 53 1 ; 64 2 ; 70 1 ; 72 3 ; 78 4 ; 82 2  </key_nb> 
+<mot> barreur </mot> <key_nb> 5 1  </key_nb> 
+<mot> poids </mot> <key_nb> 5 2  </key_nb> 
+<mot> tricolore </mot> <key_nb> 5 1 ; 74 1  </key_nb> 
+<mot> était </mot> <key_nb> 5 3 ; 6 1 ; 7 3 ; 8 1 ; 9 4 ; 14 3 ; 16 2 ; 20 1 ; 21 2 ; 22 1 ; 29 2 ; 31 1 ; 32 1 ; 39 1 ; 50 2 ; 55 2 ; 66 1 ; 73 2 ; 74 3 ; 78 2 ; 79 5 ; 83 3  </key_nb> 
+<mot> embarcation </mot> <key_nb> 5 1  </key_nb> 
+<mot> titre </mot> <key_nb> 5 2 ; 8 1 ; 13 1 ; 17 1 ; 32 1 ; 59 1 ; 64 1 ; 69 1 ; 74 1 ; 79 3  </key_nb> 
+<mot> olympique </mot> <key_nb> 5 2 ; 39 1  </key_nb> 
+<mot> Sydney </mot> <key_nb> 5 1  </key_nb> 
+<mot> plusieurs </mot> <key_nb> 5 1 ; 24 1 ; 33 1 ; 50 2 ; 62 1 ; 65 2 ; 78 1  </key_nb> 
+<mot> bateau </mot> <key_nb> 5 3  </key_nb> 
+<mot> monde </mot> <key_nb> 5 3 ; 7 5 ; 8 5 ; 9 1 ; 16 5 ; 22 1 ; 27 1 ; 32 2 ; 36 2 ; 48 1 ; 59 3 ; 62 1 ; 68 1 ; 74 2 ; 76 2 ; 79 2 ; 81 1  </key_nb> 
+<mot> rameurs </mot> <key_nb> 5 2  </key_nb> 
+<mot> saison </mot> <key_nb> 5 1 ; 8 4 ; 31 1 ; 32 1 ; 66 10 ; 74 2 ; 79 1  </key_nb> 
+<mot> force </mot> <key_nb> 5 1 ; 50 1 ; 62 1  </key_nb> 
+<mot> aviron </mot> <key_nb> 5 1  </key_nb> 
+<mot> Coupe </mot> <key_nb> 5 1 ; 16 7 ; 22 1 ; 76 2  </key_nb> 
+<mot> bassin </mot> <key_nb> 5 1  </key_nb> 
+<mot> mondial </mot> <key_nb> 5 1 ; 16 2 ; 31 4  </key_nb> 
+<mot> devant </mot> <key_nb> 5 1 ; 8 1 ; 27 1 ; 32 1 ; 51 1 ; 67 1 ; 78 3  </key_nb> 
+<mot> Jérémy </mot> <key_nb> 5 1  </key_nb> 
+<mot> Pouge </mot> <key_nb> 5 1  </key_nb> 
+<mot> départ </mot> <key_nb> 5 1 ; 67 1  </key_nb> 
+<mot> parcours </mot> <key_nb> 5 1 ; 72 1  </key_nb> 
+<mot> avais </mot> <key_nb> 5 2 ; 79 1  </key_nb> 
+<mot> course </mot> <key_nb> 5 2 ; 8 5 ; 32 3 ; 78 1  </key_nb> 
+<mot> coque </mot> <key_nb> 5 1  </key_nb> 
+<mot> mètres </mot> <key_nb> 5 1 ; 7 5 ; 23 2  </key_nb> 
+<mot> Jérôme </mot> <key_nb> 5 1  </key_nb> 
+<mot> Déchamp </mot> <key_nb> 5 1  </key_nb> 
+<mot> tactique </mot> <key_nb> 5 1  </key_nb> 
+<mot> Italiens </mot> <key_nb> 5 1  </key_nb> 
+<mot> Irlandais </mot> <key_nb> 5 2  </key_nb> 
+<mot> Français </mot> <key_nb> 5 1 ; 7 1 ; 7 1 ; 9 4 ; 12 1 ; 14 1 ; 48 2 ; 55 4 ; 57 2 ; 59 2 ; 64 1 ; 65 1 ; 68 4 ; 69 2 ; 74 1 ; 76 7  </key_nb> 
+<mot> début </mot> <key_nb> 5 1 ; 31 3 ; 62 4 ; 66 1 ; 69 1  </key_nb> 
+<mot> vers </mot> <key_nb> 5 1 ; 35 1 ; 42 1 ; 43 1 ; 50 2 ; 54 3 ; 78 3  </key_nb> 
+<mot> dérouler </mot> <key_nb> 5 1  </key_nb> 
+<mot> champion </mot> <key_nb> 5 1 ; 74 2 ; 79 1  </key_nb> 
+<mot> temps </mot> <key_nb> 5 1 ; 9 1 ; 35 1 ; 53 2 ; 62 2 ; 75 1  </key_nb> 
+<mot> légers </mot> <key_nb> 5 1  </key_nb> 
+<mot> appelle </mot> <key_nb> 5 1 ; 79 1  </key_nb> 
+<mot> circoncision </mot> <key_nb> 6 10  </key_nb> 
+<mot> pourrait </mot> <key_nb> 6 1 ; 21 2 ; 29 1 ; 79 1  </key_nb> 
+<mot> réduire </mot> <key_nb> 6 1 ; 42 1 ; 43 1  </key_nb> 
+<mot> risque </mot> <key_nb> 6 4 ; 38 3 ; 41 2 ; 70 1  </key_nb> 
+<mot> infection </mot> <key_nb> 6 7 ; 17 1 ; 65 1  </key_nb> 
+<mot> événement </mot> <key_nb> 6 1 ; 9 2  </key_nb> 
+<mot> scientifique </mot> <key_nb> 6 2 ; 60 1  </key_nb> 
+<mot> troisième </mot> <key_nb> 6 2 ; 16 1 ; 31 2 ; 32 1 ; 55 1 ; 73 2  </key_nb> 
+<mot> conférence </mot> <key_nb> 6 1 ; 65 2  </key_nb> 
+<mot> mécanismes </mot> <key_nb> 6 1  </key_nb> 
+<mot> virus </mot> <key_nb> 6 3 ; 17 10 ; 41 1 ; 65 11 ; 71 1  </key_nb> 
+<mot> sida </mot> <key_nb> 6 4 ; 80 5  </key_nb> 
+<mot> traitement </mot> <key_nb> 6 1 ; 38 2 ; 54 2  </key_nb> 
+<mot> essai </mot> <key_nb> 6 4 ; 65 2  </key_nb> 
+<mot> homme </mot> <key_nb> 6 1 ; 13 1 ; 21 1 ; 33 2 ; 65 2 ; 71 3 ; 82 4  </key_nb> 
+<mot> protection </mot> <key_nb> 6 3  </key_nb> 
+<mot> importante </mot> <key_nb> 6 1  </key_nb> 
+<mot> mais </mot> <key_nb> 6 3 ; 7 2 ; 8 1 ; 9 3 ; 9 2 ; 10 1 ; 16 1 ; 24 2 ; 25 2 ; 29 1 ; 30 1 ; 31 1 ; 31 1 ; 32 1 ; 32 1 ; 33 2 ; 36 1 ; 38 2 ; 39 1 ; 39 4 ; 40 1 ; 42 1 ; 42 2 ; 43 1 ; 43 2 ; 46 1 ; 47 1 ; 48 1 ; 49 1 ; 50 2 ; 51 2 ; 52 1 ; 52 1 ; 53 1 ; 55 1 ; 62 4 ; 64 2 ; 69 1 ; 70 1 ; 73 4 ; 74 2 ; 75 1 ; 76 1 ; 76 2 ; 79 1 ; 80 1  </key_nb> 
+<mot> partielle </mot> <key_nb> 6 2  </key_nb> 
+<mot> ANRS </mot> <key_nb> 6 3  </key_nb> 
+<mot> recherche </mot> <key_nb> 6 2 ; 28 3 ; 42 1 ; 43 1 ; 65 3 ; 72 1  </key_nb> 
+<mot> séronégatifs </mot> <key_nb> 6 1  </key_nb> 
+<mot> manière </mot> <key_nb> 6 1 ; 9 1  </key_nb> 
+<mot> aléatoire </mot> <key_nb> 6 1  </key_nb> 
+<mot> groupes </mot> <key_nb> 6 1  </key_nb> 
+<mot> autre </mot> <key_nb> 6 1 ; 8 2 ; 12 1 ; 15 1 ; 17 1 ; 21 3 ; 31 1 ; 54 1 ; 76 1  </key_nb> 
+<mot> santé </mot> <key_nb> 6 1 ; 17 2 ; 38 1  </key_nb> 
+<mot> Onusida </mot> <key_nb> 6 2  </key_nb> 
+<mot> résultats </mot> <key_nb> 6 4 ; 15 3 ; 36 1 ; 46 1 ; 65 1  </key_nb> 
+<mot> essais </mot> <key_nb> 6 2  </key_nb> 
+<mot> avant </mot> <key_nb> 6 3 ; 19 1 ; 22 2 ; 29 3 ; 31 1 ; 38 1 ; 50 1 ; 67 1 ; 71 1 ; 74 1 ; 78 2 ; 79 3  </key_nb> 
+<mot> recommander </mot> <key_nb> 6 1  </key_nb> 
+<mot> dites </mot> <key_nb> 6 1  </key_nb> 
+<mot> Afrique </mot> <key_nb> 6 4 ; 80 2  </key_nb> 
+<mot> elles </mot> <key_nb> 6 1 ; 15 1 ; 54 2 ; 78 1  </key_nb> 
+<mot> Bertran </mot> <key_nb> 6 3  </key_nb> 
+<mot> Auvert </mot> <key_nb> 6 2  </key_nb> 
+<mot> professeur </mot> <key_nb> 6 2 ; 38 1 ; 54 2  </key_nb> 
+<mot> âgés </mot> <key_nb> 6 1  </key_nb> 
+<mot> même </mot> <key_nb> 6 2 ; 8 1 ; 9 2 ; 14 1 ; 16 1 ; 29 3 ; 33 1 ; 35 1 ; 42 2 ; 43 2 ; 45 2 ; 51 3 ; 54 1 ; 62 5 ; 64 4 ; 65 1 ; 66 2 ; 70 1 ; 75 1 ; 76 1  </key_nb> 
+<mot> tous </mot> <key_nb> 6 1 ; 7 2 ; 9 1 ; 17 1 ; 20 1 ; 22 1 ; 33 1 ; 49 1 ; 50 1 ; 62 1 ; 63 1 ; 80 2  </key_nb> 
+<mot> volontaires </mot> <key_nb> 6 2 ; 62 1  </key_nb> 
+<mot> conditions </mot> <key_nb> 6 1  </key_nb> 
+<mot> Après </mot> <key_nb> 6 1 ; 7 1 ; 8 3 ; 14 1 ; 16 2 ; 21 1 ; 31 1 ; 36 1 ; 59 2 ; 63 2 ; 67 1 ; 71 1 ; 73 1 ; 77 1 ; 79 1 ; 82 1  </key_nb> 
+<mot> mois </mot> <key_nb> 6 3 ; 12 3 ; 33 1 ; 38 1 ; 48 1 ; 50 1 ; 61 1 ; 63 2  </key_nb> 
+<mot> contrôle </mot> <key_nb> 6 2 ; 54 2  </key_nb> 
+<mot> lieu </mot> <key_nb> 6 1 ; 28 1 ; 37 1  </key_nb> 
+<mot> participants </mot> <key_nb> 6 1  </key_nb> 
+<mot> prévention </mot> <key_nb> 6 1 ; 17 1  </key_nb> 
+<mot> infections </mot> <key_nb> 6 1  </key_nb> 
+<mot> différence </mot> <key_nb> 6 1  </key_nb> 
+<mot> soit </mot> <key_nb> 6 2 ; 14 1 ; 36 1 ; 37 1 ; 40 1 ; 76 1 ; 83 1  </key_nb> 
+<mot> transmission </mot> <key_nb> 6 1 ; 17 1  </key_nb> 
+<mot> possible </mot> <key_nb> 6 1 ; 38 1 ; 54 1 ; 64 1 ; 65 1  </key_nb> 
+<mot> faut </mot> <key_nb> 6 1 ; 9 2 ; 18 1 ; 26 1 ; 38 1 ; 39 1 ; 56 1 ; 58 1 ; 62 3 ; 76 1 ; 84 1  </key_nb> 
+<mot> souligne </mot> <key_nb> 6 1  </key_nb> 
+<mot> doit </mot> <key_nb> 6 1 ; 36 1 ; 38 1 ; 50 2 ; 75 1  </key_nb> 
+<mot> autres </mot> <key_nb> 6 1 ; 16 1 ; 17 1 ; 21 3 ; 30 4 ; 33 2 ; 49 1 ; 50 2 ; 51 2 ; 54 1 ; 62 4 ; 66 2  </key_nb> 
+<mot> seront </mot> <key_nb> 6 1 ; 12 1 ; 17 1 ; 75 1  </key_nb> 
+<mot> vaccins </mot> <key_nb> 6 1 ; 65 3  </key_nb> 
+<mot> apnéiste </mot> <key_nb> 7 2  </key_nb> 
+<mot> Guillaume </mot> <key_nb> 7 4  </key_nb> 
+<mot> Néry </mot> <key_nb> 7 5  </key_nb> 
+<mot> plonge </mot> <key_nb> 7 1  </key_nb> 
+<mot> profond </mot> <key_nb> 7 1  </key_nb> 
+<mot> flashs </mot> <key_nb> 7 1  </key_nb> 
+<mot> intenses </mot> <key_nb> 7 1  </key_nb> 
+<mot> fois </mot> <key_nb> 7 2 ; 24 1 ; 27 1 ; 31 1 ; 50 2 ; 52 2 ; 54 1 ; 55 1 ; 78 2  </key_nb> 
+<mot> surface </mot> <key_nb> 7 1 ; 40 1 ; 50 4 ; 83 1  </key_nb> 
+<mot> pourtant </mot> <key_nb> 7 1 ; 36 1 ; 45 1 ; 47 2  </key_nb> 
+<mot> bien </mot> <key_nb> 7 2 ; 9 4 ; 14 2 ; 20 1 ; 21 1 ; 25 1 ; 34 1 ; 48 1 ; 50 2 ; 51 2 ; 69 1 ; 79 2 ; 80 1  </key_nb> 
+<mot> réglementation </mot> <key_nb> 7 1  </key_nb> 
+<mot> apnée </mot> <key_nb> 7 2  </key_nb> 
+<mot> AIDA </mot> <key_nb> 7 2  </key_nb> 
+<mot> record </mot> <key_nb> 7 4  </key_nb> 
+<mot> plongeurs </mot> <key_nb> 7 1  </key_nb> 
+<mot> sécurité </mot> <key_nb> 7 1  </key_nb> 
+<mot> recordman </mot> <key_nb> 7 1  </key_nb> 
+<mot> classement </mot> <key_nb> 7 1 ; 32 1 ; 67 1 ; 79 1  </key_nb> 
+<mot> dont </mot> <key_nb> 7 3 ; 8 5 ; 9 1 ; 21 1 ; 29 1 ; 33 1 ; 38 3 ; 50 2 ; 61 1 ; 62 1 ; 63 2 ; 64 1 ; 68 1 ; 70 1 ; 75 3  </key_nb> 
+<mot> puisque </mot> <key_nb> 7 1 ; 59 1 ; 60 1  </key_nb> 
+<mot> descente </mot> <key_nb> 7 1  </key_nb> 
+<mot> complètement </mot> <key_nb> 7 2  </key_nb> 
+<mot> sorte </mot> <key_nb> 7 1  </key_nb> 
+<mot> explique </mot> <key_nb> 7 1 ; 28 2 ; 30 1  </key_nb> 
+<mot> idées </mot> <key_nb> 7 1  </key_nb> 
+<mot> suis </mot> <key_nb> 7 1 ; 59 1 ; 62 1 ; 80 1  </key_nb> 
+<mot> aller </mot> <key_nb> 7 1 ; 48 1  </key_nb> 
+<mot> cela </mot> <key_nb> 7 1 ; 9 5 ; 22 1 ; 25 1 ; 30 1 ; 39 2 ; 54 1 ; 63 1 ; 65 1 ; 66 1 ; 68 1  </key_nb> 
+<mot> permet </mot> <key_nb> 7 1 ; 9 1 ; 21 1 ; 55 1 ; 70 1  </key_nb> 
+<mot> découverte </mot> <key_nb> 7 1  </key_nb> 
+<mot> notre </mot> <key_nb> 7 1 ; 9 1 ; 37 1 ; 39 2 ; 48 1 ; 78 5  </key_nb> 
+<mot> corps </mot> <key_nb> 7 1 ; 21 1 ; 44 2 ; 50 2 ; 61 1  </key_nb> 
+<mot> pression </mot> <key_nb> 7 1  </key_nb> 
+<mot> rétrécissent </mot> <key_nb> 7 1  </key_nb> 
+<mot> Colombien </mot> <key_nb> 8 1 ; 32 1  </key_nb> 
 <mot> Juan </mot> <key_nb> 8 5  </key_nb> 
-<mot> Pablo </mot> <key_nb> 8 5  </key_nb> 
-<mot> monde </mot> <key_nb> 8 5  </key_nb> 
-<mot> Kimi </mot> <key_nb> 8 6  </key_nb> 
-<mot> points </mot> <key_nb> 8 6  </key_nb> 
-<mot> théâtre </mot> <key_nb> 9 25  </key_nb> 
-<mot> Festival </mot> <key_nb> 9 6  </key_nb> 
-<mot> cette </mot> <key_nb> 9 7 ; 78 6  </key_nb> 
-<mot> c'est </mot> <key_nb> 9 8 ; 48 5 ; 51 6  </key_nb> 
-<mot> public </mot> <key_nb> 9 10  </key_nb> 
-<mot> cela </mot> <key_nb> 9 5  </key_nb> 
-<mot> SACD </mot> <key_nb> 10 5  </key_nb> 
+<mot> Pablo </mot> <key_nb> 8 5 ; 32 1  </key_nb> 
+<mot> Montoya </mot> <key_nb> 8 5  </key_nb> 
+<mot> Grand </mot> <key_nb> 8 4 ; 9 1 ; 31 7 ; 32 2 ; 39 2 ; 74 1 ; 78 2  </key_nb> 
+<mot> Prix </mot> <key_nb> 8 4 ; 11 2 ; 16 2 ; 32 2 ; 62 1 ; 66 6  </key_nb> 
+<mot> Italie </mot> <key_nb> 8 3 ; 48 1  </key_nb> 
+<mot> McLaren-Mercedes </mot> <key_nb> 8 2 ; 32 1  </key_nb> 
+<mot> circuit </mot> <key_nb> 8 3 ; 79 1  </key_nb> 
+<mot> Monza </mot> <key_nb> 8 4  </key_nb> 
+<mot> Renault </mot> <key_nb> 8 9 ; 32 2  </key_nb> 
+<mot> place </mot> <key_nb> 8 3 ; 16 2 ; 55 1 ; 61 1 ; 73 2 ; 79 1  </key_nb> 
+<mot> leader </mot> <key_nb> 8 2  </key_nb> 
+<mot> pilotes </mot> <key_nb> 8 5  </key_nb> 
+<mot> constructeurs </mot> <key_nb> 8 2 ; 32 1  </key_nb> 
+<mot> issue </mot> <key_nb> 8 2 ; 73 1  </key_nb> 
+<mot> dimanche </mot> <key_nb> 8 1 ; 32 2 ; 36 1 ; 55 2 ; 74 2  </key_nb> 
+<mot> septembre </mot> <key_nb> 8 2 ; 11 2 ; 12 4 ; 16 2 ; 19 2 ; 21 1 ; 23 1 ; 24 1 ; 28 1 ; 29 1 ; 31 1 ; 32 3 ; 33 1 ; 36 1 ; 37 3 ; 42 1 ; 43 1 ; 45 2 ; 46 2 ; 47 1 ; 48 1 ; 52 1 ; 53 2 ; 57 2 ; 59 2 ; 61 1 ; 65 1 ; 66 1 ; 67 2 ; 70 1 ; 73 1 ; 75 2 ; 76 3 ; 77 1 ; 78 2 ; 79 1 ; 81 3 ; 83 4  </key_nb> 
+<mot> Fernando </mot> <key_nb> 8 4 ; 32 2  </key_nb> 
+<mot> Alonso </mot> <key_nb> 8 3 ; 32 2  </key_nb> 
+<mot> Giancarlo </mot> <key_nb> 8 4  </key_nb> 
+<mot> Fisichella </mot> <key_nb> 8 3  </key_nb> 
+<mot> places </mot> <key_nb> 8 1 ; 76 5  </key_nb> 
+<mot> championnat </mot> <key_nb> 8 3 ; 32 1 ; 48 3 ; 55 1 ; 59 2 ; 66 3 ; 76 3  </key_nb> 
+<mot> losange </mot> <key_nb> 8 1  </key_nb> 
+<mot> épreuves </mot> <key_nb> 8 3  </key_nb> 
+<mot> position </mot> <key_nb> 8 2 ; 78 1  </key_nb> 
+<mot> Kimi </mot> <key_nb> 8 6 ; 32 1  </key_nb> 
+<mot> Räikkönen </mot> <key_nb> 8 4 ; 32 2  </key_nb> 
+<mot> Jarno </mot> <key_nb> 8 1  </key_nb> 
+<mot> Trulli </mot> <key_nb> 8 1  </key_nb> 
+<mot> Toyota </mot> <key_nb> 8 4  </key_nb> 
+<mot> Ralf </mot> <key_nb> 8 1  </key_nb> 
+<mot> Schumacher </mot> <key_nb> 8 3  </key_nb> 
+<mot> Williams </mot> <key_nb> 8 2  </key_nb> 
+<mot> Jenson </mot> <key_nb> 8 1  </key_nb> 
+<mot> Button </mot> <key_nb> 8 1  </key_nb> 
+<mot> BAR-Honda </mot> <key_nb> 8 1  </key_nb> 
+<mot> Michael </mot> <key_nb> 8 1 ; 21 1 ; 39 4  </key_nb> 
+<mot> Ferrari </mot> <key_nb> 8 4  </key_nb> 
+<mot> points </mot> <key_nb> 8 8 ; 32 2 ; 55 3 ; 59 2 ; 69 5 ; 73 2  </key_nb> 
+<mot> gagné </mot> <key_nb> 8 1 ; 31 2 ; 45 1  </key_nb> 
+<mot> deuxième </mot> <key_nb> 8 1 ; 9 1 ; 16 2 ; 31 2 ; 33 1 ; 55 5  </key_nb> 
+<mot> moins </mot> <key_nb> 8 3 ; 21 1 ; 24 3 ; 36 2 ; 38 6 ; 50 1 ; 60 1 ; 63 2 ; 64 1 ; 66 3 ; 70 1  </key_nb> 
+<mot> semaine </mot> <key_nb> 8 1 ; 71 1  </key_nb> 
+<mot> vraiment </mot> <key_nb> 8 1 ; 15 1 ; 32 2 ; 69 1 ; 80 1  </key_nb> 
+<mot> seul </mot> <key_nb> 8 2 ; 9 1 ; 16 1 ; 68 2  </key_nb> 
+<mot> podium </mot> <key_nb> 8 3 ; 32 1  </key_nb> 
+<mot> avance </mot> <key_nb> 8 1 ; 32 1 ; 55 1  </key_nb> 
+<mot> Belgique </mot> <key_nb> 8 1 ; 32 1  </key_nb> 
+<mot> mérite </mot> <key_nb> 8 2  </key_nb> 
+<mot> règlements </mot> <key_nb> 8 1  </key_nb> 
+<mot> avoir </mot> <key_nb> 8 1 ; 9 1 ; 18 1 ; 26 1 ; 31 2 ; 37 1 ; 39 4 ; 41 1 ; 55 2 ; 56 1 ; 58 1 ; 64 1 ; 71 1 ; 78 1 ; 84 2  </key_nb> 
+<mot> moteur </mot> <key_nb> 8 1  </key_nb> 
+<mot> argent </mot> <key_nb> 8 1 ; 36 1  </key_nb> 
+<mot> trois </mot> <key_nb> 8 1 ; 16 2 ; 20 2 ; 28 2 ; 36 1 ; 38 4 ; 42 1 ; 43 1 ; 55 2 ; 59 2 ; 69 1 ; 72 1 ; 75 1 ; 76 5  </key_nb> 
+<mot> incident </mot> <key_nb> 8 1  </key_nb> 
+<mot> situation </mot> <key_nb> 8 1 ; 30 1 ; 36 1 ; 78 1  </key_nb> 
+<mot> certaine </mot> <key_nb> 8 1  </key_nb> 
+<mot> équipes </mot> <key_nb> 8 1 ; 14 1 ; 16 1  </key_nb> 
+<mot> courses </mot> <key_nb> 8 1  </key_nb> 
+<mot> performance </mot> <key_nb> 8 1 ; 39 1  </key_nb> 
+<mot> livrent </mot> <key_nb> 8 1  </key_nb> 
+<mot> mano </mot> <key_nb> 8 1  </key_nb> 
+<mot> vont </mot> <key_nb> 8 1 ; 17 1 ; 50 2 ; 51 1  </key_nb> 
+<mot> théâtre </mot> <key_nb> 9 29 ; 9 2 ; 25 1 ; 46 3 ; 46 2 ; 51 1 ; 53 4 ; 80 1  </key_nb> 
+<mot> texte </mot> <key_nb> 9 1  </key_nb> 
+<mot> images </mot> <key_nb> 9 2  </key_nb> 
+<mot> scène </mot> <key_nb> 9 1 ; 25 3 ; 45 3 ; 46 3 ; 51 2 ; 64 1 ; 82 5  </key_nb> 
+<mot> dernier </mot> <key_nb> 9 2 ; 34 1 ; 37 1 ; 45 2 ; 55 2 ; 69 1  </key_nb> 
+<mot> Festival </mot> <key_nb> 9 9 ; 11 3 ; 20 2 ; 45 1 ; 81 3 ; 82 2  </key_nb> 
+<mot> Avignon </mot> <key_nb> 9 10  </key_nb> 
+<mot> vives </mot> <key_nb> 9 2  </key_nb> 
+<mot> polémiques </mot> <key_nb> 9 1  </key_nb> 
+<mot> directeur </mot> <key_nb> 9 1 ; 28 1 ; 36 1 ; 52 1 ; 65 1  </key_nb> 
+<mot> ministère </mot> <key_nb> 9 3 ; 19 4 ; 52 3  </key_nb> 
+<mot> culture </mot> <key_nb> 9 2 ; 12 2 ; 12 1 ; 35 4 ; 77 1  </key_nb> 
+<mot> critique </mot> <key_nb> 9 2 ; 68 1  </key_nb> 
+<mot> universitaire </mot> <key_nb> 9 2 ; 28 1  </key_nb> 
+<mot> Robert </mot> <key_nb> 9 3 ; 28 1 ; 45 12  </key_nb> 
+<mot> Abirached </mot> <key_nb> 9 3  </key_nb> 
+<mot> publie </mot> <key_nb> 9 1 ; 33 1  </key_nb> 
+<mot> spectacles </mot> <key_nb> 9 3 ; 82 2  </key_nb> 
+<mot> Lang </mot> <key_nb> 9 1  </key_nb> 
+<mot> 1980 </mot> <key_nb> 9 1  </key_nb> 
+<mot> théâtral </mot> <key_nb> 9 1  </key_nb> 
+<mot> Actes </mot> <key_nb> 9 1  </key_nb> 
+<mot> tome </mot> <key_nb> 9 1  </key_nb> 
+<mot> dramatique </mot> <key_nb> 9 1  </key_nb> 
+<mot> reste </mot> <key_nb> 9 1 ; 75 1  </key_nb> 
+<mot> fonction </mot> <key_nb> 9 1 ; 54 1  </key_nb> 
+<mot> demande </mot> <key_nb> 9 1 ; 25 1 ; 45 1  </key_nb> 
+<mot> auteur </mot> <key_nb> 9 1 ; 25 2 ; 64 1  </key_nb> 
+<mot> moderne </mot> <key_nb> 9 1  </key_nb> 
+<mot> indispensable </mot> <key_nb> 9 1  </key_nb> 
+<mot> théâtrale </mot> <key_nb> 9 1  </key_nb> 
+<mot> ensemble </mot> <key_nb> 9 1 ; 16 1  </key_nb> 
+<mot> public </mot> <key_nb> 9 14 ; 12 1 ; 28 3 ; 33 1 ; 75 1 ; 76 1  </key_nb> 
+<mot> livre </mot> <key_nb> 9 1  </key_nb> 
+<mot> quel </mot> <key_nb> 9 1  </key_nb> 
+<mot> histoire </mot> <key_nb> 9 1 ; 45 1 ; 82 3  </key_nb> 
+<mot> lieux </mot> <key_nb> 9 1  </key_nb> 
+<mot> marquée </mot> <key_nb> 9 1  </key_nb> 
+<mot> idée </mot> <key_nb> 9 1 ; 22 1  </key_nb> 
+<mot> populaire </mot> <key_nb> 9 3 ; 34 1  </key_nb> 
+<mot> sens </mot> <key_nb> 9 1 ; 10 1  </key_nb> 
+<mot> ouvert </mot> <key_nb> 9 1 ; 20 1 ; 33 1  </key_nb> 
+<mot> Vilar </mot> <key_nb> 9 2  </key_nb> 
+<mot> international </mot> <key_nb> 9 2  </key_nb> 
+<mot> esprit </mot> <key_nb> 9 1  </key_nb> 
+<mot> travail </mot> <key_nb> 9 2 ; 11 1 ; 28 1 ; 36 1 ; 54 2 ; 63 1 ; 66 1  </key_nb> 
+<mot> étaient </mot> <key_nb> 9 2 ; 14 2  </key_nb> 
+<mot> honneur </mot> <key_nb> 9 1  </key_nb> 
+<mot> veut </mot> <key_nb> 9 3 ; 28 1 ; 48 2  </key_nb> 
+<mot> formes </mot> <key_nb> 9 1 ; 53 1  </key_nb> 
+<mot> accumulation </mot> <key_nb> 9 1  </key_nb> 
+<mot> certains </mot> <key_nb> 9 3 ; 42 2 ; 43 2 ; 60 2 ; 66 2  </key_nb> 
+<mot> autour </mot> <key_nb> 9 1 ; 12 1 ; 39 1 ; 50 2 ; 78 1  </key_nb> 
+<mot> violence </mot> <key_nb> 9 2 ; 21 3  </key_nb> 
+<mot> Shakespeare </mot> <key_nb> 9 2  </key_nb> 
+<mot> vite </mot> <key_nb> 9 1 ; 21 1 ; 48 1  </key_nb> 
+<mot> violent </mot> <key_nb> 9 1  </key_nb> 
+<mot> Sénèque </mot> <key_nb> 9 1  </key_nb> 
+<mot> oeuvres </mot> <key_nb> 9 1 ; 64 1 ; 75 1  </key_nb> 
+<mot> comment </mot> <key_nb> 9 1 ; 42 1 ; 43 1  </key_nb> 
+<mot> oublie </mot> <key_nb> 9 1  </key_nb> 
+<mot> donné </mot> <key_nb> 9 1 ; 79 1  </key_nb> 
+<mot> évolution </mot> <key_nb> 9 1 ; 24 1  </key_nb> 
+<mot> avis </mot> <key_nb> 9 1  </key_nb> 
+<mot> tendance </mot> <key_nb> 9 1 ; 28 1  </key_nb> 
+<mot> devienne </mot> <key_nb> 9 1  </key_nb> 
+<mot> parole </mot> <key_nb> 9 1  </key_nb> 
+<mot> conséquences </mot> <key_nb> 9 2  </key_nb> 
+<mot> aujourd </mot> <key_nb> 9 2 ; 17 3 ; 65 2 ; 66 1 ; 68 1 ; 70 1  </key_nb> 
+<mot> prendre </mot> <key_nb> 9 1 ; 63 2 ; 79 1  </key_nb> 
+<mot> rôle </mot> <key_nb> 9 1  </key_nb> 
+<mot> civique </mot> <key_nb> 9 1  </key_nb> 
+<mot> trouver </mot> <key_nb> 9 1 ; 15 1 ; 63 1 ; 68 1 ; 76 1  </key_nb> 
+<mot> forces </mot> <key_nb> 9 1  </key_nb> 
+<mot> Ostermeier </mot> <key_nb> 9 1  </key_nb> 
+<mot> parce </mot> <key_nb> 9 1  </key_nb> 
+<mot> parti </mot> <key_nb> 9 1  </key_nb> 
+<mot> parlera </mot> <key_nb> 9 1  </key_nb> 
+<mot> Sinon </mot> <key_nb> 9 1  </key_nb> 
+<mot> plaisir </mot> <key_nb> 9 2  </key_nb> 
+<mot> élan </mot> <key_nb> 10 1  </key_nb> 
+<mot> SACD </mot> <key_nb> 10 7  </key_nb> 
+<mot> réédition </mot> <key_nb> 10 1  </key_nb> 
+<mot> Super </mot> <key_nb> 10 1  </key_nb> 
+<mot> Audio </mot> <key_nb> 10 1  </key_nb> 
+<mot> premiers </mot> <key_nb> 10 1 ; 33 1 ; 48 1 ; 50 1 ; 55 1 ; 65 1 ; 66 1  </key_nb> 
+<mot> albums </mot> <key_nb> 10 1  </key_nb> 
+<mot> permis </mot> <key_nb> 10 1 ; 78 1  </key_nb> 
+<mot> rendre </mot> <key_nb> 10 1 ; 45 1  </key_nb> 
+<mot> mieux </mot> <key_nb> 10 1 ; 38 1 ; 41 1 ; 51 1 ; 52 1 ; 75 1  </key_nb> 
+<mot> notions </mot> <key_nb> 10 1  </key_nb> 
+<mot> espace </mot> <key_nb> 10 1 ; 21 3 ; 50 1 ; 82 1  </key_nb> 
+<mot> lisibilité </mot> <key_nb> 10 1  </key_nb> 
+<mot> sonore </mot> <key_nb> 10 1  </key_nb> 
+<mot> propres </mot> <key_nb> 10 1  </key_nb> 
+<mot> musique </mot> <key_nb> 10 3 ; 34 1 ; 35 2 ; 53 4 ; 61 2 ; 81 3  </key_nb> 
+<mot> allemand </mot> <key_nb> 10 1  </key_nb> 
+<mot> rock </mot> <key_nb> 10 1 ; 13 1 ; 35 1  </key_nb> 
+<mot> Days </mot> <key_nb> 10 2  </key_nb> 
+<mot> Soon </mot> <key_nb> 10 2  </key_nb> 
+<mot> Over </mot> <key_nb> 10 2  </key_nb> 
+<mot> Babaluma </mot> <key_nb> 10 2  </key_nb> 
+<mot> 1974 </mot> <key_nb> 10 1 ; 20 2  </key_nb> 
+<mot> Landed </mot> <key_nb> 10 4  </key_nb> 
+<mot> Unlimited </mot> <key_nb> 10 2  </key_nb> 
+<mot> Edition </mot> <key_nb> 10 2  </key_nb> 
+<mot> passage </mot> <key_nb> 10 1 ; 41 1 ; 78 2  </key_nb> 
+<mot> stéréo </mot> <key_nb> 10 1  </key_nb> 
+<mot> Karoli </mot> <key_nb> 10 1  </key_nb> 
+<mot> disque </mot> <key_nb> 10 1 ; 13 3 ; 72 3  </key_nb> 
+<mot> Philip </mot> <key_nb> 11 1  </key_nb> 
+<mot> Blenkinsop </mot> <key_nb> 11 1  </key_nb> 
+<mot> reçu </mot> <key_nb> 11 1 ; 57 1  </key_nb> 
 <mot> Visa </mot> <key_nb> 11 5  </key_nb> 
-<mot> d'un </mot> <key_nb> 14 5 ; 65 5 ; 82 7  </key_nb> 
-<mot> maïs </mot> <key_nb> 15 6  </key_nb> 
-<mot> l'équipe </mot> <key_nb> 16 5 ; 48 6  </key_nb> 
-<mot> France </mot> <key_nb> 16 14 ; 55 5 ; 68 7 ; 76 12  </key_nb> 
-<mot> Coupe </mot> <key_nb> 16 7  </key_nb> 
-<mot> deux </mot> <key_nb> 16 5 ; 55 5  </key_nb> 
-<mot> millions </mot> <key_nb> 16 5  </key_nb> 
-<mot> vaccination </mot> <key_nb> 17 8  </key_nb> 
-<mot> personnes </mot> <key_nb> 17 9  </key_nb> 
-<mot> aviaire </mot> <key_nb> 17 6  </key_nb> 
-<mot> contre </mot> <key_nb> 17 5 ; 65 8  </key_nb> 
-<mot> virus </mot> <key_nb> 17 10 ; 65 11  </key_nb> 
-<mot> d'une </mot> <key_nb> 17 6 ; 38 7 ; 76 5  </key_nb> 
-<mot> grippe </mot> <key_nb> 17 5  </key_nb> 
+<mot> news </mot> <key_nb> 11 1  </key_nb> 
+<mot> tsunami </mot> <key_nb> 11 1  </key_nb> 
+<mot> image </mot> <key_nb> 11 1 ; 39 2 ; 48 1  </key_nb> 
+<mot> James </mot> <key_nb> 11 1  </key_nb> 
+<mot> Hill </mot> <key_nb> 11 1  </key_nb> 
+<mot> Grarup </mot> <key_nb> 11 1  </key_nb> 
+<mot> magazine </mot> <key_nb> 11 1  </key_nb> 
+<mot> celui </mot> <key_nb> 11 1 ; 14 1 ; 44 1  </key_nb> 
+<mot> presse </mot> <key_nb> 11 1  </key_nb> 
+<mot> quotidienne </mot> <key_nb> 11 1  </key_nb> 
+<mot> internationale </mot> <key_nb> 11 1  </key_nb> 
+<mot> Perpignan </mot> <key_nb> 11 1  </key_nb> 
+<mot> agence </mot> <key_nb> 11 1 ; 42 1 ; 43 1 ; 63 4 ; 75 1  </key_nb> 
+<mot> reportage </mot> <key_nb> 11 2  </key_nb> 
+<mot> soldats </mot> <key_nb> 11 1  </key_nb> 
+<mot> américains </mot> <key_nb> 11 1 ; 29 1 ; 68 2 ; 83 1  </key_nb> 
+<mot> Irak </mot> <key_nb> 11 1  </key_nb> 
+<mot> allé </mot> <key_nb> 11 1  </key_nb> 
+<mot> première </mot> <key_nb> 11 1 ; 16 1 ; 21 1 ; 31 2 ; 50 1 ; 67 1 ; 78 3 ; 79 3  </key_nb> 
+<mot> expositions </mot> <key_nb> 11 1  </key_nb> 
+<mot> Prague </mot> <key_nb> 12 5 ; 47 1  </key_nb> 
+<mot> Journées </mot> <key_nb> 12 3 ; 57 1 ; 57 1  </key_nb> 
+<mot> européennes </mot> <key_nb> 12 2  </key_nb> 
+<mot> patrimoine </mot> <key_nb> 12 5 ; 12 1 ; 23 1 ; 57 1  </key_nb> 
+<mot> édifices </mot> <key_nb> 12 2  </key_nb> 
+<mot> portes </mot> <key_nb> 12 2  </key_nb> 
+<mot> monuments </mot> <key_nb> 12 1  </key_nb> 
+<mot> historiques </mot> <key_nb> 12 3  </key_nb> 
+<mot> Europe </mot> <key_nb> 12 2 ; 30 1 ; 48 1 ; 55 1 ; 59 3 ; 68 1 ; 69 1 ; 70 4 ; 82 2  </key_nb> 
+<mot> année </mot> <key_nb> 12 1 ; 31 3 ; 33 1 ; 62 1 ; 63 3 ; 81 2 ; 83 1  </key_nb> 
+<mot> France </mot> <key_nb> 12 4 ; 14 3 ; 15 1 ; 16 17 ; 19 1 ; 22 5 ; 24 1 ; 36 2 ; 38 2 ; 47 1 ; 48 7 ; 52 7 ; 55 7 ; 59 3 ; 61 1 ; 66 2 ; 68 12 ; 69 3 ; 70 1 ; 73 1 ; 74 1 ; 76 15  </key_nb> 
+<mot> plupart </mot> <key_nb> 12 1  </key_nb> 
+<mot> République </mot> <key_nb> 12 3  </key_nb> 
+<mot> tchèque </mot> <key_nb> 12 4  </key_nb> 
+<mot> thème </mot> <key_nb> 12 2  </key_nb> 
+<mot> ouverture </mot> <key_nb> 12 1  </key_nb> 
+<mot> prend </mot> <key_nb> 12 1 ; 13 1 ; 51 1  </key_nb> 
+<mot> table </mot> <key_nb> 12 1 ; 49 1  </key_nb> 
+<mot> ambassade </mot> <key_nb> 12 2  </key_nb> 
+<mot> régional </mot> <key_nb> 12 1  </key_nb> 
+<mot> manifestation </mot> <key_nb> 12 2 ; 57 1  </key_nb> 
+<mot> organisée </mot> <key_nb> 12 1  </key_nb> 
+<mot> Association </mot> <key_nb> 12 1  </key_nb> 
+<mot> villes </mot> <key_nb> 12 2  </key_nb> 
+<mot> Bohême </mot> <key_nb> 12 1  </key_nb> 
+<mot> privés </mot> <key_nb> 12 1  </key_nb> 
+<mot> contribution </mot> <key_nb> 12 1  </key_nb> 
+<mot> palais </mot> <key_nb> 12 5 ; 23 2  </key_nb> 
+<mot> salle </mot> <key_nb> 12 1 ; 19 1 ; 46 3 ; 82 2  </key_nb> 
+<mot> décembre </mot> <key_nb> 12 1 ; 78 3  </key_nb> 
+<mot> jardins </mot> <key_nb> 12 1  </key_nb> 
+<mot> Illinois </mot> <key_nb> 13 3  </key_nb> 
+<mot> magique </mot> <key_nb> 13 1  </key_nb> 
+<mot> Sufjan </mot> <key_nb> 13 4  </key_nb> 
+<mot> Stevens </mot> <key_nb> 13 4  </key_nb> 
+<mot> premières </mot> <key_nb> 13 1 ; 17 1 ; 38 2 ; 50 1  </key_nb> 
+<mot> notes </mot> <key_nb> 13 1  </key_nb> 
+<mot> pressent </mot> <key_nb> 13 1  </key_nb> 
+<mot> chevet </mot> <key_nb> 13 1  </key_nb> 
+<mot> douter </mot> <key_nb> 13 1  </key_nb> 
+<mot> chef-d </mot> <key_nb> 13 1  </key_nb> 
+<mot> oeuvre </mot> <key_nb> 13 1 ; 63 1 ; 64 2  </key_nb> 
+<mot> suivre </mot> <key_nb> 13 1  </key_nb> 
+<mot> piano </mot> <key_nb> 13 1  </key_nb> 
+<mot> chanson </mot> <key_nb> 13 1 ; 35 1  </key_nb> 
+<mot> album </mot> <key_nb> 13 2 ; 35 1  </key_nb> 
+<mot> Come </mot> <key_nb> 13 1  </key_nb> 
+<mot> Feel </mot> <key_nb> 13 3  </key_nb> 
+<mot> Illinoise </mot> <key_nb> 13 2  </key_nb> 
+<mot> Highland </mot> <key_nb> 13 1  </key_nb> 
+<mot> Etat </mot> <key_nb> 13 1  </key_nb> 
+<mot> toujours </mot> <key_nb> 13 1 ; 15 1 ; 32 2 ; 34 2 ; 39 1 ; 45 1 ; 55 2 ; 62 3 ; 63 1 ; 76 1  </key_nb> 
+<mot> aurait </mot> <key_nb> 13 1 ; 16 1 ; 17 2 ; 64 1 ; 72 1 ; 78 2  </key_nb> 
+<mot> hauteur </mot> <key_nb> 13 1  </key_nb> 
+<mot> jeune </mot> <key_nb> 13 1 ; 33 2 ; 53 1  </key_nb> 
+<mot> John </mot> <key_nb> 13 1 ; 34 2  </key_nb> 
+<mot> Gacy </mot> <key_nb> 13 1  </key_nb> 
+<mot> pense </mot> <key_nb> 13 1  </key_nb> 
+<mot> athlètes </mot> <key_nb> 14 6  </key_nb> 
+<mot> tricolores </mot> <key_nb> 14 2  </key_nb> 
+<mot> Charléty </mot> <key_nb> 14 2  </key_nb> 
+<mot> Russes </mot> <key_nb> 14 1  </key_nb> 
+<mot> DécaNation </mot> <key_nb> 14 3  </key_nb> 
+<mot> Paris </mot> <key_nb> 14 2 ; 44 2 ; 80 2  </key_nb> 
+<mot> venus </mot> <key_nb> 14 1  </key_nb> 
+<mot> Quant </mot> <key_nb> 14 1  </key_nb> 
+<mot> meeting </mot> <key_nb> 14 1  </key_nb> 
+<mot> Golden </mot> <key_nb> 14 1  </key_nb> 
+<mot> League </mot> <key_nb> 14 1 ; 66 4  </key_nb> 
+<mot> Berlin </mot> <key_nb> 14 1  </key_nb> 
+<mot> championnats </mot> <key_nb> 14 1 ; 36 3 ; 69 1  </key_nb> 
+<mot> Helsinki </mot> <key_nb> 14 1  </key_nb> 
+<mot> athlétisme </mot> <key_nb> 14 1  </key_nb> 
+<mot> lancer </mot> <key_nb> 14 2 ; 65 1  </key_nb> 
+<mot> javelot </mot> <key_nb> 14 1  </key_nb> 
+<mot> saut </mot> <key_nb> 14 4 ; 19 1  </key_nb> 
+<mot> perche </mot> <key_nb> 14 1  </key_nb> 
+<mot> longueur </mot> <key_nb> 14 1  </key_nb> 
+<mot> discipline </mot> <key_nb> 14 1  </key_nb> 
+<mot> finalement </mot> <key_nb> 14 1  </key_nb> 
+<mot> sorties </mot> <key_nb> 14 1  </key_nb> 
+<mot> selon </mot> <key_nb> 14 1 ; 15 1 ; 19 1 ; 19 1 ; 21 2 ; 24 1 ; 60 1 ; 66 2 ; 76 1  </key_nb> 
+<mot> Bernard </mot> <key_nb> 14 2  </key_nb> 
+<mot> Amsalem </mot> <key_nb> 14 2  </key_nb> 
+<mot> compétition </mot> <key_nb> 14 1 ; 47 1 ; 48 1  </key_nb> 
+<mot> euros </mot> <key_nb> 14 4 ; 16 4 ; 42 1 ; 43 1 ; 63 1 ; 75 1 ; 76 1  </key_nb> 
+<mot> fédérations </mot> <key_nb> 14 2  </key_nb> 
+<mot> meilleurs </mot> <key_nb> 14 1  </key_nb> 
+<mot> constate </mot> <key_nb> 14 1  </key_nb> 
+<mot> million </mot> <key_nb> 14 1  </key_nb> 
+<mot> alors </mot> <key_nb> 14 1 ; 19 1 ; 20 1 ; 31 1 ; 45 2 ; 78 1  </key_nb> 
+<mot> 2012 </mot> <key_nb> 14 1  </key_nb> 
+<mot> recettes </mot> <key_nb> 14 1  </key_nb> 
+<mot> marketing </mot> <key_nb> 14 1  </key_nb> 
+<mot> presque </mot> <key_nb> 14 1 ; 33 1  </key_nb> 
+<mot> 2003 </mot> <key_nb> 15 4 ; 24 1 ; 48 1 ; 59 1 ; 63 2 ; 70 4 ; 76 1  </key_nb> 
+<mot> contamination </mot> <key_nb> 15 4  </key_nb> 
+<mot> maïs </mot> <key_nb> 15 8  </key_nb> 
+<mot> analyse </mot> <key_nb> 15 1  </key_nb> 
+<mot> 2004 </mot> <key_nb> 15 4 ; 50 1 ; 76 1  </key_nb> 
+<mot> région </mot> <key_nb> 15 4 ; 33 1 ; 75 7  </key_nb> 
+<mot> Oaxaca </mot> <key_nb> 15 2  </key_nb> 
+<mot> Mexique </mot> <key_nb> 15 3  </key_nb> 
+<mot> absence </mot> <key_nb> 15 1  </key_nb> 
+<mot> céréale </mot> <key_nb> 15 1  </key_nb> 
+<mot> variétés </mot> <key_nb> 15 3  </key_nb> 
+<mot> transgéniques </mot> <key_nb> 15 3  </key_nb> 
+<mot> 2000 </mot> <key_nb> 15 2  </key_nb> 
+<mot> hauts </mot> <key_nb> 15 1 ; 50 1  </key_nb> 
+<mot> niveaux </mot> <key_nb> 15 1  </key_nb> 
+<mot> lignées </mot> <key_nb> 15 3  </key_nb> 
+<mot> sanctuaire </mot> <key_nb> 15 1  </key_nb> 
+<mot> PNAS </mot> <key_nb> 15 1  </key_nb> 
+<mot> moratoire </mot> <key_nb> 15 1  </key_nb> 
+<mot> européen </mot> <key_nb> 15 1  </key_nb> 
+<mot> agriculteurs </mot> <key_nb> 15 1 ; 62 3  </key_nb> 
+<mot> plantes </mot> <key_nb> 15 1  </key_nb> 
+<mot> cultures </mot> <key_nb> 15 1  </key_nb> 
+<mot> 2001 </mot> <key_nb> 15 1 ; 50 1  </key_nb> 
+<mot> Snow </mot> <key_nb> 15 2  </key_nb> 
+<mot> Université </mot> <key_nb> 15 2 ; 49 1 ; 60 1 ; 68 1  </key_nb> 
+<mot> mexicaine </mot> <key_nb> 15 1  </key_nb> 
+<mot> Nature </mot> <key_nb> 15 1 ; 24 1 ; 70 2  </key_nb> 
+<mot> Chapela </mot> <key_nb> 15 4  </key_nb> 
+<mot> Quist </mot> <key_nb> 15 3  </key_nb> 
+<mot> Californie </mot> <key_nb> 15 1  </key_nb> 
+<mot> autant </mot> <key_nb> 15 1 ; 50 1 ; 64 1  </key_nb> 
+<mot> article </mot> <key_nb> 15 2 ; 70 1  </key_nb> 
+<mot> transgènes </mot> <key_nb> 15 5  </key_nb> 
+<mot> conduites </mot> <key_nb> 15 1  </key_nb> 
+<mot> contaminations </mot> <key_nb> 15 1  </key_nb> 
+<mot> Exequiel </mot> <key_nb> 15 1  </key_nb> 
+<mot> Ezcurra </mot> <key_nb> 15 1  </key_nb> 
+<mot> champs </mot> <key_nb> 15 2 ; 62 3  </key_nb> 
+<mot> données </mot> <key_nb> 15 1 ; 28 4  </key_nb> 
+<mot> dépit </mot> <key_nb> 15 1  </key_nb> 
+<mot> Allison </mot> <key_nb> 15 1  </key_nb> 
+<mot> partie </mot> <key_nb> 15 2 ; 29 1 ; 47 1 ; 75 1  </key_nb> 
+<mot> grains </mot> <key_nb> 15 2  </key_nb> 
+<mot> détection </mot> <key_nb> 15 1  </key_nb> 
+<mot> Julien </mot> <key_nb> 15 1  </key_nb> 
+<mot> Berthaud </mot> <key_nb> 15 1  </key_nb> 
+<mot> chercher </mot> <key_nb> 15 1  </key_nb> 
+<mot> pouvaient </mot> <key_nb> 15 1  </key_nb> 
+<mot> comptes </mot> <key_nb> 16 1  </key_nb> 
+<mot> élimination </mot> <key_nb> 16 3  </key_nb> 
+<mot> Bleus </mot> <key_nb> 16 4 ; 55 1 ; 59 3 ; 69 1  </key_nb> 
+<mot> qualifier </mot> <key_nb> 16 2 ; 48 1 ; 55 1  </key_nb> 
+<mot> 2006 </mot> <key_nb> 16 4 ; 22 1 ; 29 4 ; 33 1 ; 48 1 ; 52 1 ; 69 1  </key_nb> 
+<mot> Allemagne </mot> <key_nb> 16 3 ; 34 1  </key_nb> 
+<mot> match </mot> <key_nb> 16 5 ; 31 5 ; 47 2 ; 59 3 ; 69 2 ; 73 1  </key_nb> 
+<mot> mercredi </mot> <key_nb> 16 1 ; 22 1 ; 47 3 ; 64 1  </key_nb> 
+<mot> face </mot> <key_nb> 16 1 ; 31 3 ; 35 1 ; 47 1 ; 67 2 ; 69 1  </key_nb> 
+<mot> Irlande </mot> <key_nb> 16 3  </key_nb> 
+<mot> terminer </mot> <key_nb> 16 1  </key_nb> 
+<mot> serait </mot> <key_nb> 16 3 ; 39 2  </key_nb> 
+<mot> barrage </mot> <key_nb> 16 1 ; 55 3  </key_nb> 
+<mot> disputer </mot> <key_nb> 16 1  </key_nb> 
+<mot> rencontres </mot> <key_nb> 16 3 ; 76 2  </key_nb> 
+<mot> tour </mot> <key_nb> 16 1 ; 23 2 ; 55 1 ; 74 4  </key_nb> 
+<mot> derniers </mot> <key_nb> 16 1  </key_nb> 
+<mot> matches </mot> <key_nb> 16 5 ; 27 1 ; 48 1 ; 55 3 ; 66 6 ; 73 1 ; 76 4  </key_nb> 
+<mot> Suisse </mot> <key_nb> 16 1 ; 31 2  </key_nb> 
+<mot> octobre </mot> <key_nb> 16 1 ; 53 1 ; 76 1 ; 81 5 ; 82 1  </key_nb> 
+<mot> Chypre </mot> <key_nb> 16 1  </key_nb> 
+<mot> peut </mot> <key_nb> 16 1 ; 17 3 ; 28 3 ; 29 2 ; 38 1 ; 39 2 ; 41 1 ; 42 1 ; 43 1 ; 49 1 ; 50 2 ; 63 2 ; 64 3 ; 78 1 ; 79 1  </key_nb> 
+<mot> égalité </mot> <key_nb> 16 1  </key_nb> 
+<mot> joueurs </mot> <key_nb> 16 1 ; 22 3 ; 31 1 ; 39 2 ; 47 1 ; 48 3  </key_nb> 
+<mot> Féroé </mot> <key_nb> 16 1  </key_nb> 
+<mot> premier </mot> <key_nb> 16 1 ; 31 4 ; 64 2 ; 66 3 ; 69 1 ; 76 2 ; 79 1  </key_nb> 
+<mot> assuré </mot> <key_nb> 16 1  </key_nb> 
+<mot> aura </mot> <key_nb> 16 2 ; 55 1 ; 78 5  </key_nb> 
+<mot> droit </mot> <key_nb> 16 1  </key_nb> 
+<mot> impact </mot> <key_nb> 16 1 ; 21 4 ; 50 1 ; 70 1  </key_nb> 
+<mot> économique </mot> <key_nb> 16 1  </key_nb> 
+<mot> phase </mot> <key_nb> 16 1 ; 38 1  </key_nb> 
+<mot> finale </mot> <key_nb> 16 1 ; 31 5  </key_nb> 
+<mot> déjà </mot> <key_nb> 16 1 ; 30 1 ; 36 1 ; 50 2 ; 54 1 ; 64 1 ; 65 1  </key_nb> 
+<mot> millions </mot> <key_nb> 16 5 ; 21 1 ; 24 1 ; 41 1 ; 47 1 ; 49 2 ; 57 1 ; 65 4 ; 70 1 ; 75 1  </key_nb> 
+<mot> terme </mot> <key_nb> 16 2 ; 74 1 ; 76 1  </key_nb> 
+<mot> non-participation </mot> <key_nb> 16 1  </key_nb> 
+<mot> vente </mot> <key_nb> 16 1  </key_nb> 
+<mot> droits </mot> <key_nb> 16 3  </key_nb> 
+<mot> Victoriano </mot> <key_nb> 16 3  </key_nb> 
+<mot> Melero </mot> <key_nb> 16 2  </key_nb> 
+<mot> avocat </mot> <key_nb> 16 1  </key_nb> 
+<mot> vendre </mot> <key_nb> 16 1  </key_nb> 
+<mot> retransmission </mot> <key_nb> 16 1  </key_nb> 
+<mot> attirer </mot> <key_nb> 16 1  </key_nb> 
+<mot> partenaires </mot> <key_nb> 16 1 ; 29 2  </key_nb> 
+<mot> contrats </mot> <key_nb> 16 1  </key_nb> 
+<mot> Carrefour </mot> <key_nb> 16 1  </key_nb> 
+<mot> Zidane </mot> <key_nb> 16 1 ; 22 1  </key_nb> 
+<mot> pendant </mot> <key_nb> 16 1 ; 22 2 ; 31 1 ; 33 1 ; 62 1  </key_nb> 
+<mot> août </mot> <key_nb> 16 1 ; 29 1 ; 62 1  </key_nb> 
+<mot> chaîne </mot> <key_nb> 16 1  </key_nb> 
+<mot> manque </mot> <key_nb> 16 1 ; 46 1  </key_nb> 
+<mot> gagner </mot> <key_nb> 16 1 ; 79 1  </key_nb> 
+<mot> quotidien </mot> <key_nb> 16 1  </key_nb> 
+<mot> Equipe </mot> <key_nb> 16 2  </key_nb> 
+<mot> vaccination </mot> <key_nb> 17 9  </key_nb> 
+<mot> grippale </mot> <key_nb> 17 2 ; 65 1  </key_nb> 
+<mot> personnes </mot> <key_nb> 17 10 ; 38 3 ; 57 1 ; 76 3  </key_nb> 
+<mot> risques </mot> <key_nb> 17 1 ; 38 2  </key_nb> 
+<mot> épizootie </mot> <key_nb> 17 1  </key_nb> 
+<mot> aviaire </mot> <key_nb> 17 7 ; 41 2 ; 65 3 ; 71 4  </key_nb> 
+<mot> stratégie </mot> <key_nb> 17 1 ; 39 1  </key_nb> 
+<mot> lutte </mot> <key_nb> 17 1 ; 41 1 ; 65 1  </key_nb> 
+<mot> épidémie </mot> <key_nb> 17 1  </key_nb> 
+<mot> grippe </mot> <key_nb> 17 8 ; 41 5 ; 65 2 ; 71 3  </key_nb> 
+<mot> partir </mot> <key_nb> 17 1 ; 65 1 ; 80 1  </key_nb> 
+<mot> souffrant </mot> <key_nb> 17 1  </key_nb> 
+<mot> durée </mot> <key_nb> 17 1  </key_nb> 
+<mot> bénéficier </mot> <key_nb> 17 1  </key_nb> 
+<mot> automne </mot> <key_nb> 17 1 ; 33 2  </key_nb> 
+<mot> assurance-maladie </mot> <key_nb> 17 1  </key_nb> 
+<mot> CNAM </mot> <key_nb> 17 2  </key_nb> 
+<mot> grande </mot> <key_nb> 17 1 ; 32 1  </key_nb> 
+<mot> menées </mot> <key_nb> 17 1  </key_nb> 
+<mot> incitation </mot> <key_nb> 17 1  </key_nb> 
+<mot> âgées </mot> <key_nb> 17 3  </key_nb> 
+<mot> celles </mot> <key_nb> 17 1  </key_nb> 
+<mot> certaines </mot> <key_nb> 17 1 ; 30 1  </key_nb> 
+<mot> chroniques </mot> <key_nb> 17 1  </key_nb> 
+<mot> campagne </mot> <key_nb> 17 1 ; 76 2  </key_nb> 
+<mot> antigrippale </mot> <key_nb> 17 1  </key_nb> 
+<mot> sanitaire </mot> <key_nb> 17 1  </key_nb> 
+<mot> représente </mot> <key_nb> 17 1 ; 39 1 ; 42 2 ; 43 2  </key_nb> 
+<mot> progression </mot> <key_nb> 17 1  </key_nb> 
+<mot> H5N1 </mot> <key_nb> 17 3 ; 65 5  </key_nb> 
+<mot> conduire </mot> <key_nb> 17 1  </key_nb> 
+<mot> pandémie </mot> <key_nb> 17 3 ; 41 3 ; 65 4  </key_nb> 
+<mot> population </mot> <key_nb> 17 2  </key_nb> 
+<mot> permettant </mot> <key_nb> 17 1  </key_nb> 
+<mot> auprès </mot> <key_nb> 17 3  </key_nb> 
+<mot> direction </mot> <key_nb> 17 1 ; 34 2 ; 46 1 ; 78 1  </key_nb> 
+<mot> poursuite </mot> <key_nb> 17 1  </key_nb> 
 <mot> couverture </mot> <key_nb> 17 5  </key_nb> 
 <mot> vaccinale </mot> <key_nb> 17 5  </key_nb> 
+<mot> saisonnière </mot> <key_nb> 17 1 ; 65 1  </key_nb> 
+<mot> obtenir </mot> <key_nb> 17 2 ; 79 1  </key_nb> 
+<mot> professionnels </mot> <key_nb> 17 3 ; 79 1  </key_nb> 
+<mot> incitations </mot> <key_nb> 17 1  </key_nb> 
+<mot> Cependant </mot> <key_nb> 17 1  </key_nb> 
+<mot> taux </mot> <key_nb> 17 1 ; 30 1 ; 66 1  </key_nb> 
+<mot> professions </mot> <key_nb> 17 1  </key_nb> 
+<mot> sanitaires </mot> <key_nb> 17 2 ; 65 2 ; 71 1  </key_nb> 
+<mot> autorités </mot> <key_nb> 17 3 ; 65 1 ; 71 1  </key_nb> 
+<mot> intérêt </mot> <key_nb> 17 1  </key_nb> 
+<mot> outre </mot> <key_nb> 17 1  </key_nb> 
+<mot> expliquer </mot> <key_nb> 17 1 ; 49 1  </key_nb> 
+<mot> responsables </mot> <key_nb> 17 1 ; 65 2  </key_nb> 
+<mot> grippes </mot> <key_nb> 17 1  </key_nb> 
+<mot> nouveau </mot> <key_nb> 17 1 ; 41 1 ; 52 1 ; 65 1  </key_nb> 
+<mot> origine </mot> <key_nb> 17 2 ; 65 1  </key_nb> 
+<mot> éviter </mot> <key_nb> 17 1  </key_nb> 
+<mot> vacciner </mot> <key_nb> 17 1  </key_nb> 
+<mot> pandémique </mot> <key_nb> 17 1  </key_nb> 
+<mot> demander </mot> <key_nb> 17 1  </key_nb> 
+<mot> collectivité </mot> <key_nb> 17 1  </key_nb> 
+<mot> termes </mot> <key_nb> 17 1  </key_nb> 
+<mot> meilleure </mot> <key_nb> 17 1 ; 31 1  </key_nb> 
+<mot> populations </mot> <key_nb> 17 1  </key_nb> 
+<mot> fragiles </mot> <key_nb> 17 1  </key_nb> 
+<mot> experts </mot> <key_nb> 17 4 ; 42 1 ; 43 1  </key_nb> 
+<mot> compte </mot> <key_nb> 17 1 ; 24 1 ; 63 1  </key_nb> 
+<mot> sera </mot> <key_nb> 17 2 ; 29 1 ; 45 1 ; 75 1  </key_nb> 
+<mot> recommandé </mot> <key_nb> 17 1  </key_nb> 
+<mot> tenu </mot> <key_nb> 17 1 ; 38 1  </key_nb> 
+<mot> bientôt </mot> <key_nb> 17 1  </key_nb> 
+<mot> stock </mot> <key_nb> 17 3  </key_nb> 
+<mot> antiviral </mot> <key_nb> 17 1  </key_nb> 
+<mot> Tamiflu </mot> <key_nb> 17 2  </key_nb> 
+<mot> médicament </mot> <key_nb> 17 2 ; 38 2  </key_nb> 
+<mot> préventif </mot> <key_nb> 17 2  </key_nb> 
+<mot> usage </mot> <key_nb> 17 3  </key_nb> 
+<mot> humaine </mot> <key_nb> 17 1 ; 41 1 ; 60 1 ; 78 1  </key_nb> 
+<mot> malades </mot> <key_nb> 17 1  </key_nb> 
+<mot> capacités </mot> <key_nb> 17 1  </key_nb> 
+<mot> production </mot> <key_nb> 17 1 ; 42 1 ; 43 1 ; 60 1 ; 65 3  </key_nb> 
+<mot> visualiser </mot> <key_nb> 18 1 ; 26 1 ; 56 1 ; 58 1 ; 84 1  </key_nb> 
+<mot> Desk </mot> <key_nb> 18 1 ; 26 1 ; 56 1 ; 58 1 ; 84 1  </key_nb> 
+<mot> navigateur </mot> <key_nb> 18 1 ; 26 1 ; 56 1 ; 58 1 ; 84 1  </key_nb> 
+<mot> affiche </mot> <key_nb> 18 1 ; 26 1 ; 56 1 ; 58 1 ; 84 1  </key_nb> 
+<mot> frames </mot> <key_nb> 18 1 ; 26 1 ; 56 1 ; 58 1 ; 84 1  </key_nb> 
+<mot> député </mot> <key_nb> 19 3 ; 66 1  </key_nb> 
+<mot> fédération </mot> <key_nb> 19 3 ; 19 2 ; 36 1 ; 66 1  </key_nb> 
+<mot> équitation </mot> <key_nb> 19 2  </key_nb> 
 <mot> Francis </mot> <key_nb> 19 6  </key_nb> 
-<mot> fado </mot> <key_nb> 20 21  </key_nb> 
-<mot> comète </mot> <key_nb> 21 8  </key_nb> 
+<mot> Delattre </mot> <key_nb> 19 5  </key_nb> 
+<mot> maire </mot> <key_nb> 19 1 ; 75 1  </key_nb> 
+<mot> Franconville </mot> <key_nb> 19 2  </key_nb> 
+<mot> Val-d </mot> <key_nb> 19 2  </key_nb> 
+<mot> Oise </mot> <key_nb> 19 2  </key_nb> 
+<mot> annoncé </mot> <key_nb> 19 2 ; 71 1  </key_nb> 
+<mot> mardi </mot> <key_nb> 19 2 ; 55 1 ; 76 1  </key_nb> 
+<mot> Assemblée </mot> <key_nb> 19 1  </key_nb> 
+<mot> création </mot> <key_nb> 19 1  </key_nb> 
+<mot> sports </mot> <key_nb> 19 4 ; 66 1  </key_nb> 
+<mot> équestres </mot> <key_nb> 19 3  </key_nb> 
+<mot> retrait </mot> <key_nb> 19 1  </key_nb> 
+<mot> agrément </mot> <key_nb> 19 2  </key_nb> 
+<mot> Serge </mot> <key_nb> 19 4  </key_nb> 
+<mot> Lecomte </mot> <key_nb> 19 4  </key_nb> 
+<mot> statuts </mot> <key_nb> 19 1  </key_nb> 
+<mot> Legrand </mot> <key_nb> 19 1  </key_nb> 
+<mot> mise </mot> <key_nb> 19 1 ; 29 1  </key_nb> 
+<mot> élections </mot> <key_nb> 19 1  </key_nb> 
+<mot> raison </mot> <key_nb> 19 1  </key_nb> 
+<mot> préparer </mot> <key_nb> 19 1  </key_nb> 
+<mot> électoral </mot> <key_nb> 19 1  </key_nb> 
+<mot> concours </mot> <key_nb> 19 1 ; 75 1  </key_nb> 
+<mot> obstacles </mot> <key_nb> 19 1  </key_nb> 
+<mot> volonté </mot> <key_nb> 19 1  </key_nb> 
+<mot> niveau </mot> <key_nb> 19 1 ; 36 1 ; 39 1 ; 52 2  </key_nb> 
+<mot> part </mot> <key_nb> 19 2 ; 63 1 ; 65 1 ; 70 1 ; 72 1  </key_nb> 
+<mot> démarche </mot> <key_nb> 19 1  </key_nb> 
+<mot> encore </mot> <key_nb> 19 1 ; 21 1 ; 28 1 ; 29 1 ; 32 2 ; 38 1 ; 42 2 ; 43 2 ; 50 2 ; 78 1  </key_nb> 
+<mot> Carlos </mot> <key_nb> 20 4  </key_nb> 
+<mot> Carmo </mot> <key_nb> 20 5  </key_nb> 
+<mot> fado </mot> <key_nb> 20 26  </key_nb> 
+<mot> parle </mot> <key_nb> 20 1  </key_nb> 
+<mot> portugais </mot> <key_nb> 20 1  </key_nb> 
+<mot> invité </mot> <key_nb> 20 1  </key_nb> 
+<mot> Ile-de-France </mot> <key_nb> 20 2 ; 80 2  </key_nb> 
+<mot> Lisbonne </mot> <key_nb> 20 2 ; 47 1  </key_nb> 
+<mot> fadiste </mot> <key_nb> 20 1  </key_nb> 
+<mot> enfant </mot> <key_nb> 20 1  </key_nb> 
+<mot> dictature </mot> <key_nb> 20 1  </key_nb> 
+<mot> Camané </mot> <key_nb> 20 2  </key_nb> 
+<mot> Amalia </mot> <key_nb> 20 4  </key_nb> 
+<mot> créé </mot> <key_nb> 20 1  </key_nb> 
+<mot> Rodrigues </mot> <key_nb> 20 1  </key_nb> 
+<mot> orchestre </mot> <key_nb> 20 1  </key_nb> 
+<mot> Alfredo </mot> <key_nb> 20 2  </key_nb> 
+<mot> Marceneiro </mot> <key_nb> 20 1  </key_nb> 
+<mot> guitare </mot> <key_nb> 20 1  </key_nb> 
+<mot> portugaise </mot> <key_nb> 20 1  </key_nb> 
+<mot> Duarte </mot> <key_nb> 20 1  </key_nb> 
+<mot> parfois </mot> <key_nb> 20 1  </key_nb> 
+<mot> longtemps </mot> <key_nb> 20 1  </key_nb> 
+<mot> silence </mot> <key_nb> 20 1  </key_nb> 
+<mot> chanter </mot> <key_nb> 20 1  </key_nb> 
+<mot> Portugal </mot> <key_nb> 20 2  </key_nb> 
+<mot> jeunes </mot> <key_nb> 20 1 ; 61 1  </key_nb> 
+<mot> fadistes </mot> <key_nb> 20 1  </key_nb> 
+<mot> ouvriers </mot> <key_nb> 20 1  </key_nb> 
+<mot> quand </mot> <key_nb> 20 2 ; 48 2 ; 62 1 ; 82 1  </key_nb> 
+<mot> étais </mot> <key_nb> 20 1 ; 62 4  </key_nb> 
+<mot> châle </mot> <key_nb> 20 1  </key_nb> 
+<mot> fados </mot> <key_nb> 20 1  </key_nb> 
+<mot> gauche </mot> <key_nb> 20 1  </key_nb> 
+<mot> Puis </mot> <key_nb> 20 1 ; 25 1  </key_nb> 
+<mot> souffert </mot> <key_nb> 20 1 ; 21 1  </key_nb> 
+<mot> sentiment </mot> <key_nb> 20 1  </key_nb> 
+<mot> trop </mot> <key_nb> 20 1 ; 29 1 ; 33 2 ; 48 1 ; 68 1  </key_nb> 
+<mot> mission </mot> <key_nb> 21 3 ; 50 5 ; 78 1  </key_nb> 
+<mot> Deep </mot> <key_nb> 21 4 ; 50 1  </key_nb> 
+<mot> portrait </mot> <key_nb> 21 1 ; 64 1  </key_nb> 
+<mot> comète </mot> <key_nb> 21 8 ; 50 3  </key_nb> 
+<mot> ceux </mot> <key_nb> 21 1 ; 33 2 ; 80 1  </key_nb> 
+<mot> choqués </mot> <key_nb> 21 1  </key_nb> 
+<mot> intrusion </mot> <key_nb> 21 1  </key_nb> 
+<mot> astronomie </mot> <key_nb> 21 1  </key_nb> 
+<mot> rassurent </mot> <key_nb> 21 1  </key_nb> 
 <mot> Tempel </mot> <key_nb> 21 7  </key_nb> 
-<mot> sols </mot> <key_nb> 24 8  </key_nb> 
-<mot> carbone </mot> <key_nb> 24 12  </key_nb> 
+<mot> collision </mot> <key_nb> 21 3 ; 50 2  </key_nb> 
+<mot> boulet </mot> <key_nb> 21 2  </key_nb> 
+<mot> cuivre </mot> <key_nb> 21 1 ; 23 1  </key_nb> 
+<mot> sonde </mot> <key_nb> 21 5 ; 50 8 ; 78 5  </key_nb> 
+<mot> juillet </mot> <key_nb> 21 2 ; 50 1  </key_nb> 
+<mot> NASA </mot> <key_nb> 21 1 ; 29 5 ; 78 1  </key_nb> 
+<mot> lors </mot> <key_nb> 21 3 ; 27 1 ; 31 2 ; 46 1 ; 54 2 ; 66 2 ; 73 2 ; 76 1  </key_nb> 
+<mot> instruments </mot> <key_nb> 21 2 ; 78 2  </key_nb> 
+<mot> céleste </mot> <key_nb> 21 1 ; 50 1  </key_nb> 
+<mot> donc </mot> <key_nb> 21 2 ; 32 1 ; 54 1 ; 70 1 ; 82 2  </key_nb> 
+<mot> impacteur </mot> <key_nb> 21 2  </key_nb> 
+<mot> état </mot> <key_nb> 21 2 ; 71 1  </key_nb> 
+<mot> Terre </mot> <key_nb> 21 2 ; 37 2 ; 50 6 ; 62 1 ; 78 1  </key_nb> 
+<mot> comètes </mot> <key_nb> 21 3 ; 50 2  </key_nb> 
+<mot> loin </mot> <key_nb> 21 2 ; 51 1  </key_nb> 
+<mot> observation </mot> <key_nb> 21 1  </key_nb> 
+<mot> vide </mot> <key_nb> 21 1  </key_nb> 
+<mot> Hearn </mot> <key_nb> 21 2  </key_nb> 
+<mot> couche </mot> <key_nb> 21 1 ; 30 1  </key_nb> 
+<mot> taille </mot> <key_nb> 21 1 ; 50 1  </key_nb> 
+<mot> celle </mot> <key_nb> 21 1 ; 41 1 ; 75 2  </key_nb> 
+<mot> toutefois </mot> <key_nb> 21 1  </key_nb> 
+<mot> poussière </mot> <key_nb> 21 2 ; 50 1  </key_nb> 
+<mot> Soleil </mot> <key_nb> 21 1 ; 78 6  </key_nb> 
+<mot> particules </mot> <key_nb> 21 2 ; 50 2 ; 78 3  </key_nb> 
+<mot> glacées </mot> <key_nb> 21 1  </key_nb> 
+<mot> indispensables </mot> <key_nb> 21 1  </key_nb> 
+<mot> canular </mot> <key_nb> 22 1  </key_nb> 
+<mot> imitateur </mot> <key_nb> 22 1  </key_nb> 
+<mot> faisant </mot> <key_nb> 22 1  </key_nb> 
+<mot> passer </mot> <key_nb> 22 1 ; 54 1  </key_nb> 
+<mot> Jacques </mot> <key_nb> 22 1 ; 77 1  </key_nb> 
+<mot> Chirac </mot> <key_nb> 22 1  </key_nb> 
+<mot> demandé </mot> <key_nb> 22 3  </key_nb> 
+<mot> obtenu </mot> <key_nb> 22 1  </key_nb> 
+<mot> posent </mot> <key_nb> 22 1  </key_nb> 
+<mot> main </mot> <key_nb> 22 2  </key_nb> 
+<mot> cœur </mot> <key_nb> 22 2  </key_nb> 
+<mot> soir </mot> <key_nb> 22 1 ; 45 1  </key_nb> 
+<mot> Dublin </mot> <key_nb> 22 1  </key_nb> 
+<mot> qualification </mot> <key_nb> 22 1  </key_nb> 
+<mot> radio </mot> <key_nb> 22 1  </key_nb> 
+<mot> Rire </mot> <key_nb> 22 1  </key_nb> 
+<mot> Chansons </mot> <key_nb> 22 1  </key_nb> 
+<mot> sélectionneur </mot> <key_nb> 22 1 ; 48 3  </key_nb> 
+<mot> Raymond </mot> <key_nb> 22 1  </key_nb> 
+<mot> Domenech </mot> <key_nb> 22 2  </key_nb> 
+<mot> capitaine </mot> <key_nb> 22 1  </key_nb> 
+<mot> montré </mot> <key_nb> 22 1  </key_nb> 
+<mot> valeurs </mot> <key_nb> 22 1 ; 48 1  </key_nb> 
+<mot> trouvé </mot> <key_nb> 22 1  </key_nb> 
+<mot> résultat </mot> <key_nb> 22 1  </key_nb> 
+<mot> concernés </mot> <key_nb> 22 1  </key_nb> 
+<mot> sujet </mot> <key_nb> 22 3 ; 64 1  </key_nb> 
+<mot> Pavé </mot> <key_nb> 23 1  </key_nb> 
+<mot> cinq </mot> <key_nb> 23 2 ; 31 1  </key_nb> 
+<mot> archives </mot> <key_nb> 23 1  </key_nb> 
+<mot> porte </mot> <key_nb> 23 2  </key_nb> 
+<mot> Dorée </mot> <key_nb> 23 2  </key_nb> 
+<mot> présente </mot> <key_nb> 23 1  </key_nb> 
+<mot> projets </mot> <key_nb> 23 1  </key_nb> 
+<mot> concouru </mot> <key_nb> 23 1  </key_nb> 
+<mot> construction </mot> <key_nb> 23 1 ; 39 1  </key_nb> 
+<mot> Centre </mot> <key_nb> 23 1 ; 28 1 ; 29 1 ; 29 1 ; 49 2 ; 80 1  </key_nb> 
+<mot> nationales </mot> <key_nb> 23 1  </key_nb> 
+<mot> Pierrefitte-sur-Seine </mot> <key_nb> 23 1  </key_nb> 
+<mot> aluminium </mot> <key_nb> 23 1  </key_nb> 
+<mot> silos </mot> <key_nb> 23 1  </key_nb> 
+<mot> vague </mot> <key_nb> 23 1 ; 70 1  </key_nb> 
+<mot> courbe </mot> <key_nb> 23 1  </key_nb> 
+<mot> architecture </mot> <key_nb> 23 1 ; 63 8 ; 75 2  </key_nb> 
+<mot> Massimiliano </mot> <key_nb> 23 1  </key_nb> 
+<mot> Fuksas </mot> <key_nb> 23 1  </key_nb> 
+<mot> paysagiste </mot> <key_nb> 23 4  </key_nb> 
+<mot> magasins </mot> <key_nb> 23 1  </key_nb> 
+<mot> lecture </mot> <key_nb> 23 2  </key_nb> 
+<mot> quadrilatère </mot> <key_nb> 23 1  </key_nb> 
+<mot> espaces </mot> <key_nb> 23 2 ; 75 1  </key_nb> 
+<mot> salles </mot> <key_nb> 23 1 ; 81 1  </key_nb> 
+<mot> heures </mot> <key_nb> 23 1 ; 25 2 ; 38 3 ; 51 2 ; 53 1 ; 71 1 ; 81 3  </key_nb> 
+<mot> réchauffement </mot> <key_nb> 24 4 ; 42 1 ; 43 1 ; 70 3  </key_nb> 
+<mot> sols </mot> <key_nb> 24 11 ; 52 1  </key_nb> 
+<mot> carbone </mot> <key_nb> 24 15 ; 42 1 ; 43 1 ; 70 4  </key_nb> 
+<mot> processus </mot> <key_nb> 24 1  </key_nb> 
+<mot> britanniques </mot> <key_nb> 24 1  </key_nb> 
+<mot> jeudi </mot> <key_nb> 24 1  </key_nb> 
+<mot> climatique </mot> <key_nb> 24 4 ; 42 2 ; 43 2 ; 70 1  </key_nb> 
+<mot> directement </mot> <key_nb> 24 1 ; 30 3  </key_nb> 
+<mot> National </mot> <key_nb> 24 1 ; 80 1  </key_nb> 
+<mot> Resources </mot> <key_nb> 24 1  </key_nb> 
+<mot> Institute </mot> <key_nb> 24 2  </key_nb> 
+<mot> mesuré </mot> <key_nb> 24 1  </key_nb> 
+<mot> Angleterre </mot> <key_nb> 24 2 ; 27 3 ; 66 1  </key_nb> 
+<mot> Galles </mot> <key_nb> 24 2  </key_nb> 
+<mot> 1978 </mot> <key_nb> 24 1  </key_nb> 
+<mot> cours </mot> <key_nb> 24 3 ; 38 2 ; 52 1 ; 68 2 ; 70 1 ; 80 1 ; 83 2  </key_nb> 
+<mot> sous </mot> <key_nb> 24 2 ; 46 1 ; 64 1 ; 70 1  </key_nb> 
+<mot> environ </mot> <key_nb> 24 1 ; 30 2 ; 37 1 ; 38 2 ; 78 1 ; 83 1  </key_nb> 
+<mot> tonnes </mot> <key_nb> 24 1 ; 28 1 ; 42 3 ; 43 3 ; 70 1  </key_nb> 
+<mot> régions </mot> <key_nb> 24 4  </key_nb> 
+<mot> toundra </mot> <key_nb> 24 1  </key_nb> 
+<mot> enneigement </mot> <key_nb> 24 1  </key_nb> 
+<mot> zones </mot> <key_nb> 24 4 ; 30 1  </key_nb> 
+<mot> albédo </mot> <key_nb> 24 1  </key_nb> 
+<mot> énergie </mot> <key_nb> 24 1 ; 37 2 ; 42 2 ; 43 2 ; 78 1  </key_nb> 
+<mot> auteurs </mot> <key_nb> 24 1 ; 33 1 ; 54 1  </key_nb> 
+<mot> favoriser </mot> <key_nb> 24 1  </key_nb> 
+<mot> stocké </mot> <key_nb> 24 1  </key_nb> 
+<mot> réduit </mot> <key_nb> 24 1  </key_nb> 
+<mot> contribuer </mot> <key_nb> 24 1  </key_nb> 
+<mot> pertes </mot> <key_nb> 24 1  </key_nb> 
+<mot> Annette </mot> <key_nb> 24 1  </key_nb> 
+<mot> Freibauer </mot> <key_nb> 24 1  </key_nb> 
+<mot> Ernst-Detlef </mot> <key_nb> 24 1  </key_nb> 
+<mot> Schulze </mot> <key_nb> 24 1  </key_nb> 
+<mot> Royaume-Uni </mot> <key_nb> 24 1  </key_nb> 
+<mot> réalisées </mot> <key_nb> 24 1  </key_nb> 
+<mot> mesures </mot> <key_nb> 24 2 ; 83 1  </key_nb> 
+<mot> outre-Manche </mot> <key_nb> 24 1  </key_nb> 
+<mot> changements </mot> <key_nb> 24 2  </key_nb> 
+<mot> intervenus </mot> <key_nb> 24 1  </key_nb> 
+<mot> stocks </mot> <key_nb> 24 2 ; 65 1  </key_nb> 
+<mot> organique </mot> <key_nb> 24 3  </key_nb> 
+<mot> atmosphère </mot> <key_nb> 24 1 ; 30 2 ; 42 1 ; 43 1  </key_nb> 
+<mot> Arrouays </mot> <key_nb> 24 3  </key_nb> 
+<mot> INRA </mot> <key_nb> 24 1  </key_nb> 
+<mot> terrains </mot> <key_nb> 24 3  </key_nb> 
+<mot> pratiques </mot> <key_nb> 24 1  </key_nb> 
+<mot> agricoles </mot> <key_nb> 24 1  </key_nb> 
+<mot> prairies </mot> <key_nb> 24 1  </key_nb> 
+<mot> teneur </mot> <key_nb> 24 1  </key_nb> 
+<mot> évidence </mot> <key_nb> 24 1  </key_nb> 
+<mot> principalement </mot> <key_nb> 24 1  </key_nb> 
+<mot> riches </mot> <key_nb> 24 1  </key_nb> 
+<mot> matière </mot> <key_nb> 24 1 ; 49 2 ; 50 2  </key_nb> 
+<mot> comparables </mot> <key_nb> 24 1  </key_nb> 
+<mot> réseau </mot> <key_nb> 24 2 ; 52 1 ; 81 1  </key_nb> 
+<mot> pièce </mot> <key_nb> 25 2 ; 51 1 ; 80 3 ; 82 2  </key_nb> 
+<mot> portée </mot> <key_nb> 25 1  </key_nb> 
+<mot> Jean-Louis </mot> <key_nb> 25 2  </key_nb> 
+<mot> Trintignant </mot> <key_nb> 25 2  </key_nb> 
+<mot> hôpital </mot> <key_nb> 25 1 ; 71 2  </key_nb> 
+<mot> médecin </mot> <key_nb> 25 2  </key_nb> 
+<mot> Paul </mot> <key_nb> 25 1  </key_nb> 
+<mot> petite </mot> <key_nb> 25 1 ; 27 1 ; 50 1 ; 81 1  </key_nb> 
+<mot> Jules </mot> <key_nb> 25 3  </key_nb> 
+<mot> point </mot> <key_nb> 25 1 ; 65 1 ; 67 1  </key_nb> 
+<mot> acteurs </mot> <key_nb> 25 1  </key_nb> 
+<mot> sérieux </mot> <key_nb> 25 1  </key_nb> 
+<mot> Samuel </mot> <key_nb> 25 1  </key_nb> 
+<mot> Benchetrit </mot> <key_nb> 25 1  </key_nb> 
+<mot> Roger </mot> <key_nb> 25 1 ; 31 8  </key_nb> 
+<mot> Dumas </mot> <key_nb> 25 1 ; 51 2  </key_nb> 
+<mot> samedi </mot> <key_nb> 25 1 ; 57 1 ; 79 1 ; 81 1  </key_nb> 
+<mot> Open </mot> <key_nb> 26 1 ; 31 4  </key_nb> 
+<mot> Pierce </mot> <key_nb> 26 1 ; 31 1  </key_nb> 
+<mot> Mauresmo </mot> <key_nb> 26 1  </key_nb> 
+<mot> Agassi </mot> <key_nb> 26 1 ; 31 8  </key_nb> 
+<mot> demi-finale </mot> <key_nb> 26 1 ; 69 2  </key_nb> 
+<mot> cricket </mot> <key_nb> 27 2  </key_nb> 
+<mot> devenu </mot> <key_nb> 27 1  </key_nb> 
+<mot> depuis </mot> <key_nb> 27 1 ; 31 1 ; 36 3 ; 37 1 ; 38 1 ; 48 1 ; 50 1 ; 59 1 ; 66 1 ; 67 1 ; 76 3 ; 78 1 ; 78 2 ; 79 1 ; 81 2  </key_nb> 
+<mot> tournoi </mot> <key_nb> 27 1 ; 31 7  </key_nb> 
+<mot> Ashes </mot> <key_nb> 27 1  </key_nb> 
+<mot> urne </mot> <key_nb> 27 1  </key_nb> 
+<mot> foot </mot> <key_nb> 27 1  </key_nb> 
+<mot> télévision </mot> <key_nb> 27 1 ; 66 1  </key_nb> 
+<mot> subies </mot> <key_nb> 27 1  </key_nb> 
 <mot> réalité </mot> <key_nb> 28 5  </key_nb> 
 <mot> virtuelle </mot> <key_nb> 28 5  </key_nb> 
-<mot> Roger </mot> <key_nb> 31 8  </key_nb> 
+<mot> informatique </mot> <key_nb> 28 1  </key_nb> 
+<mot> archéologie </mot> <key_nb> 28 2  </key_nb> 
+<mot> musée </mot> <key_nb> 28 1 ; 64 3 ; 75 3  </key_nb> 
+<mot> Archéopôle </mot> <key_nb> 28 3  </key_nb> 
+<mot> Aquitaine </mot> <key_nb> 28 2  </key_nb> 
+<mot> inauguré </mot> <key_nb> 28 1  </key_nb> 
+<mot> vendredi </mot> <key_nb> 28 1  </key_nb> 
+<mot> Pessac </mot> <key_nb> 28 1  </key_nb> 
+<mot> Gironde </mot> <key_nb> 28 1  </key_nb> 
+<mot> campus </mot> <key_nb> 28 1  </key_nb> 
+<mot> bordelais </mot> <key_nb> 28 1  </key_nb> 
+<mot> inédit </mot> <key_nb> 28 1  </key_nb> 
+<mot> interface </mot> <key_nb> 28 1  </key_nb> 
+<mot> archéologique </mot> <key_nb> 28 2  </key_nb> 
+<mot> train </mot> <key_nb> 28 1  </key_nb> 
+<mot> Ausonius </mot> <key_nb> 28 2  </key_nb> 
+<mot> pièces </mot> <key_nb> 28 3  </key_nb> 
+<mot> archéologiques </mot> <key_nb> 28 4  </key_nb> 
+<mot> fouilles </mot> <key_nb> 28 1  </key_nb> 
+<mot> voir </mot> <key_nb> 28 1 ; 51 1  </key_nb> 
+<mot> technologies </mot> <key_nb> 28 3 ; 42 2 ; 43 2  </key_nb> 
+<mot> thermes </mot> <key_nb> 28 1  </key_nb> 
+<mot> gallo-romains </mot> <key_nb> 28 1  </key_nb> 
+<mot> Barzan </mot> <key_nb> 28 1  </key_nb> 
+<mot> dimensions </mot> <key_nb> 28 1  </key_nb> 
+<mot> édifice </mot> <key_nb> 28 1  </key_nb> 
+<mot> parfaite </mot> <key_nb> 28 1  </key_nb> 
+<mot> sphinx </mot> <key_nb> 28 1  </key_nb> 
+<mot> modèle </mot> <key_nb> 28 1  </key_nb> 
+<mot> informatiques </mot> <key_nb> 28 1  </key_nb> 
+<mot> robot </mot> <key_nb> 28 1 ; 50 1  </key_nb> 
+<mot> pierre </mot> <key_nb> 28 2  </key_nb> 
+<mot> Vergnieux </mot> <key_nb> 28 1  </key_nb> 
+<mot> reconstitution </mot> <key_nb> 28 1  </key_nb> 
+<mot> informations </mot> <key_nb> 28 1  </key_nb> 
+<mot> site </mot> <key_nb> 28 2  </key_nb> 
+<mot> Xanthos </mot> <key_nb> 28 1  </key_nb> 
+<mot> blocs </mot> <key_nb> 28 1  </key_nb> 
+<mot> recours </mot> <key_nb> 28 1  </key_nb> 
+<mot> considérablement </mot> <key_nb> 28 1  </key_nb> 
+<mot> Descat </mot> <key_nb> 28 1  </key_nb> 
+<mot> désormais </mot> <key_nb> 28 1 ; 78 1  </key_nb> 
+<mot> reconstructions </mot> <key_nb> 28 1  </key_nb> 
+<mot> valeur </mot> <key_nb> 28 1  </key_nb> 
+<mot> doivent </mot> <key_nb> 28 1  </key_nb> 
+<mot> cyclone </mot> <key_nb> 29 2  </key_nb> 
+<mot> Katrina </mot> <key_nb> 29 3  </key_nb> 
+<mot> retour </mot> <key_nb> 29 1 ; 50 1  </key_nb> 
+<mot> navette </mot> <key_nb> 29 4  </key_nb> 
+<mot> spatiale </mot> <key_nb> 29 2 ; 50 3  </key_nb> 
+<mot> dégâts </mot> <key_nb> 29 1  </key_nb> 
+<mot> pourraient </mot> <key_nb> 29 1 ; 54 3  </key_nb> 
+<mot> mars </mot> <key_nb> 29 3 ; 50 1 ; 62 1  </key_nb> 
+<mot> Discovery </mot> <key_nb> 29 2  </key_nb> 
+<mot> programme </mot> <key_nb> 29 1 ; 53 1  </key_nb> 
+<mot> Nouvelle-Orléans </mot> <key_nb> 29 1  </key_nb> 
+<mot> lancement </mot> <key_nb> 29 1  </key_nb> 
+<mot> calendrier </mot> <key_nb> 29 1  </key_nb> 
+<mot> vols </mot> <key_nb> 29 3  </key_nb> 
+<mot> note </mot> <key_nb> 29 1  </key_nb> 
+<mot> interne </mot> <key_nb> 29 1  </key_nb> 
+<mot> évoque </mot> <key_nb> 29 1  </key_nb> 
+<mot> report </mot> <key_nb> 29 1  </key_nb> 
+<mot> station </mot> <key_nb> 29 1  </key_nb> 
+<mot> dollars </mot> <key_nb> 29 1  </key_nb> 
+<mot> employés </mot> <key_nb> 29 1  </key_nb> 
+<mot> usine </mot> <key_nb> 29 1  </key_nb> 
+<mot> assemblage </mot> <key_nb> 29 1  </key_nb> 
+<mot> Michoud </mot> <key_nb> 29 2  </key_nb> 
+<mot> Lookheed-Martin </mot> <key_nb> 29 1  </key_nb> 
+<mot> modifications </mot> <key_nb> 29 1  </key_nb> 
+<mot> réservoir </mot> <key_nb> 29 1  </key_nb> 
+<mot> externe </mot> <key_nb> 29 1  </key_nb> 
+<mot> Kennedy </mot> <key_nb> 29 1  </key_nb> 
+<mot> toute </mot> <key_nb> 29 1  </key_nb> 
+<mot> reprise </mot> <key_nb> 29 1  </key_nb> 
+<mot> sites </mot> <key_nb> 29 1  </key_nb> 
+<mot> navettes </mot> <key_nb> 29 1  </key_nb> 
+<mot> troposphère </mot> <key_nb> 30 2  </key_nb> 
+<mot> croissance </mot> <key_nb> 30 2  </key_nb> 
+<mot> Chine </mot> <key_nb> 30 2  </key_nb> 
+<mot> chinoise </mot> <key_nb> 30 1  </key_nb> 
+<mot> traduit </mot> <key_nb> 30 1 ; 54 1  </key_nb> 
+<mot> forte </mot> <key_nb> 30 1  </key_nb> 
+<mot> augmentation </mot> <key_nb> 30 1 ; 70 1  </key_nb> 
+<mot> polluants </mot> <key_nb> 30 3 ; 60 2  </key_nb> 
+<mot> beaucoup </mot> <key_nb> 30 1 ; 45 1 ; 63 1 ; 78 1 ; 79 1  </key_nb> 
+<mot> dioxyde </mot> <key_nb> 30 1  </key_nb> 
+<mot> azote </mot> <key_nb> 30 1  </key_nb> 
+<mot> au-dessus </mot> <key_nb> 30 2  </key_nb> 
+<mot> concentration </mot> <key_nb> 30 1  </key_nb> 
+<mot> occidentale </mot> <key_nb> 30 1  </key_nb> 
+<mot> Amérique </mot> <key_nb> 30 1  </key_nb> 
+<mot> Nord </mot> <key_nb> 30 1 ; 53 1 ; 62 1 ; 76 1  </key_nb> 
+<mot> contraire </mot> <key_nb> 30 2  </key_nb> 
+<mot> baissé </mot> <key_nb> 30 1  </key_nb> 
+<mot> ozone </mot> <key_nb> 30 1  </key_nb> 
+<mot> conclusions </mot> <key_nb> 30 1  </key_nb> 
+<mot> observations </mot> <key_nb> 30 1 ; 83 2  </key_nb> 
+<mot> combustion </mot> <key_nb> 30 3  </key_nb> 
+<mot> ressources </mot> <key_nb> 30 1  </key_nb> 
+<mot> fossiles </mot> <key_nb> 30 1 ; 42 1 ; 43 1  </key_nb> 
+<mot> Claire </mot> <key_nb> 30 1 ; 30 1  </key_nb> 
+<mot> Granier </mot> <key_nb> 30 4  </key_nb> 
+<mot> couches </mot> <key_nb> 30 1 ; 42 1 ; 43 1  </key_nb> 
+<mot> basses </mot> <key_nb> 30 1  </key_nb> 
+<mot> émissions </mot> <key_nb> 30 1 ; 42 2 ; 43 2  </key_nb> 
+<mot> baisse </mot> <key_nb> 30 1 ; 66 1  </key_nb> 
+<mot> parc </mot> <key_nb> 30 1 ; 76 2  </key_nb> 
+<mot> amélioration </mot> <key_nb> 30 1 ; 54 1  </key_nb> 
+<mot> Aucune </mot> <key_nb> 30 1  </key_nb> 
+<mot> meilleur </mot> <key_nb> 31 1 ; 39 1  </key_nb> 
+<mot> joueur </mot> <key_nb> 31 3 ; 53 1  </key_nb> 
+<mot> affronté </mot> <key_nb> 31 1  </key_nb> 
+<mot> Federer </mot> <key_nb> 31 9  </key_nb> 
+<mot> vient </mot> <key_nb> 31 1 ; 50 1 ; 82 2  </key_nb> 
+<mot> imposer </mot> <key_nb> 31 1  </key_nb> 
+<mot> affilée </mot> <key_nb> 31 1  </key_nb> 
 <mot> Andre </mot> <key_nb> 31 7  </key_nb> 
-<mot> tournoi </mot> <key_nb> 31 7  </key_nb> 
-<mot> Grand </mot> <key_nb> 31 7  </key_nb> 
+<mot> envoler </mot> <key_nb> 31 1  </key_nb> 
+<mot> remporter </mot> <key_nb> 31 3  </key_nb> 
+<mot> Clijsters </mot> <key_nb> 31 3  </key_nb> 
+<mot> Mary </mot> <key_nb> 31 2  </key_nb> 
+<mot> Belge </mot> <key_nb> 31 1  </key_nb> 
+<mot> Chelem </mot> <key_nb> 31 6  </key_nb> 
+<mot> sets </mot> <key_nb> 31 2  </key_nb> 
+<mot> Roland-Garros </mot> <key_nb> 31 3  </key_nb> 
+<mot> Series </mot> <key_nb> 31 1  </key_nb> 
+<mot> battu </mot> <key_nb> 31 1  </key_nb> 
+<mot> carrière </mot> <key_nb> 31 2  </key_nb> 
+<mot> Américain </mot> <key_nb> 31 4 ; 65 1 ; 68 4 ; 68 3 ; 77 1 ; 79 1  </key_nb> 
+<mot> qualité </mot> <key_nb> 31 1 ; 39 1 ; 68 1  </key_nb> 
+<mot> finales </mot> <key_nb> 31 1  </key_nb> 
+<mot> service </mot> <key_nb> 31 4 ; 68 2  </key_nb> 
+<mot> aces </mot> <key_nb> 31 1  </key_nb> 
+<mot> lignes </mot> <key_nb> 31 1  </key_nb> 
+<mot> manche </mot> <key_nb> 31 2  </key_nb> 
+<mot> balles </mot> <key_nb> 31 1  </key_nb> 
+<mot> semble </mot> <key_nb> 31 2 ; 49 1  </key_nb> 
+<mot> longs </mot> <key_nb> 31 1  </key_nb> 
+<mot> remporté </mot> <key_nb> 31 1  </key_nb> 
+<mot> Wimbledon </mot> <key_nb> 31 2  </key_nb> 
+<mot> victoires </mot> <key_nb> 31 1  </key_nb> 
+<mot> tournois </mot> <key_nb> 31 2  </key_nb> 
+<mot> Australie </mot> <key_nb> 31 1 ; 35 1  </key_nb> 
+<mot> Master </mot> <key_nb> 31 1 ; 63 1  </key_nb> 
+<mot> réalise </mot> <key_nb> 31 1  </key_nb> 
+<mot> Rafael </mot> <key_nb> 31 1  </key_nb> 
+<mot> piste </mot> <key_nb> 32 1  </key_nb> 
+<mot> Spa-Francorchamps </mot> <key_nb> 32 2  </key_nb> 
+<mot> MichelinLa </mot> <key_nb> 32 1  </key_nb> 
+<mot> général </mot> <key_nb> 32 1 ; 46 1  </key_nb> 
+<mot> Edouard </mot> <key_nb> 32 1  </key_nb> 
+<mot> manufacturier </mot> <key_nb> 32 1  </key_nb> 
+<mot> unique </mot> <key_nb> 32 1  </key_nb> 
+<mot> devrait </mot> <key_nb> 32 1 ; 42 3 ; 43 3 ; 75 1  </key_nb> 
+<mot> toutes </mot> <key_nb> 32 2 ; 64 1 ; 68 2 ; 78 1  </key_nb> 
+<mot> écuries </mot> <key_nb> 32 1  </key_nb> 
+<mot> Finlandais </mot> <key_nb> 32 1  </key_nb> 
+<mot> pilote </mot> <key_nb> 32 3  </key_nb> 
+<mot> Brésil </mot> <key_nb> 32 1  </key_nb> 
+<mot> Interlagos </mot> <key_nb> 32 1  </key_nb> 
+<mot> cachait </mot> <key_nb> 32 1  </key_nb> 
+<mot> déception </mot> <key_nb> 32 1  </key_nb> 
+<mot> aurions </mot> <key_nb> 32 1  </key_nb> 
+<mot> décrocher </mot> <key_nb> 32 1 ; 79 1  </key_nb> 
+<mot> difficile </mot> <key_nb> 32 1  </key_nb> 
 <mot> Jean-Marie </mot> <key_nb> 33 7  </key_nb> 
-<mot> rentrée </mot> <key_nb> 33 5  </key_nb> 
-<mot> librairie </mot> <key_nb> 33 7  </key_nb> 
-<mot> Sevestre </mot> <key_nb> 33 7  </key_nb> 
+<mot> Sevestre </mot> <key_nb> 33 9  </key_nb> 
+<mot> libraire </mot> <key_nb> 33 2  </key_nb> 
+<mot> littérature </mot> <key_nb> 33 3  </key_nb> 
+<mot> nouveaux </mot> <key_nb> 33 2  </key_nb> 
+<mot> titres </mot> <key_nb> 33 5  </key_nb> 
+<mot> rentrée </mot> <key_nb> 33 6  </key_nb> 
+<mot> rayon </mot> <key_nb> 33 1  </key_nb> 
+<mot> salariés </mot> <key_nb> 33 1  </key_nb> 
+<mot> Montpellier </mot> <key_nb> 33 4  </key_nb> 
+<mot> livres </mot> <key_nb> 33 1  </key_nb> 
+<mot> chaque </mot> <key_nb> 33 1 ; 41 2 ; 54 1 ; 76 1 ; 81 1  </key_nb> 
+<mot> centaines </mot> <key_nb> 33 1  </key_nb> 
+<mot> Sauramps </mot> <key_nb> 33 5  </key_nb> 
+<mot> librairie </mot> <key_nb> 33 9  </key_nb> 
+<mot> entreprise </mot> <key_nb> 33 1 ; 39 1  </key_nb> 
+<mot> avons </mot> <key_nb> 33 3 ; 39 1 ; 45 1 ; 47 2 ; 48 1  </key_nb> 
+<mot> Saussan </mot> <key_nb> 33 1  </key_nb> 
+<mot> lettres </mot> <key_nb> 33 1 ; 51 1  </key_nb> 
+<mot> propose </mot> <key_nb> 33 2  </key_nb> 
+<mot> coeur </mot> <key_nb> 33 2 ; 54 2  </key_nb> 
+<mot> magasin </mot> <key_nb> 33 1  </key_nb> 
+<mot> littéraire </mot> <key_nb> 33 1  </key_nb> 
+<mot> roman </mot> <key_nb> 33 1 ; 68 1  </key_nb> 
+<mot> Philippe </mot> <key_nb> 33 1 ; 51 2 ; 54 2  </key_nb> 
+<mot> démarre </mot> <key_nb> 33 1  </key_nb> 
+<mot> commerce </mot> <key_nb> 33 1  </key_nb> 
+<mot> nouveautés </mot> <key_nb> 33 1  </key_nb> 
+<mot> défendre </mot> <key_nb> 33 1  </key_nb> 
+<mot> romans </mot> <key_nb> 33 2  </key_nb> 
+<mot> permettent </mot> <key_nb> 33 1  </key_nb> 
+<mot> découvrir </mot> <key_nb> 33 1  </key_nb> 
+<mot> écrivain </mot> <key_nb> 33 1  </key_nb> 
+<mot> contacts </mot> <key_nb> 33 1  </key_nb> 
+<mot> écrivains </mot> <key_nb> 33 1  </key_nb> 
+<mot> études </mot> <key_nb> 33 1 ; 62 2 ; 63 2  </key_nb> 
+<mot> plutôt </mot> <key_nb> 33 1  </key_nb> 
+<mot> imprimeur </mot> <key_nb> 33 1  </key_nb> 
+<mot> commercial </mot> <key_nb> 33 1  </key_nb> 
+<mot> marchés </mot> <key_nb> 33 1  </key_nb> 
+<mot> publics </mot> <key_nb> 33 1  </key_nb> 
+<mot> "Oberon" </mot> <key_nb> 34 1  </key_nb> 
+<mot> fréquemment </mot> <key_nb> 34 1  </key_nb> 
+<mot> joué </mot> <key_nb> 34 1  </key_nb> 
+<mot> Grande-Bretagne </mot> <key_nb> 34 1  </key_nb> 
+<mot> Weber </mot> <key_nb> 34 2  </key_nb> 
+<mot> resté </mot> <key_nb> 34 1  </key_nb> 
+<mot> ombre </mot> <key_nb> 34 1 ; 62 1  </key_nb> 
+<mot> fascinée </mot> <key_nb> 34 1  </key_nb> 
+<mot> 1821 </mot> <key_nb> 34 1  </key_nb> 
+<mot> lequel </mot> <key_nb> 34 1  </key_nb> 
+<mot> motivé </mot> <key_nb> 34 1  </key_nb> 
+<mot> commande </mot> <key_nb> 34 1 ; 63 1  </key_nb> 
+<mot> Covent </mot> <key_nb> 34 1  </key_nb> 
+<mot> Garden </mot> <key_nb> 34 1  </key_nb> 
+<mot> anglais </mot> <key_nb> 34 1  </key_nb> 
+<mot> Planché </mot> <key_nb> 34 1  </key_nb> 
+<mot> version </mot> <key_nb> 34 1  </key_nb> 
+<mot> Eliot </mot> <key_nb> 34 2  </key_nb> 
+<mot> Gardiner </mot> <key_nb> 34 2  </key_nb> 
+<mot> belle </mot> <key_nb> 34 1  </key_nb> 
+<mot> chevalier </mot> <key_nb> 34 1  </key_nb> 
+<mot> Huon </mot> <key_nb> 34 1  </key_nb> 
+<mot> Reiza </mot> <key_nb> 34 1  </key_nb> 
+<mot> Monteverdi </mot> <key_nb> 34 1  </key_nb> 
+<mot> Choir </mot> <key_nb> 34 1  </key_nb> 
+<mot> Hillevi </mot> <key_nb> 34 1  </key_nb> 
+<mot> Martinpelto </mot> <key_nb> 34 1  </key_nb> 
+<mot> Steve </mot> <key_nb> 34 1 ; 45 1  </key_nb> 
+<mot> Davislim </mot> <key_nb> 34 1  </key_nb> 
 <mot> Susheela </mot> <key_nb> 35 7  </key_nb> 
-<mot> Raman </mot> <key_nb> 35 5  </key_nb> 
-<mot> milliards </mot> <key_nb> 37 5  </key_nb> 
-<mot> moins </mot> <key_nb> 38 6  </key_nb> 
-<mot> troubles </mot> <key_nb> 38 7  </key_nb> 
-<mot> club </mot> <key_nb> 39 5 ; 76 7  </key_nb> 
-<mot> pays </mot> <key_nb> 41 7  </key_nb> 
-<mot> Robert </mot> <key_nb> 45 12  </key_nb> 
-<mot> film </mot> <key_nb> 45 10  </key_nb> 
-<mot> Wise </mot> <key_nb> 45 9  </key_nb> 
-<mot> succès </mot> <key_nb> 45 5  </key_nb> 
-<mot> fait </mot> <key_nb> 48 5  </key_nb> 
-<mot> quasar </mot> <key_nb> 49 5  </key_nb> 
-<mot> comme </mot> <key_nb> 49 8  </key_nb> 
-<mot> sans </mot> <key_nb> 49 5  </key_nb> 
-<mot> sonde </mot> <key_nb> 50 8  </key_nb> 
+<mot> Raman </mot> <key_nb> 35 9  </key_nb> 
+<mot> contradiction </mot> <key_nb> 35 2  </key_nb> 
+<mot> insoluble </mot> <key_nb> 35 1  </key_nb> 
+<mot> indienne </mot> <key_nb> 35 1 ; 53 2 ; 61 2  </key_nb> 
+<mot> grandi </mot> <key_nb> 35 1  </key_nb> 
+<mot> possède </mot> <key_nb> 35 1  </key_nb> 
+<mot> musicale </mot> <key_nb> 35 2 ; 45 2  </key_nb> 
+<mot> religieuse </mot> <key_nb> 35 1  </key_nb> 
+<mot> tamoule </mot> <key_nb> 35 3  </key_nb> 
+<mot> compositeur </mot> <key_nb> 35 1 ; 72 1  </key_nb> 
+<mot> Mills </mot> <key_nb> 35 5  </key_nb> 
+<mot> Music </mot> <key_nb> 35 3  </key_nb> 
+<mot> Crocodiles </mot> <key_nb> 35 4  </key_nb> 
+<mot> chanteuse </mot> <key_nb> 35 3 ; 53 1  </key_nb> 
+<mot> relecture </mot> <key_nb> 35 1  </key_nb> 
+<mot> carnatique </mot> <key_nb> 35 3  </key_nb> 
+<mot> Inde </mot> <key_nb> 35 1 ; 53 1  </key_nb> 
+<mot> Tyagaraja </mot> <key_nb> 35 1  </key_nb> 
+<mot> exil </mot> <key_nb> 35 2  </key_nb> 
+<mot> voyage </mot> <key_nb> 35 1 ; 82 1  </key_nb> 
+<mot> Athènes </mot> <key_nb> 36 2  </key_nb> 
+<mot> Caire </mot> <key_nb> 36 3  </key_nb> 
+<mot> encadrement </mot> <key_nb> 36 2  </key_nb> 
+<mot> médailles </mot> <key_nb> 36 1  </key_nb> 
+<mot> Anne-Sophie </mot> <key_nb> 36 1  </key_nb> 
+<mot> Mondière </mot> <key_nb> 36 1  </key_nb> 
+<mot> bronze </mot> <key_nb> 36 1  </key_nb> 
+<mot> porté </mot> <key_nb> 36 1  </key_nb> 
+<mot> féminine </mot> <key_nb> 36 1  </key_nb> 
+<mot> Brigitte </mot> <key_nb> 36 1  </key_nb> 
+<mot> Deydier </mot> <key_nb> 36 1  </key_nb> 
+<mot> fonctions </mot> <key_nb> 36 1  </key_nb> 
+<mot> Stéphane </mot> <key_nb> 36 3  </key_nb> 
+<mot> Traineau </mot> <key_nb> 36 3  </key_nb> 
+<mot> haut </mot> <key_nb> 36 1 ; 39 1 ; 72 1  </key_nb> 
+<mot> Yves </mot> <key_nb> 36 1 ; 40 1  </key_nb> 
+<mot> Delvingt </mot> <key_nb> 36 1  </key_nb> 
+<mot> masculine </mot> <key_nb> 36 1 ; 60 3  </key_nb> 
+<mot> poursuivre </mot> <key_nb> 36 1  </key_nb> 
+<mot> Rougé </mot> <key_nb> 36 2  </key_nb> 
+<mot> confiance </mot> <key_nb> 36 1  </key_nb> 
+<mot> générale </mot> <key_nb> 36 1  </key_nb> 
+<mot> prise </mot> <key_nb> 36 1 ; 38 3 ; 41 1  </key_nb> 
+<mot> poste </mot> <key_nb> 36 2  </key_nb> 
+<mot> afin </mot> <key_nb> 36 1  </key_nb> 
+<mot> astronomes </mot> <key_nb> 37 3 ; 49 3 ; 78 1  </key_nb> 
+<mot> explosion </mot> <key_nb> 37 5  </key_nb> 
+<mot> cosmique </mot> <key_nb> 37 2  </key_nb> 
+<mot> lointaine </mot> <key_nb> 37 1  </key_nb> 
+<mot> jamais </mot> <key_nb> 37 1 ; 48 1 ; 78 2 ; 83 1  </key_nb> 
+<mot> observée </mot> <key_nb> 37 1  </key_nb> 
+<mot> déflagration </mot> <key_nb> 37 1  </key_nb> 
+<mot> rayons </mot> <key_nb> 37 2  </key_nb> 
+<mot> gamma </mot> <key_nb> 37 3  </key_nb> 
+<mot> milliards </mot> <key_nb> 37 5 ; 42 2 ; 43 2 ; 78 1  </key_nb> 
+<mot> années-lumière </mot> <key_nb> 37 1  </key_nb> 
+<mot> univers </mot> <key_nb> 37 4 ; 49 1  </key_nb> 
+<mot> manifestations </mot> <key_nb> 37 1  </key_nb> 
+<mot> distance </mot> <key_nb> 37 2 ; 60 2 ; 78 3  </key_nb> 
+<mot> phénomène </mot> <key_nb> 37 1 ; 40 2 ; 83 2  </key_nb> 
+<mot> trou </mot> <key_nb> 37 1  </key_nb> 
+<mot> noir </mot> <key_nb> 37 2  </key_nb> 
+<mot> capter </mot> <key_nb> 37 1  </key_nb> 
+<mot> Swift </mot> <key_nb> 37 1  </key_nb> 
+<mot> lancé </mot> <key_nb> 37 1 ; 65 2  </key_nb> 
+<mot> télescopes </mot> <key_nb> 37 1  </key_nb> 
+<mot> étoiles </mot> <key_nb> 37 1 ; 49 1  </key_nb> 
+<mot> accidents </mot> <key_nb> 38 4  </key_nb> 
+<mot> vasculaires </mot> <key_nb> 38 2  </key_nb> 
+<mot> cérébraux </mot> <key_nb> 38 4  </key_nb> 
+<mot> traiter </mot> <key_nb> 38 1  </key_nb> 
+<mot> urgence </mot> <key_nb> 38 3 ; 71 1  </key_nb> 
+<mot> organisation </mot> <key_nb> 38 1  </key_nb> 
+<mot> cause </mot> <key_nb> 38 4  </key_nb> 
+<mot> maladies </mot> <key_nb> 38 1 ; 54 1 ; 71 1  </key_nb> 
+<mot> cardio-vasculaires </mot> <key_nb> 38 1 ; 54 1  </key_nb> 
+<mot> handicap </mot> <key_nb> 38 1  </key_nb> 
+<mot> retard </mot> <key_nb> 38 1 ; 78 1  </key_nb> 
+<mot> spécialisée </mot> <key_nb> 38 2  </key_nb> 
+<mot> charge </mot> <key_nb> 38 4 ; 65 1  </key_nb> 
+<mot> infarctus </mot> <key_nb> 38 3 ; 54 8  </key_nb> 
+<mot> myocarde </mot> <key_nb> 38 1 ; 54 2  </key_nb> 
+<mot> occlusion </mot> <key_nb> 38 2  </key_nb> 
+<mot> artère </mot> <key_nb> 38 3  </key_nb> 
+<mot> ischémie </mot> <key_nb> 38 4  </key_nb> 
+<mot> vise </mot> <key_nb> 38 1  </key_nb> 
+<mot> dissoudre </mot> <key_nb> 38 1  </key_nb> 
+<mot> obstacle </mot> <key_nb> 38 1  </key_nb> 
+<mot> existe </mot> <key_nb> 38 1 ; 54 2  </key_nb> 
+<mot> thrombolyse </mot> <key_nb> 38 3  </key_nb> 
+<mot> rt-PA </mot> <key_nb> 38 1  </key_nb> 
+<mot> aiguë </mot> <key_nb> 38 1  </key_nb> 
+<mot> neurologie </mot> <key_nb> 38 1  </key_nb> 
+<mot> étape </mot> <key_nb> 38 1 ; 54 2 ; 74 1 ; 79 1  </key_nb> 
+<mot> correction </mot> <key_nb> 38 1  </key_nb> 
+<mot> facteurs </mot> <key_nb> 38 1  </key_nb> 
+<mot> commencer </mot> <key_nb> 38 1  </key_nb> 
+<mot> hypertension </mot> <key_nb> 38 1  </key_nb> 
+<mot> artérielle </mot> <key_nb> 38 2  </key_nb> 
+<mot> bilan </mot> <key_nb> 38 1 ; 62 1  </key_nb> 
+<mot> décès </mot> <key_nb> 38 1 ; 54 1  </key_nb> 
+<mot> dépendances </mot> <key_nb> 38 1  </key_nb> 
+<mot> réduction </mot> <key_nb> 38 1 ; 83 1  </key_nb> 
+<mot> cerveau </mot> <key_nb> 38 1  </key_nb> 
+<mot> souvent </mot> <key_nb> 38 1 ; 51 1 ; 63 1  </key_nb> 
+<mot> cérébral </mot> <key_nb> 38 2  </key_nb> 
+<mot> hémorragie </mot> <key_nb> 38 2  </key_nb> 
+<mot> transitoires </mot> <key_nb> 38 1  </key_nb> 
+<mot> évaluation </mot> <key_nb> 38 2  </key_nb> 
+<mot> examens </mot> <key_nb> 38 1  </key_nb> 
+<mot> imagerie </mot> <key_nb> 38 3  </key_nb> 
+<mot> cérébrale </mot> <key_nb> 38 6  </key_nb> 
+<mot> cliniques </mot> <key_nb> 38 2 ; 65 1  </key_nb> 
+<mot> troubles </mot> <key_nb> 38 7 ; 60 2  </key_nb> 
+<mot> neurologiques </mot> <key_nb> 38 1  </key_nb> 
+<mot> signes </mot> <key_nb> 38 2  </key_nb> 
+<mot> patients </mot> <key_nb> 38 1  </key_nb> 
+<mot> diagnostic </mot> <key_nb> 38 1  </key_nb> 
+<mot> favorisant </mot> <key_nb> 38 1  </key_nb> 
+<mot> professionnelle </mot> <key_nb> 38 1  </key_nb> 
+<mot> scanner </mot> <key_nb> 38 2  </key_nb> 
+<mot> injection </mot> <key_nb> 38 1 ; 54 1  </key_nb> 
+<mot> efficacité </mot> <key_nb> 38 1  </key_nb> 
+<mot> délai </mot> <key_nb> 38 1  </key_nb> 
+<mot> Ligue </mot> <key_nb> 39 1 ; 47 2 ; 73 1 ; 76 6 ; 84 1  </key_nb> 
+<mot> Real </mot> <key_nb> 39 3  </key_nb> 
+<mot> Madrid </mot> <key_nb> 39 3 ; 74 1  </key_nb> 
+<mot> multinationale </mot> <key_nb> 39 1 ; 65 1  </key_nb> 
+<mot> lyonnais </mot> <key_nb> 39 1  </key_nb> 
+<mot> club </mot> <key_nb> 39 7 ; 48 1  </key_nb> 
+<mot> symbole </mot> <key_nb> 39 1  </key_nb> 
+<mot> dure </mot> <key_nb> 39 1  </key_nb> 
+<mot> inscrit </mot> <key_nb> 39 1  </key_nb> 
+<mot> racines </mot> <key_nb> 39 1  </key_nb> 
+<mot> atteindre </mot> <key_nb> 39 2 ; 78 3  </key_nb> 
+<mot> vrai </mot> <key_nb> 39 1 ; 48 1  </key_nb> 
+<mot> choix </mot> <key_nb> 39 1  </key_nb> 
+<mot> effectif </mot> <key_nb> 39 1  </key_nb> 
+<mot> dimension </mot> <key_nb> 39 2  </key_nb> 
+<mot> franchir </mot> <key_nb> 39 1  </key_nb> 
+<mot> avez </mot> <key_nb> 39 1  </key_nb> 
+<mot> terrain </mot> <key_nb> 39 2  </key_nb> 
+<mot> capable </mot> <key_nb> 39 1 ; 52 1  </key_nb> 
+<mot> Gérard </mot> <key_nb> 39 1  </key_nb> 
+<mot> coffre </mot> <key_nb> 39 1  </key_nb> 
+<mot> communication </mot> <key_nb> 39 4 ; 50 1  </key_nb> 
+<mot> Essien </mot> <key_nb> 39 3  </key_nb> 
+<mot> Chelsea </mot> <key_nb> 39 1 ; 66 2  </key_nb> 
+<mot> chef </mot> <key_nb> 39 1  </key_nb> 
+<mot> Gerland </mot> <key_nb> 39 1  </key_nb> 
+<mot> Lyon </mot> <key_nb> 39 2 ; 67 1 ; 73 1 ; 84 1  </key_nb> 
+<mot> goutte </mot> <key_nb> 40 4  </key_nb> 
+<mot> huile </mot> <key_nb> 40 3  </key_nb> 
+<mot> coussin </mot> <key_nb> 40 1  </key_nb> 
+<mot> physique </mot> <key_nb> 40 1  </key_nb> 
+<mot> Couder </mot> <key_nb> 40 1  </key_nb> 
+<mot> théorique </mot> <key_nb> 40 1  </key_nb> 
+<mot> grâce </mot> <key_nb> 40 1 ; 67 1 ; 73 1  </key_nb> 
+<mot> liquide </mot> <key_nb> 40 1  </key_nb> 
+<mot> gouttes </mot> <key_nb> 40 1 ; 52 1  </key_nb> 
+<mot> plans </mot> <key_nb> 41 3 ; 65 1  </key_nb> 
+<mot> future </mot> <key_nb> 41 1 ; 65 1  </key_nb> 
+<mot> Stohr </mot> <key_nb> 41 4 ; 65 1  </key_nb> 
+<mot> responsable </mot> <key_nb> 41 2  </key_nb> 
+<mot> ampleur </mot> <key_nb> 41 1  </key_nb> 
+<mot> espèce </mot> <key_nb> 41 1  </key_nb> 
+<mot> Hongkong </mot> <key_nb> 41 1  </key_nb> 
+<mot> menace </mot> <key_nb> 41 1  </key_nb> 
+<mot> coûte </mot> <key_nb> 41 1  </key_nb> 
+<mot> priori </mot> <key_nb> 41 1  </key_nb> 
+<mot> conscience </mot> <key_nb> 41 1  </key_nb> 
+<mot> option </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> consiste </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> serre </mot> <key_nb> 42 1 ; 43 1 ; 70 3  </key_nb> 
+<mot> géologiques </mot> <key_nb> 42 3 ; 43 3  </key_nb> 
+<mot> protocole </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> Kyoto </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> moyen </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> énergies </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> pétrole </mot> <key_nb> 42 2 ; 43 2  </key_nb> 
+<mot> charbon </mot> <key_nb> 42 3 ; 43 3  </key_nb> 
+<mot> capture </mot> <key_nb> 42 5 ; 43 5  </key_nb> 
+<mot> stockage </mot> <key_nb> 42 4 ; 43 4  </key_nb> 
+<mot> indique </mot> <key_nb> 42 2 ; 43 2 ; 52 1  </key_nb> 
+<mot> coût </mot> <key_nb> 42 3 ; 43 3  </key_nb> 
+<mot> espère </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> objet </mot> <key_nb> 42 1 ; 43 1 ; 50 1  </key_nb> 
+<mot> Ademe </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> Pappalardo </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> 2050 </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> mondiales </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> puits </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> Sera-t-il </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> rappelle </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> procédés </mot> <key_nb> 42 2 ; 43 2  </key_nb> 
+<mot> envisagés </mot> <key_nb> 42 2 ; 43 2  </key_nb> 
+<mot> évité </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> élevé </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> échange </mot> <key_nb> 42 1 ; 43 1 ; 81 1  </key_nb> 
+<mot> installations </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> fumées </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> réservoirs </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> font </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> récupération </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> prolonger </mot> <key_nb> 42 1 ; 43 1  </key_nb> 
+<mot> exploitation </mot> <key_nb> 42 1 ; 43 1 ; 62 4  </key_nb> 
+<mot> Preljocaj </mot> <key_nb> 44 4  </key_nb> 
+<mot> Opéra </mot> <key_nb> 44 3  </key_nb> 
+<mot> spectacle </mot> <key_nb> 44 1 ; 80 2  </key_nb> 
+<mot> Angelin </mot> <key_nb> 44 1  </key_nb> 
+<mot> révèle </mot> <key_nb> 44 1  </key_nb> 
+<mot> amour </mot> <key_nb> 44 1  </key_nb> 
+<mot> rend </mot> <key_nb> 44 1  </key_nb> 
+<mot> danse </mot> <key_nb> 44 1  </key_nb> 
+<mot> ballet </mot> <key_nb> 44 1  </key_nb> 
+<mot> mort </mot> <key_nb> 45 1 ; 64 1 ; 71 2 ; 80 1  </key_nb> 
+<mot> Wise </mot> <key_nb> 45 12  </key_nb> 
+<mot> réalisateur </mot> <key_nb> 45 3  </key_nb> 
+<mot> Side </mot> <key_nb> 45 4  </key_nb> 
+<mot> cinéaste </mot> <key_nb> 45 1 ; 77 1  </key_nb> 
+<mot> monteur </mot> <key_nb> 45 2  </key_nb> 
+<mot> Orson </mot> <key_nb> 45 1  </key_nb> 
+<mot> Welles </mot> <key_nb> 45 3  </key_nb> 
+<mot> moment </mot> <key_nb> 45 1  </key_nb> 
+<mot> Saint-Sébastien </mot> <key_nb> 45 1  </key_nb> 
+<mot> apprêtait </mot> <key_nb> 45 1  </key_nb> 
+<mot> hommage </mot> <key_nb> 45 1  </key_nb> 
+<mot> cinéma </mot> <key_nb> 45 1  </key_nb> 
+<mot> jour </mot> <key_nb> 45 1 ; 52 1 ; 76 1  </key_nb> 
+<mot> West </mot> <key_nb> 45 3  </key_nb> 
+<mot> Story </mot> <key_nb> 45 3  </key_nb> 
+<mot> film </mot> <key_nb> 45 13 ; 77 1 ; 77 1  </key_nb> 
+<mot> Oscars </mot> <key_nb> 45 1  </key_nb> 
+<mot> films </mot> <key_nb> 45 3  </key_nb> 
+<mot> tuer </mot> <key_nb> 45 1  </key_nb> 
+<mot> Mademoiselle </mot> <key_nb> 45 1 ; 64 1  </key_nb> 
+<mot> Fifi </mot> <key_nb> 45 1  </key_nb> 
+<mot> Simon </mot> <key_nb> 45 1  </key_nb> 
+<mot> Maison </mot> <key_nb> 45 1  </key_nb> 
+<mot> diable </mot> <key_nb> 45 1  </key_nb> 
+<mot> Julie </mot> <key_nb> 45 2  </key_nb> 
+<mot> Coup </mot> <key_nb> 45 1 ; 47 1 ; 74 1  </key_nb> 
+<mot> escalier </mot> <key_nb> 45 1  </key_nb> 
+<mot> Harry </mot> <key_nb> 45 1  </key_nb> 
+<mot> Ryan </mot> <key_nb> 45 2  </key_nb> 
+<mot> Canonnière </mot> <key_nb> 45 1  </key_nb> 
+<mot> McQueen </mot> <key_nb> 45 1  </key_nb> 
+<mot> Mélodie </mot> <key_nb> 45 2  </key_nb> 
+<mot> Andrews </mot> <key_nb> 45 1  </key_nb> 
+<mot> spécialiste </mot> <key_nb> 45 1  </key_nb> 
+<mot> horreur </mot> <key_nb> 45 1  </key_nb> 
+<mot> science-fiction </mot> <key_nb> 45 2  </key_nb> 
+<mot> western </mot> <key_nb> 45 1  </key_nb> 
+<mot> retient </mot> <key_nb> 45 1  </key_nb> 
+<mot> suivant </mot> <key_nb> 45 1  </key_nb> 
+<mot> passe </mot> <key_nb> 45 1  </key_nb> 
+<mot> revient </mot> <key_nb> 45 1  </key_nb> 
+<mot> tâche </mot> <key_nb> 45 1  </key_nb> 
+<mot> 1949 </mot> <key_nb> 45 1  </key_nb> 
+<mot> mettant </mot> <key_nb> 45 1  </key_nb> 
+<mot> série </mot> <key_nb> 45 1  </key_nb> 
+<mot> comédie </mot> <key_nb> 45 2  </key_nb> 
+<mot> immense </mot> <key_nb> 45 1  </key_nb> 
+<mot> tard </mot> <key_nb> 45 1  </key_nb> 
+<mot> ensuite </mot> <key_nb> 45 1  </key_nb> 
+<mot> Star </mot> <key_nb> 45 1 ; 72 1 ; 72 1  </key_nb> 
+<mot> Champs-Elysées </mot> <key_nb> 46 3  </key_nb> 
+<mot> acoustique </mot> <key_nb> 46 5  </key_nb> 
+<mot> concerts </mot> <key_nb> 46 2  </key_nb> 
+<mot> sécheresse </mot> <key_nb> 46 1  </key_nb> 
+<mot> acoustiques </mot> <key_nb> 46 1 ; 46 1  </key_nb> 
+<mot> cabinets </mot> <key_nb> 46 1  </key_nb> 
+<mot> acousticiens </mot> <key_nb> 46 1  </key_nb> 
+<mot> Artec </mot> <key_nb> 46 1  </key_nb> 
+<mot> réverbération </mot> <key_nb> 46 2  </key_nb> 
+<mot> seconde </mot> <key_nb> 46 1 ; 67 1  </key_nb> 
+<mot> cage </mot> <key_nb> 46 1  </key_nb> 
+<mot> absorbant </mot> <key_nb> 46 1  </key_nb> 
+<mot> bois </mot> <key_nb> 46 2  </key_nb> 
+<mot> densité </mot> <key_nb> 46 1  </key_nb> 
+<mot> fond </mot> <key_nb> 46 1  </key_nb> 
+<mot> Lille </mot> <key_nb> 47 4 ; 76 9  </key_nb> 
+<mot> secondes </mot> <key_nb> 47 2  </key_nb> 
+<mot> Benfica </mot> <key_nb> 47 3  </key_nb> 
+<mot> soirée </mot> <key_nb> 47 1 ; 69 1  </key_nb> 
+<mot> champions </mot> <key_nb> 47 2 ; 59 5 ; 76 5 ; 84 1  </key_nb> 
+<mot> sein </mot> <key_nb> 47 1  </key_nb> 
+<mot> Lillois </mot> <key_nb> 47 1  </key_nb> 
+<mot> Claude </mot> <key_nb> 47 3 ; 48 1 ; 59 3  </key_nb> 
+<mot> Puel </mot> <key_nb> 47 3  </key_nb> 
+<mot> Rapid </mot> <key_nb> 47 1  </key_nb> 
+<mot> Vienne </mot> <key_nb> 47 1  </key_nb> 
+<mot> Munich </mot> <key_nb> 47 1  </key_nb> 
+<mot> Bruges </mot> <key_nb> 47 2  </key_nb> 
+<mot> Turin </mot> <key_nb> 47 3  </key_nb> 
+<mot> Juventus </mot> <key_nb> 47 2  </key_nb> 
+<mot> Sparta </mot> <key_nb> 47 1  </key_nb> 
+<mot> Amsterdam </mot> <key_nb> 47 1  </key_nb> 
+<mot> Arsenal </mot> <key_nb> 47 2 ; 66 2  </key_nb> 
+<mot> Bergkamp </mot> <key_nb> 47 1  </key_nb> 
+<mot> Thoune </mot> <key_nb> 47 1  </key_nb> 
+<mot> Udinese </mot> <key_nb> 47 1  </key_nb> 
+<mot> Brême </mot> <key_nb> 47 1  </key_nb> 
+<mot> Miccoli </mot> <key_nb> 47 1  </key_nb> 
+<mot> United </mot> <key_nb> 47 2  </key_nb> 
+<mot> tête </mot> <key_nb> 47 1 ; 73 4  </key_nb> 
+<mot> fini </mot> <key_nb> 47 1  </key_nb> 
+<mot> bonnes </mot> <key_nb> 47 1  </key_nb> 
+<mot> choses </mot> <key_nb> 47 1  </key_nb> 
+<mot> étions </mot> <key_nb> 47 1  </key_nb> 
+<mot> figure </mot> <key_nb> 47 1  </key_nb> 
+<mot> adversaires </mot> <key_nb> 47 1  </key_nb> 
+<mot> Manchester </mot> <key_nb> 47 1  </key_nb> 
+<mot> Espagnols </mot> <key_nb> 47 1  </key_nb> 
+<mot> Villareal </mot> <key_nb> 47 1  </key_nb> 
+<mot> modeste </mot> <key_nb> 47 1  </key_nb> 
+<mot> imposés </mot> <key_nb> 47 1  </key_nb> 
+<mot> Allemands </mot> <key_nb> 47 1  </key_nb> 
+<mot> courrons </mot> <key_nb> 48 1  </key_nb> 
+<mot> Bergeaud </mot> <key_nb> 48 1 ; 59 3 ; 69 1  </key_nb> 
+<mot> juin </mot> <key_nb> 48 1  </key_nb> 
+<mot> Villeurbanne </mot> <key_nb> 48 1  </key_nb> 
+<mot> ProA </mot> <key_nb> 48 1  </key_nb> 
+<mot> 1998 </mot> <key_nb> 48 2 ; 76 2  </key_nb> 
+<mot> contrairement </mot> <key_nb> 48 1  </key_nb> 
+<mot> Espagne </mot> <key_nb> 48 1  </key_nb> 
+<mot> dire </mot> <key_nb> 48 2 ; 80 1  </key_nb> 
+<mot> faute </mot> <key_nb> 48 2 ; 55 1  </key_nb> 
+<mot> médias </mot> <key_nb> 48 2  </key_nb> 
+<mot> basket </mot> <key_nb> 48 6 ; 55 1  </key_nb> 
+<mot> travaillé </mot> <key_nb> 48 1  </key_nb> 
+<mot> contrôler </mot> <key_nb> 48 1  </key_nb> 
+<mot> fantastique </mot> <key_nb> 48 1  </key_nb> 
+<mot> rugby </mot> <key_nb> 48 2 ; 76 6  </key_nb> 
+<mot> développer </mot> <key_nb> 48 1  </key_nb> 
+<mot> collectives </mot> <key_nb> 48 1  </key_nb> 
+<mot> vraie </mot> <key_nb> 48 1  </key_nb> 
+<mot> message </mot> <key_nb> 48 2  </key_nb> 
+<mot> intéresse </mot> <key_nb> 48 1  </key_nb> 
+<mot> fort </mot> <key_nb> 48 1  </key_nb> 
+<mot> quasar </mot> <key_nb> 49 6  </key_nb> 
+<mot> trous </mot> <key_nb> 49 1  </key_nb> 
+<mot> noirs </mot> <key_nb> 49 1  </key_nb> 
+<mot> près </mot> <key_nb> 49 1 ; 51 1  </key_nb> 
+<mot> déroutant </mot> <key_nb> 49 1  </key_nb> 
+<mot> regarder </mot> <key_nb> 49 1  </key_nb> 
+<mot> vivant </mot> <key_nb> 49 1  </key_nb> 
+<mot> comporter </mot> <key_nb> 49 1  </key_nb> 
+<mot> goinfrait </mot> <key_nb> 49 1  </key_nb> 
+<mot> restaurant </mot> <key_nb> 49 1  </key_nb> 
+<mot> aliment </mot> <key_nb> 49 1  </key_nb> 
+<mot> galaxie </mot> <key_nb> 49 4  </key_nb> 
+<mot> telle </mot> <key_nb> 49 1 ; 64 1  </key_nb> 
+<mot> luminosité </mot> <key_nb> 49 1  </key_nb> 
+<mot> composée </mot> <key_nb> 49 1  </key_nb> 
+<mot> EPFL </mot> <key_nb> 49 1  </key_nb> 
+<mot> outils </mot> <key_nb> 49 1  </key_nb> 
+<mot> tenter </mot> <key_nb> 50 1  </key_nb> 
+<mot> ramener </mot> <key_nb> 50 2  </key_nb> 
+<mot> échantillons </mot> <key_nb> 50 4  </key_nb> 
+<mot> astéroïde </mot> <key_nb> 50 4  </key_nb> 
+<mot> Débutants </mot> <key_nb> 50 1  </key_nb> 
+<mot> exploration </mot> <key_nb> 50 3  </key_nb> 
+<mot> Japonais </mot> <key_nb> 50 3 ; 75 1  </key_nb> 
+<mot> apprendre </mot> <key_nb> 50 1  </key_nb> 
+<mot> faits </mot> <key_nb> 50 1  </key_nb> 
+<mot> JAXA </mot> <key_nb> 50 2  </key_nb> 
+<mot> promet </mot> <key_nb> 50 1  </key_nb> 
+<mot> Hayabusa </mot> <key_nb> 50 4  </key_nb> 
+<mot> seule </mot> <key_nb> 50 1  </key_nb> 
+<mot> entrée </mot> <key_nb> 50 1  </key_nb> 
+<mot> agit </mot> <key_nb> 50 1  </key_nb> 
+<mot> américaine </mot> <key_nb> 50 2 ; 65 1 ; 78 1  </key_nb> 
+<mot> NEAR </mot> <key_nb> 50 1  </key_nb> 
+<mot> Eros </mot> <key_nb> 50 1  </key_nb> 
+<mot> projectile </mot> <key_nb> 50 2  </key_nb> 
+<mot> Lune </mot> <key_nb> 50 1  </key_nb> 
+<mot> arracher </mot> <key_nb> 50 2  </key_nb> 
+<mot> kilomètres </mot> <key_nb> 50 3 ; 78 3  </key_nb> 
+<mot> Itokawa </mot> <key_nb> 50 6  </key_nb> 
+<mot> propulsion </mot> <key_nb> 50 1  </key_nb> 
+<mot> ionique </mot> <key_nb> 50 1  </key_nb> 
+<mot> vitesse </mot> <key_nb> 50 1  </key_nb> 
+<mot> pari </mot> <key_nb> 50 1  </key_nb> 
+<mot> jusqu </mot> <key_nb> 50 1 ; 64 4 ; 64 1 ; 78 1 ; 82 1  </key_nb> 
+<mot> orbite </mot> <key_nb> 50 1  </key_nb> 
+<mot> celui-ci </mot> <key_nb> 50 1  </key_nb> 
+<mot> Patrick </mot> <key_nb> 50 2  </key_nb> 
+<mot> Michel </mot> <key_nb> 50 3 ; 54 2 ; 62 1  </key_nb> 
+<mot> astéroïdes </mot> <key_nb> 50 1  </key_nb> 
+<mot> juste </mot> <key_nb> 50 1  </key_nb> 
+<mot> gravité </mot> <key_nb> 50 1  </key_nb> 
+<mot> prises </mot> <key_nb> 50 1  </key_nb> 
+<mot> gros </mot> <key_nb> 50 1  </key_nb> 
+<mot> roches </mot> <key_nb> 50 1  </key_nb> 
+<mot> Anouk </mot> <key_nb> 51 3  </key_nb> 
+<mot> Aimée </mot> <key_nb> 51 3  </key_nb> 
+<mot> Noiret </mot> <key_nb> 51 1  </key_nb> 
+<mot> Sandrine </mot> <key_nb> 51 2  </key_nb> 
+<mot> Gurney </mot> <key_nb> 51 2  </key_nb> 
+<mot> Madeleine </mot> <key_nb> 51 2  </key_nb> 
+<mot> devient </mot> <key_nb> 51 1 ; 62 1  </key_nb> 
+<mot> écrire </mot> <key_nb> 51 1  </key_nb> 
+<mot> Alexa </mot> <key_nb> 51 1  </key_nb> 
+<mot> Letters </mot> <key_nb> 51 1  </key_nb> 
+<mot> clair </mot> <key_nb> 51 1  </key_nb> 
+<mot> heure </mot> <key_nb> 51 1  </key_nb> 
+<mot> difficulté </mot> <key_nb> 52 1  </key_nb> 
+<mot> orages </mot> <key_nb> 52 2  </key_nb> 
+<mot> services </mot> <key_nb> 52 1  </key_nb> 
 <mot> prévision </mot> <key_nb> 52 8  </key_nb> 
+<mot> inondations </mot> <key_nb> 52 3  </key_nb> 
+<mot> zone </mot> <key_nb> 52 1 ; 54 1  </key_nb> 
+<mot> Gard </mot> <key_nb> 52 1  </key_nb> 
+<mot> cartes </mot> <key_nb> 52 2  </key_nb> 
+<mot> vigilance </mot> <key_nb> 52 1  </key_nb> 
+<mot> orange </mot> <key_nb> 52 1  </key_nb> 
+<mot> rouge </mot> <key_nb> 52 2  </key_nb> 
+<mot> épisode </mot> <key_nb> 52 1  </key_nb> 
+<mot> orageux </mot> <key_nb> 52 1  </key_nb> 
+<mot> cumul </mot> <key_nb> 52 1  </key_nb> 
+<mot> précipitations </mot> <key_nb> 52 2  </key_nb> 
+<mot> pluies </mot> <key_nb> 52 1  </key_nb> 
+<mot> crues </mot> <key_nb> 52 1  </key_nb> 
+<mot> écologie </mot> <key_nb> 52 2  </key_nb> 
+<mot> Toulouse </mot> <key_nb> 52 1  </key_nb> 
+<mot> coopération </mot> <key_nb> 52 1  </key_nb> 
+<mot> Météo </mot> <key_nb> 52 4  </key_nb> 
+<mot> paramètres </mot> <key_nb> 52 1  </key_nb> 
+<mot> bonne </mot> <key_nb> 52 1  </key_nb> 
+<mot> nuages </mot> <key_nb> 52 1  </key_nb> 
+<mot> phénomènes </mot> <key_nb> 52 2 ; 78 1  </key_nb> 
+<mot> résolution </mot> <key_nb> 52 1  </key_nb> 
+<mot> Eric </mot> <key_nb> 52 1  </key_nb> 
+<mot> Brun </mot> <key_nb> 52 1  </key_nb> 
+<mot> devra </mot> <key_nb> 52 1  </key_nb> 
+<mot> calculateur </mot> <key_nb> 52 1  </key_nb> 
+<mot> voix </mot> <key_nb> 53 3 ; 75 2  </key_nb> 
 <mot> Girija </mot> <key_nb> 53 7  </key_nb> 
-<mot> cardiaque </mot> <key_nb> 54 7  </key_nb> 
-<mot> greffe </mot> <key_nb> 54 5  </key_nb> 
-<mot> chez </mot> <key_nb> 54 11  </key_nb> 
-<mot> embryonnaires </mot> <key_nb> 54 8  </key_nb> 
-<mot> deuxième </mot> <key_nb> 55 5  </key_nb> 
-<mot> champions </mot> <key_nb> 59 5  </key_nb> 
+<mot> Devi </mot> <key_nb> 53 8  </key_nb> 
+<mot> classique </mot> <key_nb> 53 2  </key_nb> 
+<mot> Ville </mot> <key_nb> 53 5 ; 82 2  </key_nb> 
+<mot> applique </mot> <key_nb> 53 1  </key_nb> 
+<mot> beauté </mot> <key_nb> 53 1  </key_nb> 
+<mot> Bénarès </mot> <key_nb> 53 1  </key_nb> 
+<mot> concert </mot> <key_nb> 53 1 ; 81 1  </key_nb> 
+<mot> apprentissage </mot> <key_nb> 53 2  </key_nb> 
+<mot> Misra </mot> <key_nb> 53 1  </key_nb> 
+<mot> Sunanda </mot> <key_nb> 53 1  </key_nb> 
+<mot> Sharma </mot> <key_nb> 53 1  </key_nb> 
+<mot> raga </mot> <key_nb> 53 2  </key_nb> 
+<mot> modes </mot> <key_nb> 53 1  </key_nb> 
+<mot> Chaurasia </mot> <key_nb> 53 4  </key_nb> 
+<mot> Kaushiki </mot> <key_nb> 53 1  </key_nb> 
+<mot> Chakrabarty </mot> <key_nb> 53 2  </key_nb> 
+<mot> régénérer </mot> <key_nb> 54 1  </key_nb> 
+<mot> tissu </mot> <key_nb> 54 2  </key_nb> 
+<mot> cardiaque </mot> <key_nb> 54 9  </key_nb> 
+<mot> mouton </mot> <key_nb> 54 4  </key_nb> 
+<mot> singe </mot> <key_nb> 54 1  </key_nb> 
+<mot> muscle </mot> <key_nb> 54 2  </key_nb> 
+<mot> lésé </mot> <key_nb> 54 1  </key_nb> 
+<mot> animal </mot> <key_nb> 54 1  </key_nb> 
+<mot> différenciation </mot> <key_nb> 54 2 ; 60 2  </key_nb> 
+<mot> privilège </mot> <key_nb> 54 3  </key_nb> 
+<mot> espèces </mot> <key_nb> 54 1  </key_nb> 
+<mot> immunosuppresseur </mot> <key_nb> 54 1  </key_nb> 
+<mot> rejet </mot> <key_nb> 54 1  </key_nb> 
+<mot> Pucéat </mot> <key_nb> 54 2  </key_nb> 
+<mot> Menasché </mot> <key_nb> 54 3  </key_nb> 
+<mot> donnent </mot> <key_nb> 54 1  </key_nb> 
+<mot> immunologique </mot> <key_nb> 54 2  </key_nb> 
+<mot> animales </mot> <key_nb> 54 1  </key_nb> 
+<mot> gènes </mot> <key_nb> 54 1  </key_nb> 
+<mot> préorientées </mot> <key_nb> 54 1  </key_nb> 
+<mot> technique </mot> <key_nb> 54 1 ; 55 1 ; 62 1  </key_nb> 
+<mot> ouvre </mot> <key_nb> 54 1  </key_nb> 
+<mot> perspective </mot> <key_nb> 54 1  </key_nb> 
+<mot> thérapeutique </mot> <key_nb> 54 1  </key_nb> 
+<mot> séquelles </mot> <key_nb> 54 1  </key_nb> 
+<mot> insuffisance </mot> <key_nb> 54 1  </key_nb> 
+<mot> conséquence </mot> <key_nb> 54 1  </key_nb> 
+<mot> musculaire </mot> <key_nb> 54 1  </key_nb> 
+<mot> cardiaques </mot> <key_nb> 54 2  </key_nb> 
+<mot> sang </mot> <key_nb> 54 1  </key_nb> 
+<mot> ayant </mot> <key_nb> 54 2  </key_nb> 
+<mot> possèdent </mot> <key_nb> 54 1  </key_nb> 
+<mot> apporté </mot> <key_nb> 54 1  </key_nb> 
+<mot> preuve </mot> <key_nb> 54 1  </key_nb> 
+<mot> provoqué </mot> <key_nb> 54 1  </key_nb> 
+<mot> suivante </mot> <key_nb> 54 1  </key_nb> 
+<mot> moutons </mot> <key_nb> 54 3  </key_nb> 
+<mot> chacun </mot> <key_nb> 54 1  </key_nb> 
+<mot> territoire </mot> <key_nb> 54 1  </key_nb> 
+<mot> tandis </mot> <key_nb> 54 1 ; 66 1  </key_nb> 
+<mot> lignage </mot> <key_nb> 54 1  </key_nb> 
+<mot> différencier </mot> <key_nb> 54 1  </key_nb> 
+<mot> Slovénie </mot> <key_nb> 55 3  </key_nb> 
+<mot> Tony </mot> <key_nb> 55 1 ; 59 4  </key_nb> 
+<mot> Parker </mot> <key_nb> 55 3 ; 59 3  </key_nb> 
+<mot> affronter </mot> <key_nb> 55 1  </key_nb> 
+<mot> Serbie-Monténégro </mot> <key_nb> 55 1  </key_nb> 
+<mot> Slovènes </mot> <key_nb> 55 2  </key_nb> 
+<mot> défaite </mot> <key_nb> 55 1  </key_nb> 
+<mot> pause </mot> <key_nb> 55 1  </key_nb> 
+<mot> Diaw </mot> <key_nb> 55 1  </key_nb> 
+<mot> écart </mot> <key_nb> 55 1  </key_nb> 
+<mot> arrivait </mot> <key_nb> 55 1  </key_nb> 
+<mot> quart-temps </mot> <key_nb> 55 1  </key_nb> 
+<mot> allait </mot> <key_nb> 55 1  </key_nb> 
+<mot> attiré </mot> <key_nb> 57 1  </key_nb> 
+<mot> visiteurs </mot> <key_nb> 57 3  </key_nb> 
+<mot> Grand-Palais </mot> <key_nb> 57 1  </key_nb> 
+<mot> Elysée </mot> <key_nb> 57 1  </key_nb> 
+<mot> Serbes </mot> <key_nb> 59 2  </key_nb> 
+<mot> Lituaniens </mot> <key_nb> 59 1 ; 69 1  </key_nb> 
+<mot> demi-finales </mot> <key_nb> 59 1  </key_nb> 
+<mot> entraîneur </mot> <key_nb> 59 1 ; 67 1 ; 73 3  </key_nb> 
+<mot> préliminaire </mot> <key_nb> 59 1  </key_nb> 
+<mot> peur </mot> <key_nb> 59 1  </key_nb> 
+<mot> rester </mot> <key_nb> 59 1  </key_nb> 
+<mot> minutes </mot> <key_nb> 59 1 ; 69 1  </key_nb> 
+<mot> prévient </mot> <key_nb> 59 1  </key_nb> 
+<mot> plastiques </mot> <key_nb> 60 1  </key_nb> 
+<mot> pesticides </mot> <key_nb> 60 1  </key_nb> 
+<mot> fertilité </mot> <key_nb> 60 3  </key_nb> 
+<mot> Quels </mot> <key_nb> 60 1  </key_nb> 
+<mot> effets </mot> <key_nb> 60 1  </key_nb> 
+<mot> exposition </mot> <key_nb> 60 5  </key_nb> 
+<mot> prolongée </mot> <key_nb> 60 1  </key_nb> 
+<mot> faibles </mot> <key_nb> 60 1  </key_nb> 
+<mot> doses </mot> <key_nb> 60 2 ; 65 3  </key_nb> 
+<mot> présents </mot> <key_nb> 60 3  </key_nb> 
+<mot> environnement </mot> <key_nb> 60 2 ; 70 1 ; 75 1  </key_nb> 
+<mot> alimentation </mot> <key_nb> 60 2  </key_nb> 
+<mot> longue </mot> <key_nb> 60 1  </key_nb> 
+<mot> date </mot> <key_nb> 60 1  </key_nb> 
+<mot> débattue </mot> <key_nb> 60 1  </key_nb> 
+<mot> communauté </mot> <key_nb> 60 1  </key_nb> 
+<mot> substances </mot> <key_nb> 60 1  </key_nb> 
+<mot> perturbateurs </mot> <key_nb> 60 1  </key_nb> 
+<mot> endocriniens </mot> <key_nb> 60 1  </key_nb> 
+<mot> anogénitale </mot> <key_nb> 60 1  </key_nb> 
+<mot> Habert </mot> <key_nb> 60 1  </key_nb> 
+<mot> Paris-VII </mot> <key_nb> 60 1  </key_nb> 
+<mot> sexuelle </mot> <key_nb> 60 2  </key_nb> 
+<mot> foetus </mot> <key_nb> 60 1  </key_nb> 
+<mot> spermatique </mot> <key_nb> 60 1  </key_nb> 
+<mot> hypothèse </mot> <key_nb> 60 1  </key_nb> 
+<mot> quarante </mot> <key_nb> 61 1  </key_nb> 
+<mot> Paulo </mot> <key_nb> 61 5  </key_nb> 
+<mot> Cartoucherie </mot> <key_nb> 61 3  </key_nb> 
+<mot> chorégraphe </mot> <key_nb> 61 2 ; 80 1  </key_nb> 
+<mot> brésilien </mot> <key_nb> 61 2  </key_nb> 
+<mot> Ivaldo </mot> <key_nb> 61 3  </key_nb> 
+<mot> Bertazzo </mot> <key_nb> 61 3  </key_nb> 
+<mot> Vincennes </mot> <key_nb> 61 1  </key_nb> 
+<mot> enfants </mot> <key_nb> 61 2 ; 82 1  </key_nb> 
+<mot> Epée-de-Bois </mot> <key_nb> 61 1  </key_nb> 
+<mot> projet </mot> <key_nb> 61 1 ; 75 3 ; 76 1  </key_nb> 
+<mot> Dança </mot> <key_nb> 61 1  </key_nb> 
+<mot> Comunidade </mot> <key_nb> 61 2  </key_nb> 
+<mot> sept </mot> <key_nb> 61 1  </key_nb> 
+<mot> samba </mot> <key_nb> 61 1  </key_nb> 
+<mot> artistiques </mot> <key_nb> 61 1  </key_nb> 
+<mot> trente </mot> <key_nb> 61 1 ; 64 1  </key_nb> 
+<mot> gosses </mot> <key_nb> 61 1  </key_nb> 
+<mot> lait </mot> <key_nb> 61 1  </key_nb> 
+<mot> coordination </mot> <key_nb> 61 1  </key_nb> 
+<mot> motrice </mot> <key_nb> 61 1  </key_nb> 
+<mot> Marie-Madeleine </mot> <key_nb> 61 1  </key_nb> 
+<mot> Béziers </mot> <key_nb> 61 1  </key_nb> 
+<mot> filles </mot> <key_nb> 61 1  </key_nb> 
+<mot> garçons </mot> <key_nb> 61 1  </key_nb> 
+<mot> équilibre </mot> <key_nb> 61 1  </key_nb> 
+<mot> blancs </mot> <key_nb> 61 1  </key_nb> 
+<mot> social </mot> <key_nb> 61 1  </key_nb> 
+<mot> SESC </mot> <key_nb> 61 1  </key_nb> 
+<mot> centres </mot> <key_nb> 61 1 ; 65 1  </key_nb> 
+<mot> génétiquement </mot> <key_nb> 62 1  </key_nb> 
+<mot> gens </mot> <key_nb> 62 2  </key_nb> 
+<mot> champ </mot> <key_nb> 62 2 ; 78 1  </key_nb> 
+<mot> agricole </mot> <key_nb> 62 4  </key_nb> 
+<mot> Puy-de-Dôme </mot> <key_nb> 62 1  </key_nb> 
+<mot> Nonette </mot> <key_nb> 62 1  </key_nb> 
+<mot> côté </mot> <key_nb> 62 1 ; 64 1  </key_nb> 
+<mot> Faucheurs </mot> <key_nb> 62 2  </key_nb> 
+<mot> paysan </mot> <key_nb> 62 1  </key_nb> 
+<mot> viennent </mot> <key_nb> 62 1  </key_nb> 
+<mot> Catherine </mot> <key_nb> 62 1  </key_nb> 
+<mot> Deloche </mot> <key_nb> 62 1  </key_nb> 
+<mot> couple </mot> <key_nb> 62 1  </key_nb> 
+<mot> mouvement </mot> <key_nb> 62 1 ; 78 1  </key_nb> 
+<mot> Chantal </mot> <key_nb> 62 3  </key_nb> 
+<mot> Jean-Sébastien </mot> <key_nb> 62 2  </key_nb> 
+<mot> Gascuel </mot> <key_nb> 62 1  </key_nb> 
+<mot> 1971 </mot> <key_nb> 62 1  </key_nb> 
+<mot> père </mot> <key_nb> 62 3 ; 82 1  </key_nb> 
+<mot> tracteur </mot> <key_nb> 62 1  </key_nb> 
+<mot> dessus </mot> <key_nb> 62 1  </key_nb> 
+<mot> vaches </mot> <key_nb> 62 1  </key_nb> 
+<mot> parents </mot> <key_nb> 62 1 ; 68 1  </key_nb> 
+<mot> Malgré </mot> <key_nb> 62 1  </key_nb> 
+<mot> betterave </mot> <key_nb> 62 1  </key_nb> 
+<mot> sème </mot> <key_nb> 62 1  </key_nb> 
+<mot> agrandir </mot> <key_nb> 62 1  </key_nb> 
+<mot> hectares </mot> <key_nb> 62 1  </key_nb> 
+<mot> métier </mot> <key_nb> 62 1  </key_nb> 
+<mot> Dominique </mot> <key_nb> 63 1  </key_nb> 
+<mot> Noël </mot> <key_nb> 63 2  </key_nb> 
 <mot> architectes </mot> <key_nb> 63 13  </key_nb> 
-<mot> Girodet </mot> <key_nb> 64 10  </key_nb> 
+<mot> postes </mot> <key_nb> 63 5  </key_nb> 
+<mot> société </mot> <key_nb> 63 1  </key_nb> 
+<mot> recrutement </mot> <key_nb> 63 1  </key_nb> 
+<mot> métiers </mot> <key_nb> 63 2  </key_nb> 
+<mot> Archibat </mot> <key_nb> 63 2  </key_nb> 
+<mot> secteur </mot> <key_nb> 63 1  </key_nb> 
+<mot> candidats </mot> <key_nb> 63 2  </key_nb> 
+<mot> étudiants </mot> <key_nb> 63 2  </key_nb> 
+<mot> profession </mot> <key_nb> 63 5  </key_nb> 
+<mot> formation </mot> <key_nb> 63 1  </key_nb> 
+<mot> réforme </mot> <key_nb> 63 2  </key_nb> 
+<mot> entreprises </mot> <key_nb> 63 3  </key_nb> 
+<mot> hausse </mot> <key_nb> 63 1  </key_nb> 
+<mot> connu </mot> <key_nb> 63 1  </key_nb> 
+<mot> chiffres </mot> <key_nb> 63 1  </key_nb> 
+<mot> bâtiment </mot> <key_nb> 63 3  </key_nb> 
+<mot> logement </mot> <key_nb> 63 1  </key_nb> 
+<mot> crise </mot> <key_nb> 63 1 ; 75 1  </key_nb> 
+<mot> emploi </mot> <key_nb> 63 1  </key_nb> 
+<mot> employeurs </mot> <key_nb> 63 1  </key_nb> 
+<mot> techniques </mot> <key_nb> 63 1  </key_nb> 
+<mot> agences </mot> <key_nb> 63 4  </key_nb> 
+<mot> grands </mot> <key_nb> 63 1 ; 66 2 ; 75 1  </key_nb> 
+<mot> assisté </mot> <key_nb> 63 1  </key_nb> 
+<mot> enseignes </mot> <key_nb> 63 1  </key_nb> 
+<mot> commerciales </mot> <key_nb> 63 2  </key_nb> 
+<mot> maîtrise </mot> <key_nb> 63 1  </key_nb> 
+<mot> écoles </mot> <key_nb> 63 2 ; 80 1  </key_nb> 
+<mot> diversité </mot> <key_nb> 63 1  </key_nb> 
+<mot> licence </mot> <key_nb> 63 1  </key_nb> 
+<mot> stage </mot> <key_nb> 63 2  </key_nb> 
+<mot> salarié </mot> <key_nb> 63 1  </key_nb> 
+<mot> métamorphoses </mot> <key_nb> 64 1  </key_nb> 
+<mot> Girodet </mot> <key_nb> 64 12  </key_nb> 
+<mot> Louvre </mot> <key_nb> 64 6 ; 75 8  </key_nb> 
+<mot> consacre </mot> <key_nb> 64 1  </key_nb> 
+<mot> rétrospective </mot> <key_nb> 64 1  </key_nb> 
+<mot> artiste </mot> <key_nb> 64 3  </key_nb> 
+<mot> Révolution </mot> <key_nb> 64 2  </key_nb> 
+<mot> Consulat </mot> <key_nb> 64 1  </key_nb> 
+<mot> Empire </mot> <key_nb> 64 2  </key_nb> 
+<mot> peintres </mot> <key_nb> 64 1  </key_nb> 
+<mot> Montargis </mot> <key_nb> 64 1  </key_nb> 
+<mot> David </mot> <key_nb> 64 4  </key_nb> 
+<mot> aucun </mot> <key_nb> 64 2  </key_nb> 
+<mot> doute </mot> <key_nb> 64 1 ; 78 2  </key_nb> 
+<mot> néoclassique </mot> <key_nb> 64 1  </key_nb> 
+<mot> atelier </mot> <key_nb> 64 1  </key_nb> 
+<mot> janvier </mot> <key_nb> 64 2  </key_nb> 
+<mot> 2006Au </mot> <key_nb> 64 1  </key_nb> 
+<mot> Compiègne </mot> <key_nb> 64 1  </key_nb> 
+<mot> 1767-1824 </mot> <key_nb> 64 1  </key_nb> 
+<mot> Sylvain </mot> <key_nb> 64 1  </key_nb> 
+<mot> délicate </mot> <key_nb> 64 1  </key_nb> 
+<mot> Bellanger </mot> <key_nb> 64 1  </key_nb> 
+<mot> présentées </mot> <key_nb> 64 1  </key_nb> 
+<mot> montre </mot> <key_nb> 64 1  </key_nb> 
+<mot> Louis </mot> <key_nb> 64 1  </key_nb> 
+<mot> 1789 </mot> <key_nb> 64 1  </key_nb> 
+<mot> toile </mot> <key_nb> 64 4  </key_nb> 
+<mot> gloire </mot> <key_nb> 64 1  </key_nb> 
+<mot> Delacroix </mot> <key_nb> 64 1  </key_nb> 
+<mot> Christ </mot> <key_nb> 64 1  </key_nb> 
+<mot> Sommeil </mot> <key_nb> 64 1  </key_nb> 
+<mot> Endymion </mot> <key_nb> 64 1  </key_nb> 
+<mot> romain </mot> <key_nb> 64 1  </key_nb> 
+<mot> boucles </mot> <key_nb> 64 1  </key_nb> 
+<mot> ordre </mot> <key_nb> 64 1  </key_nb> 
+<mot> héros </mot> <key_nb> 64 1  </key_nb> 
+<mot> mode </mot> <key_nb> 64 1  </key_nb> 
+<mot> Lange </mot> <key_nb> 64 1  </key_nb> 
+<mot> tableau </mot> <key_nb> 64 1 ; 67 1  </key_nb> 
+<mot> surcharge </mot> <key_nb> 64 1  </key_nb> 
+<mot> mondiale </mot> <key_nb> 65 1  </key_nb> 
 <mot> vaccin </mot> <key_nb> 65 6  </key_nb> 
-<mot> football </mot> <key_nb> 66 7  </key_nb> 
-<mot> prix </mot> <key_nb> 66 5  </key_nb> 
-<mot> saison </mot> <key_nb> 66 9  </key_nb> 
-<mot> s'est </mot> <key_nb> 73 6  </key_nb> 
-<mot> Louvre </mot> <key_nb> 75 6  </key_nb> 
-<mot> région </mot> <key_nb> 75 6  </key_nb> 
-<mot> Stade </mot> <key_nb> 76 19  </key_nb> 
-<mot> trois </mot> <key_nb> 76 5  </key_nb> 
-<mot> Lille </mot> <key_nb> 76 7  </key_nb> 
-<mot> Ligue </mot> <key_nb> 76 6  </key_nb> 
+<mot> Malte </mot> <key_nb> 65 3  </key_nb> 
+<mot> mobiliser </mot> <key_nb> 65 1  </key_nb> 
+<mot> Etats-Unis </mot> <key_nb> 65 1 ; 68 1  </key_nb> 
+<mot> passé </mot> <key_nb> 65 2  </key_nb> 
+<mot> gouvernementaux </mot> <key_nb> 65 1  </key_nb> 
+<mot> mobilisation </mot> <key_nb> 65 1  </key_nb> 
+<mot> influenza </mot> <key_nb> 65 1  </key_nb> 
+<mot> type </mot> <key_nb> 65 1  </key_nb> 
+<mot> oiseaux </mot> <key_nb> 65 1  </key_nb> 
+<mot> molécules </mot> <key_nb> 65 1  </key_nb> 
+<mot> appel </mot> <key_nb> 65 1  </key_nb> 
+<mot> visant </mot> <key_nb> 65 1  </key_nb> 
+<mot> mettre </mot> <key_nb> 65 1  </key_nb> 
+<mot> contrat </mot> <key_nb> 65 2  </key_nb> 
+<mot> Sanofi-Pasteur </mot> <key_nb> 65 2  </key_nb> 
+<mot> faut-il </mot> <key_nb> 65 1  </key_nb> 
+<mot> firmes </mot> <key_nb> 65 2  </key_nb> 
+<mot> synthèse </mot> <key_nb> 65 1  </key_nb> 
+<mot> produit </mot> <key_nb> 65 1  </key_nb> 
+<mot> américaines </mot> <key_nb> 65 1  </key_nb> 
+<mot> clinique </mot> <key_nb> 65 1  </key_nb> 
+<mot> antigènes </mot> <key_nb> 65 1  </key_nb> 
+<mot> microgrammes </mot> <key_nb> 65 1  </key_nb> 
+<mot> Times </mot> <key_nb> 66 1  </key_nb> 
+<mot> clubs </mot> <key_nb> 66 4 ; 76 4  </key_nb> 
+<mot> supporteurs </mot> <key_nb> 66 3  </key_nb> 
+<mot> stades </mot> <key_nb> 66 5  </key_nb> 
+<mot> britannique </mot> <key_nb> 66 5  </key_nb> 
+<mot> fréquentation </mot> <key_nb> 66 4  </key_nb> 
+<mot> Foster </mot> <key_nb> 66 1  </key_nb> 
+<mot> libéral-démocrate </mot> <key_nb> 66 1  </key_nb> 
+<mot> abonnements </mot> <key_nb> 66 1  </key_nb> 
+<mot> chers </mot> <key_nb> 66 1  </key_nb> 
+<mot> débat </mot> <key_nb> 66 2  </key_nb> 
+<mot> savoir </mot> <key_nb> 66 1 ; 82 1  </key_nb> 
+<mot> Johnson </mot> <key_nb> 66 1  </key_nb> 
+<mot> remplissage </mot> <key_nb> 66 1  </key_nb> 
+<mot> 2004-2005 </mot> <key_nb> 66 1  </key_nb> 
+<mot> spectateurs </mot> <key_nb> 66 1  </key_nb> 
+<mot> tickets </mot> <key_nb> 66 1  </key_nb> 
+<mot> pris </mot> <key_nb> 66 1 ; 78 1  </key_nb> 
+<mot> différents </mot> <key_nb> 66 1  </key_nb> 
+<mot> satisfaire </mot> <key_nb> 66 1  </key_nb> 
+<mot> tournure </mot> <key_nb> 66 1  </key_nb> 
+<mot> Wenger </mot> <key_nb> 66 1  </key_nb> 
+<mot> Lopez </mot> <key_nb> 67 1  </key_nb> 
+<mot> Segurra </mot> <key_nb> 67 1  </key_nb> 
+<mot> Gerard </mot> <key_nb> 67 1  </key_nb> 
+<mot> Monégasques </mot> <key_nb> 67 1  </key_nb> 
+<mot> Didier </mot> <key_nb> 67 1  </key_nb> 
+<mot> Deschamps </mot> <key_nb> 67 1  </key_nb> 
+<mot> Monaco </mot> <key_nb> 67 1  </key_nb> 
+<mot> journée </mot> <key_nb> 67 2 ; 73 2  </key_nb> 
+<mot> attaquant </mot> <key_nb> 67 1  </key_nb> 
+<mot> score </mot> <key_nb> 67 1 ; 69 1  </key_nb> 
+<mot> période </mot> <key_nb> 67 1  </key_nb> 
+<mot> minute </mot> <key_nb> 67 1  </key_nb> 
+<mot> Mans </mot> <key_nb> 67 1  </key_nb> 
+<mot> Metz </mot> <key_nb> 67 1  </key_nb> 
+<mot> Strasbourg </mot> <key_nb> 67 1 ; 81 4  </key_nb> 
+<mot> Stanger </mot> <key_nb> 68 4  </key_nb> 
+<mot> Parisien </mot> <key_nb> 68 1  </key_nb> 
+<mot> aventures </mot> <key_nb> 68 1  </key_nb> 
+<mot> texan </mot> <key_nb> 68 1  </key_nb> 
+<mot> restructurer </mot> <key_nb> 68 1  </key_nb> 
+<mot> Picardie </mot> <key_nb> 68 2  </key_nb> 
+<mot> Ohio </mot> <key_nb> 68 2  </key_nb> 
+<mot> faux </mot> <key_nb> 68 1  </key_nb> 
+<mot> genre </mot> <key_nb> 68 1  </key_nb> 
+<mot> bureau </mot> <key_nb> 68 1  </key_nb> 
+<mot> Newsweek </mot> <key_nb> 68 2  </key_nb> 
+<mot> Sacrés </mot> <key_nb> 68 1  </key_nb> 
+<mot> accent </mot> <key_nb> 68 1  </key_nb> 
+<mot> Yankee </mot> <key_nb> 68 1  </key_nb> 
+<mot> Bradley </mot> <key_nb> 68 1  </key_nb> 
+<mot> actualité </mot> <key_nb> 68 1  </key_nb> 
+<mot> vécu </mot> <key_nb> 68 1  </key_nb> 
+<mot> francs </mot> <key_nb> 68 1  </key_nb> 
+<mot> choisi </mot> <key_nb> 68 1 ; 75 1  </key_nb> 
+<mot> offre </mot> <key_nb> 68 1  </key_nb> 
+<mot> inverse </mot> <key_nb> 68 1  </key_nb> 
+<mot> propre </mot> <key_nb> 68 1  </key_nb> 
+<mot> Lituanie </mot> <key_nb> 69 3  </key_nb> 
+<mot> tenante </mot> <key_nb> 69 1  </key_nb> 
+<mot> Grèce </mot> <key_nb> 69 1  </key_nb> 
+<mot> basket-ball </mot> <key_nb> 69 2  </key_nb> 
+<mot> Mondiaux </mot> <key_nb> 69 1  </key_nb> 
+<mot> réussi </mot> <key_nb> 69 2  </key_nb> 
+<mot> Serbie </mot> <key_nb> 69 1  </key_nb> 
+<mot> seulement </mot> <key_nb> 69 1  </key_nb> 
+<mot> défense </mot> <key_nb> 69 2  </key_nb> 
+<mot> quart </mot> <key_nb> 69 2 ; 78 1  </key_nb> 
+<mot> Antoine </mot> <key_nb> 69 1  </key_nb> 
+<mot> Rigaudeau </mot> <key_nb> 69 1  </key_nb> 
+<mot> sécheresses </mot> <key_nb> 70 1  </key_nb> 
+<mot> chaleur </mot> <key_nb> 70 1  </key_nb> 
+<mot> accablé </mot> <key_nb> 70 1  </key_nb> 
+<mot> durant </mot> <key_nb> 70 1 ; 78 1  </key_nb> 
+<mot> retenu </mot> <key_nb> 70 1  </key_nb> 
+<mot> chiffre </mot> <key_nb> 70 1  </key_nb> 
+<mot> morts </mot> <key_nb> 70 1  </key_nb> 
+<mot> températures </mot> <key_nb> 70 1  </key_nb> 
+<mot> surtout </mot> <key_nb> 70 1  </key_nb> 
+<mot> végétation </mot> <key_nb> 70 4  </key_nb> 
+<mot> épisodes </mot> <key_nb> 70 1  </key_nb> 
+<mot> climat </mot> <key_nb> 70 1  </key_nb> 
+<mot> André </mot> <key_nb> 70 1  </key_nb> 
+<mot> végétale </mot> <key_nb> 70 1  </key_nb> 
+<mot> forêts </mot> <key_nb> 70 3  </key_nb> 
+<mot> échelle </mot> <key_nb> 70 1  </key_nb> 
+<mot> forestiers </mot> <key_nb> 70 1  </key_nb> 
+<mot> quantité </mot> <key_nb> 70 1  </key_nb> 
+<mot> chaleurs </mot> <key_nb> 70 1  </key_nb> 
+<mot> limiter </mot> <key_nb> 70 1  </key_nb> 
+<mot> photosynthèse </mot> <key_nb> 70 1  </key_nb> 
+<mot> végétaux </mot> <key_nb> 70 1  </key_nb> 
+<mot> estiment </mot> <key_nb> 70 1  </key_nb> 
+<mot> écosystèmes </mot> <key_nb> 70 3  </key_nb> 
+<mot> européens </mot> <key_nb> 70 1  </key_nb> 
+<mot> climatologues </mot> <key_nb> 70 1  </key_nb> 
+<mot> tempérées </mot> <key_nb> 70 1  </key_nb> 
+<mot> global </mot> <key_nb> 70 1  </key_nb> 
+<mot> sixième </mot> <key_nb> 71 1  </key_nb> 
+<mot> victime </mot> <key_nb> 71 1  </key_nb> 
+<mot> Indonésie </mot> <key_nb> 71 2  </key_nb> 
+<mot> gouvernement </mot> <key_nb> 71 1  </key_nb> 
+<mot> indonésien </mot> <key_nb> 71 1  </key_nb> 
+<mot> instauré </mot> <key_nb> 71 1  </key_nb> 
+<mot> lundi </mot> <key_nb> 71 1 ; 75 1  </key_nb> 
+<mot> test </mot> <key_nb> 71 2  </key_nb> 
+<mot> révélé </mot> <key_nb> 71 1  </key_nb> 
+<mot> Manu </mot> <key_nb> 72 4  </key_nb> 
+<mot> Katché </mot> <key_nb> 72 6  </key_nb> 
+<mot> gamme </mot> <key_nb> 72 1  </key_nb> 
+<mot> batteur </mot> <key_nb> 72 2  </key_nb> 
+<mot> pianiste </mot> <key_nb> 72 2  </key_nb> 
+<mot> enregistré </mot> <key_nb> 72 1  </key_nb> 
+<mot> jazz </mot> <key_nb> 72 6  </key_nb> 
+<mot> compagnie </mot> <key_nb> 72 1  </key_nb> 
+<mot> phonographique </mot> <key_nb> 72 1  </key_nb> 
+<mot> allemande </mot> <key_nb> 72 1  </key_nb> 
+<mot> musiciens </mot> <key_nb> 72 1  </key_nb> 
+<mot> polonais </mot> <key_nb> 72 1  </key_nb> 
+<mot> Garbarek </mot> <key_nb> 72 1  </key_nb> 
+<mot> aises </mot> <key_nb> 73 1  </key_nb> 
+<mot> Grégory </mot> <key_nb> 73 2  </key_nb> 
+<mot> Coupet </mot> <key_nb> 73 2  </key_nb> 
+<mot> gardien </mot> <key_nb> 73 1  </key_nb> 
+<mot> imposé </mot> <key_nb> 73 2  </key_nb> 
+<mot> déclaré </mot> <key_nb> 73 1  </key_nb> 
+<mot> signé </mot> <key_nb> 73 1  </key_nb> 
+<mot> vainqueur </mot> <key_nb> 73 1  </key_nb> 
+<mot> Boonen </mot> <key_nb> 74 3  </key_nb> 
+<mot> coureur </mot> <key_nb> 74 2  </key_nb> 
+<mot> routes </mot> <key_nb> 74 1  </key_nb> 
+<mot> Italien </mot> <key_nb> 74 1  </key_nb> 
+<mot> arrivée </mot> <key_nb> 74 1  </key_nb> 
+<mot> ligne </mot> <key_nb> 74 1  </key_nb> 
+<mot> Anthony </mot> <key_nb> 74 1  </key_nb> 
+<mot> Geslin </mot> <key_nb> 74 1  </key_nb> 
+<mot> cycliste </mot> <key_nb> 74 1  </key_nb> 
+<mot> Lens </mot> <key_nb> 75 7  </key_nb> 
+<mot> élus </mot> <key_nb> 75 1  </key_nb> 
+<mot> Nord-Pas-de-Calais </mot> <key_nb> 75 2  </key_nb> 
+<mot> Sanaa </mot> <key_nb> 75 3  </key_nb> 
+<mot> 2009 </mot> <key_nb> 75 1  </key_nb> 
+<mot> Daniel </mot> <key_nb> 75 1  </key_nb> 
+<mot> Percheron </mot> <key_nb> 75 1  </key_nb> 
+<mot> socialistes </mot> <key_nb> 75 1  </key_nb> 
+<mot> jury </mot> <key_nb> 75 1  </key_nb> 
+<mot> Zaha </mot> <key_nb> 75 2  </key_nb> 
+<mot> Hadid </mot> <key_nb> 75 2  </key_nb> 
+<mot> Rudy </mot> <key_nb> 75 1  </key_nb> 
+<mot> Delcourt </mot> <key_nb> 75 2  </key_nb> 
+<mot> industrielle </mot> <key_nb> 75 1  </key_nb> 
+<mot> implantation </mot> <key_nb> 75 2  </key_nb> 
+<mot> fera </mot> <key_nb> 75 1  </key_nb> 
+<mot> établissement </mot> <key_nb> 75 2  </key_nb> 
+<mot> véritable </mot> <key_nb> 75 1  </key_nb> 
+<mot> laboratoire </mot> <key_nb> 75 1  </key_nb> 
+<mot> présentation </mot> <key_nb> 75 1  </key_nb> 
+<mot> compétitions </mot> <key_nb> 76 1  </key_nb> 
+<mot> enceinte </mot> <key_nb> 76 4  </key_nb> 
+<mot> Saint-Denis </mot> <key_nb> 76 5  </key_nb> 
+<mot> accueille </mot> <key_nb> 76 1  </key_nb> 
+<mot> toulousain </mot> <key_nb> 76 2  </key_nb> 
+<mot> politique </mot> <key_nb> 76 3  </key_nb> 
+<mot> rapprochement </mot> <key_nb> 76 1  </key_nb> 
+<mot> dirigeants </mot> <key_nb> 76 2  </key_nb> 
+<mot> internationales </mot> <key_nb> 76 1  </key_nb> 
+<mot> événements </mot> <key_nb> 76 1  </key_nb> 
+<mot> domicile </mot> <key_nb> 76 1  </key_nb> 
+<mot> Publicis </mot> <key_nb> 76 1  </key_nb> 
+<mot> LOSC </mot> <key_nb> 76 1  </key_nb> 
+<mot> rénovation </mot> <key_nb> 76 1  </key_nb> 
+<mot> Grimonprez-Jooris </mot> <key_nb> 76 1  </key_nb> 
+<mot> devait </mot> <key_nb> 76 1  </key_nb> 
+<mot> cherche </mot> <key_nb> 76 1  </key_nb> 
+<mot> résidant </mot> <key_nb> 76 4  </key_nb> 
+<mot> novembre </mot> <key_nb> 76 1  </key_nb> 
+<mot> consortium </mot> <key_nb> 76 4  </key_nb> 
+<mot> collaboration </mot> <key_nb> 76 1  </key_nb> 
+<mot> ouvrir </mot> <key_nb> 76 1  </key_nb> 
+<mot> Pascal </mot> <key_nb> 76 2  </key_nb> 
+<mot> Simonin </mot> <key_nb> 76 3  </key_nb> 
+<mot> long </mot> <key_nb> 76 1  </key_nb> 
+<mot> exceptionnel </mot> <key_nb> 76 1  </key_nb> 
+<mot> permettre </mot> <key_nb> 76 1  </key_nb> 
+<mot> imaginer </mot> <key_nb> 76 1  </key_nb> 
+<mot> Guazzini </mot> <key_nb> 76 3  </key_nb> 
+<mot> Princes </mot> <key_nb> 76 2  </key_nb> 
+<mot> avril </mot> <key_nb> 76 1  </key_nb> 
+<mot> Paris-Saint-Germain </mot> <key_nb> 76 1  </key_nb> 
+<mot> opération </mot> <key_nb> 76 1  </key_nb> 
+<mot> Martin </mot> <key_nb> 77 2  </key_nb> 
+<mot> Scorsese </mot> <key_nb> 77 3  </key_nb> 
+<mot> Cinémathèque </mot> <key_nb> 77 4  </key_nb> 
+<mot> Bercy </mot> <key_nb> 77 1  </key_nb> 
+<mot> millier </mot> <key_nb> 77 1  </key_nb> 
+<mot> invités </mot> <key_nb> 77 1  </key_nb> 
+<mot> ministre </mot> <key_nb> 77 2  </key_nb> 
+<mot> discours </mot> <key_nb> 77 1  </key_nb> 
+<mot> Foundation </mot> <key_nb> 77 1  </key_nb> 
+<mot> institution </mot> <key_nb> 77 1  </key_nb> 
+<mot> pouvoirs </mot> <key_nb> 77 1  </key_nb> 
+<mot> cinéastes </mot> <key_nb> 77 1  </key_nb> 
 <mot> Voyager </mot> <key_nb> 78 10  </key_nb> 
-<mot> système </mot> <key_nb> 78 6  </key_nb> 
-<mot> aura </mot> <key_nb> 78 5  </key_nb> 
+<mot> au-delà </mot> <key_nb> 78 1  </key_nb> 
+<mot> système </mot> <key_nb> 78 8  </key_nb> 
+<mot> solaire </mot> <key_nb> 78 9  </key_nb> 
+<mot> Lancée </mot> <key_nb> 78 2  </key_nb> 
+<mot> 1977 </mot> <key_nb> 78 2  </key_nb> 
+<mot> siècle </mot> <key_nb> 78 1 ; 83 1  </key_nb> 
+<mot> principales </mot> <key_nb> 78 1  </key_nb> 
+<mot> frontières </mot> <key_nb> 78 1  </key_nb> 
+<mot> influence </mot> <key_nb> 78 1  </key_nb> 
+<mot> contrée </mot> <key_nb> 78 1  </key_nb> 
+<mot> engin </mot> <key_nb> 78 3  </key_nb> 
+<mot> annonce </mot> <key_nb> 78 1  </key_nb> 
+<mot> 2002 </mot> <key_nb> 78 1 ; 80 1  </key_nb> 
+<mot> limite </mot> <key_nb> 78 1  </key_nb> 
+<mot> polémique </mot> <key_nb> 78 1  </key_nb> 
+<mot> Science </mot> <key_nb> 78 1  </key_nb> 
+<mot> sondes </mot> <key_nb> 78 1  </key_nb> 
+<mot> confins </mot> <key_nb> 78 1  </key_nb> 
 <mot> choc </mot> <key_nb> 78 8  </key_nb> 
-<mot> notre </mot> <key_nb> 78 5  </key_nb> 
+<mot> terminal </mot> <key_nb> 78 4  </key_nb> 
+<mot> route </mot> <key_nb> 78 2  </key_nb> 
+<mot> directe </mot> <key_nb> 78 1  </key_nb> 
+<mot> Pioneer </mot> <key_nb> 78 3  </key_nb> 
+<mot> dispose </mot> <key_nb> 78 1  </key_nb> 
+<mot> éteinte </mot> <key_nb> 78 1  </key_nb> 
+<mot> marche </mot> <key_nb> 78 1  </key_nb> 
+<mot> planètes </mot> <key_nb> 78 2  </key_nb> 
+<mot> étoile </mot> <key_nb> 78 2  </key_nb> 
+<mot> franchi </mot> <key_nb> 78 1  </key_nb> 
+<mot> vent </mot> <key_nb> 78 2  </key_nb> 
+<mot> hautes </mot> <key_nb> 78 1  </key_nb> 
+<mot> vitesses </mot> <key_nb> 78 1  </key_nb> 
+<mot> plasma </mot> <key_nb> 78 1  </key_nb> 
+<mot> milieu </mot> <key_nb> 78 3  </key_nb> 
+<mot> interstellaire </mot> <key_nb> 78 1  </key_nb> 
+<mot> pouvoir </mot> <key_nb> 78 1  </key_nb> 
+<mot> héliosphère </mot> <key_nb> 78 2  </key_nb> 
+<mot> ultime </mot> <key_nb> 78 1  </key_nb> 
+<mot> km/h </mot> <key_nb> 78 1  </key_nb> 
+<mot> ricochet </mot> <key_nb> 78 1  </key_nb> 
+<mot> Lallement </mot> <key_nb> 78 1  </key_nb> 
+<mot> largement </mot> <key_nb> 78 1  </key_nb> 
+<mot> panne </mot> <key_nb> 78 3  </key_nb> 
+<mot> détecteur </mot> <key_nb> 78 1  </key_nb> 
+<mot> magnétique </mot> <key_nb> 78 1  </key_nb> 
+<mot> Hossegor </mot> <key_nb> 79 4  </key_nb> 
+<mot> Kelly </mot> <key_nb> 79 4  </key_nb> 
+<mot> Slater </mot> <key_nb> 79 4  </key_nb> 
+<mot> septième </mot> <key_nb> 79 4  </key_nb> 
+<mot> sacre </mot> <key_nb> 79 2  </key_nb> 
+<mot> favori </mot> <key_nb> 79 1  </key_nb> 
+<mot> débuté </mot> <key_nb> 79 1  </key_nb> 
+<mot> plages </mot> <key_nb> 79 1  </key_nb> 
+<mot> landaises </mot> <key_nb> 79 1  </key_nb> 
+<mot> perdu </mot> <key_nb> 79 1  </key_nb> 
+<mot> envie </mot> <key_nb> 79 1  </key_nb> 
+<mot> génération </mot> <key_nb> 79 1  </key_nb> 
+<mot> surfeurs </mot> <key_nb> 79 1  </key_nb> 
+<mot> surfer </mot> <key_nb> 79 1  </key_nb> 
+<mot> vagues </mot> <key_nb> 79 1  </key_nb> 
+<mot> Fidji </mot> <key_nb> 79 1  </key_nb> 
+<mot> Tahiti </mot> <key_nb> 79 1  </key_nb> 
+<mot> Floridien </mot> <key_nb> 79 1  </key_nb> 
+<mot> souviens </mot> <key_nb> 79 1  </key_nb> 
+<mot> huitième </mot> <key_nb> 79 1  </key_nb> 
 <mot> Robyn </mot> <key_nb> 80 5  </key_nb> 
+<mot> Orlin </mot> <key_nb> 80 4  </key_nb> 
+<mot> danseurs </mot> <key_nb> 80 3  </key_nb> 
+<mot> sud-africains </mot> <key_nb> 80 2  </key_nb> 
+<mot> Pantin </mot> <key_nb> 80 2  </key_nb> 
+<mot> commence </mot> <key_nb> 80 1  </key_nb> 
+<mot> tournée </mot> <key_nb> 80 2  </key_nb> 
+<mot> sucettes </mot> <key_nb> 80 1  </key_nb> 
+<mot> Must </mot> <key_nb> 80 2  </key_nb> 
+<mot> Suckers </mot> <key_nb> 80 2  </key_nb> 
+<mot> Wrappers </mot> <key_nb> 80 1  </key_nb> 
+<mot> Seine-Saint-Denis </mot> <key_nb> 80 1  </key_nb> 
+<mot> Johannesburg </mot> <key_nb> 80 1  </key_nb> 
+<mot> Gaborone </mot> <key_nb> 80 1  </key_nb> 
+<mot> raconte </mot> <key_nb> 80 1  </key_nb> 
+<mot> townships </mot> <key_nb> 80 1  </key_nb> 
+<mot> travailler </mot> <key_nb> 80 1  </key_nb> 
+<mot> Ososphère </mot> <key_nb> 81 7  </key_nb> 
+<mot> électronique </mot> <key_nb> 81 3  </key_nb> 
+<mot> impasse </mot> <key_nb> 81 1  </key_nb> 
+<mot> ouverte </mot> <key_nb> 81 1  </key_nb> 
+<mot> quartier </mot> <key_nb> 81 1  </key_nb> 
+<mot> Laiterie </mot> <key_nb> 81 2  </key_nb> 
+<mot> barrée </mot> <key_nb> 81 1  </key_nb> 
+<mot> occasion </mot> <key_nb> 81 1  </key_nb> 
+<mot> nuits </mot> <key_nb> 81 1  </key_nb> 
+<mot> Emergences </mot> <key_nb> 81 1  </key_nb> 
+<mot> actions </mot> <key_nb> 81 1  </key_nb> 
+<mot> morceau </mot> <key_nb> 81 1  </key_nb> 
+<mot> drum </mot> <key_nb> 81 1  </key_nb> 
+<mot> bass </mot> <key_nb> 81 1  </key_nb> 
+<mot> musiques </mot> <key_nb> 81 1  </key_nb> 
+<mot> électroniques </mot> <key_nb> 81 2  </key_nb> 
+<mot> hip-hop </mot> <key_nb> 81 1  </key_nb> 
+<mot> belges </mot> <key_nb> 81 1  </key_nb> 
+<mot> façon </mot> <key_nb> 81 1  </key_nb> 
+<mot> Marianne </mot> <key_nb> 81 1  </key_nb> 
+<mot> Faithfull </mot> <key_nb> 81 1  </key_nb> 
+<mot> style </mot> <key_nb> 81 1  </key_nb> 
+<mot> techno </mot> <key_nb> 81 1  </key_nb> 
+<mot> Internet </mot> <key_nb> 81 1  </key_nb> 
+<mot> rage </mot> <key_nb> 82 1  </key_nb> 
+<mot> intacte </mot> <key_nb> 82 1  </key_nb> 
+<mot> Sophocle </mot> <key_nb> 82 3  </key_nb> 
+<mot> Rome </mot> <key_nb> 82 3  </key_nb> 
+<mot> Union </mot> <key_nb> 82 2  </key_nb> 
+<mot> théâtres </mot> <key_nb> 82 2  </key_nb> 
+<mot> tragédie </mot> <key_nb> 82 1  </key_nb> 
+<mot> Œdipe </mot> <key_nb> 82 12  </key_nb> 
+<mot> Colone </mot> <key_nb> 82 7  </key_nb> 
+<mot> Mario </mot> <key_nb> 82 4  </key_nb> 
+<mot> Martone </mot> <key_nb> 82 4  </key_nb> 
+<mot> metteur </mot> <key_nb> 82 3  </key_nb> 
+<mot> 1999 </mot> <key_nb> 82 2  </key_nb> 
+<mot> Teatro </mot> <key_nb> 82 1  </key_nb> 
+<mot> Roma </mot> <key_nb> 82 1  </key_nb> 
+<mot> Argentina </mot> <key_nb> 82 1  </key_nb> 
+<mot> India </mot> <key_nb> 82 2  </key_nb> 
+<mot> Antigone </mot> <key_nb> 82 2  </key_nb> 
+<mot> Thèbes </mot> <key_nb> 82 1  </key_nb> 
+<mot> arrive </mot> <key_nb> 82 1  </key_nb> 
+<mot> assurer </mot> <key_nb> 82 1  </key_nb> 
+<mot> calotte </mot> <key_nb> 83 3  </key_nb> 
+<mot> glaciaire </mot> <key_nb> 83 1  </key_nb> 
+<mot> arctique </mot> <key_nb> 83 2 ; 83 6  </key_nb> 
 <mot> superficie </mot> <key_nb> 83 6  </key_nb> 
+<mot> faible </mot> <key_nb> 83 3  </key_nb> 
+<mot> mesurée </mot> <key_nb> 83 1  </key_nb> 
+<mot> scientifiques </mot> <key_nb> 83 1  </key_nb> 
+<mot> glaces </mot> <key_nb> 83 2  </key_nb> 
+<mot> NSIDC </mot> <key_nb> 83 3  </key_nb> 
+<mot> effectuées </mot> <key_nb> 83 3  </key_nb> 
+<mot> satellites </mot> <key_nb> 83 1  </key_nb> 
+<mot> réduite </mot> <key_nb> 83 1  </key_nb> 
+<mot> Julienne </mot> <key_nb> 83 1  </key_nb> 
+<mot> Stroeve </mot> <key_nb> 83 1  </key_nb> 
+<mot> climatologue </mot> <key_nb> 83 1  </key_nb> 
+<mot> gelée </mot> <key_nb> 83 1  </key_nb> 
+<mot> océan </mot> <key_nb> 83 2  </key_nb> 
+<mot> fonte </mot> <key_nb> 83 1  </key_nb> 
